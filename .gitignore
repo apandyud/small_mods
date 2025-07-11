@@ -1,0 +1,9 @@
+.pytest_cache
+*.pyc
+dataset*
+.idea
+.DS_Store
+tag_op/cache
+*.pkl
+*.db
+dataet_raw/
