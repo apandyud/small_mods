@@ -1,0 +1,467 @@
+,qid,answer,scale,1,2,4,5,7
+5,52164b70-6973-4844-af6a-76e8f1298d64,6.67,percent,97.37,percent,"def run(table):
+    for row in table:
+        if 'Discount rate' in row:
+            rate_2019 = float(row[2].replace('%', '')) / 100
+            rate_2018 = float(row[3].replace('%', '')) / 100
+            yoy_change = ((rate_2019 - rate_2018) / rate_2018) * 100
+            return (round(yoy_change, 2), 'percent')
+
+# Example usage
+table = [['', 'Domestic', '', 'International', ''], ['', 'September 30,', '', 'September 30,', ''], ['', '2019', '2018', '2019', '2018'], ['Discount rate', '4.00%', '3.75%', '1.90%', '2.80%'], ['Expected return on plan assets', '', '', '3.40%', '3.70%'], ['Rate of compensation increase', '', '', '- - %', '- - %']]
+print(run(table))","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What is the year on year percentage change in domestic discount rate between 2018 and 2019?  
+
+Table: [['', 'Domestic', '', 'International', ''], ['', 'September 30,', '', 'September 30,', ''], ['', '2019', '2018', '2019', '2018'], ['Discount rate', '4.00%', '3.75%', '1.90%', '2.80%'], ['Expected return on plan assets', '', '', '3.40%', '3.70%'], ['Rate of compensation increase', '', '', '- - %', '- - %']]",
+6,52164b70-6973-4844-af6a-76e8f1298d64,-8.11,percent,,,"def run(table):
+    for row in table:
+        if 'Expected return on plan assets' in row:
+            index_2018 = row.index('2018')
+            index_2019 = row.index('2019')
+            return_value_2018 = float(row[index_2018].replace('%', '')) / 100
+            return_value_2019 = float(row[index_2019].replace('%', '')) / 100
+            percentage_change = ((return_value_2019 - return_value_2018) / return_value_2018) * 100
+            return (round(percentage_change, 2), 'percent')
+
+# Example usage
+table = [['', 'Domestic', '', 'International', ''], ['', 'September 30,', '', 'September 30,', ''], ['', '2019', '2018', '2019', '2018'], ['Discount rate', '4.00%', '3.75%', '1.90%', '2.80%'], ['Expected return on plan assets', '', '', '3.40%', '3.70%'], ['Rate of compensation increase', '', '', '- - %', '- - %']]
+print(run(table))","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What is the year on year percentage change in international expected return on plan assets between 2018 and 2019?  
+
+Table: [['', 'Domestic', '', 'International', ''], ['', 'September 30,', '', 'September 30,', ''], ['', '2019', '2018', '2019', '2018'], ['Discount rate', '4.00%', '3.75%', '1.90%', '2.80%'], ['Expected return on plan assets', '', '', '3.40%', '3.70%'], ['Rate of compensation increase', '', '', '- - %', '- - %']]",[Error]'2018' is not in list
+7,6bf238a5-0a3e-492d-91f8-7f62d3b37fba,172.0,million,178.67,scale: million,"def run(table):
+    for row in table:
+        if 'Defined contribution schemes' in row:
+            total = sum([float(x) for x in row[1:] if x.isdigit()])
+            average = total / (len(row) - 1)
+            return (round(average, 2), '') 
+
+# Example usage
+table = [['Income statement expense', '', '', ''], ['', '2019 €m', '2018 €m', '2017 €m'], ['Defined contribution schemes', '166', '178', '192'], ['Defined benefit schemes', '57', '44', '20'], ['Total amount charged to income statement (note 23)', '223', '222', '212']]
+print(run(table))","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What is the 2019 average defined contribution schemes?  
+
+Table: [['Income statement expense', '', '', ''], ['', '2019 €m', '2018 €m', '2017 €m'], ['Defined contribution schemes', '166', '178', '192'], ['Defined benefit schemes', '57', '44', '20'], ['Total amount charged to income statement (note 23)', '223', '222', '212']]",
+8,6bf238a5-0a3e-492d-91f8-7f62d3b37fba,50.5,million,40.33,scale: million,"def run(table):
+    for row in table:
+        if 'Defined benefit schemes' in row:
+            total = sum([float(x) for x in row[1:] if x.isdigit()])
+            average = total / (len(row) - 1)
+            return (round(average, 2), '') 
+
+# Example usage
+table = [['Income statement expense', '', '', ''], ['', '2019 €m', '2018 €m', '2017 €m'], ['Defined contribution schemes', '166', '178', '192'], ['Defined benefit schemes', '57', '44', '20'], ['Total amount charged to income statement (note 23)', '223', '222', '212']]
+print(run(table))","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What is the 2019 average defined benefit schemes?  
+
+Table: [['Income statement expense', '', '', ''], ['', '2019 €m', '2018 €m', '2017 €m'], ['Defined contribution schemes', '166', '178', '192'], ['Defined benefit schemes', '57', '44', '20'], ['Total amount charged to income statement (note 23)', '223', '222', '212']]",
+9,6bf238a5-0a3e-492d-91f8-7f62d3b37fba,121.5,million,109.0,scale: million,"def run(table):
+    dc_2019 = float(table[2][1])
+    db_2019 = float(table[3][1])
+    
+    difference = round(dc_2019 - db_2019, 2)
+    
+    return (difference, '')","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What is the difference between 2019 average defined contribution schemes and 2019 average defined benefit schemes?  
+
+Table: [['Income statement expense', '', '', ''], ['', '2019 €m', '2018 €m', '2017 €m'], ['Defined contribution schemes', '166', '178', '192'], ['Defined benefit schemes', '57', '44', '20'], ['Total amount charged to income statement (note 23)', '223', '222', '212']]",
+11,f8ac9ddd-9872-4681-902d-a0ee7c0ee83a,25.1,percent,,,"def run(table):
+    for row in table:
+        if 'Valuation allowance' in row:
+            val_2019 = float(row[1].replace('(', '-').replace(')', ''))
+        elif 'Valuation allowance' in row:
+            val_2018 = float(row[2].replace('(', '-').replace(')','))
+    
+    percentage_change = ((val_2019 - val_2018) / abs(val_2018)) * 100
+    
+    if '%' in str(percentage_change):
+        return (round(percentage_change, 2), 'percent')
+    else:
+        return (round(percentage_change, 2), '')","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What is the percentage change in the valuation allowance from 2018 to 2019?  
+
+Table: [['', 'December 31', ''], ['', '2019', '2 0 1 8'], ['', 'U.S.  in thousands', ''], ['Operating loss carryforward', '73260', '57768'], ['Net deferred tax asset before valuation allowance', '19911', '15916'], ['Valuation allowance', '(19911)', '(15916)'], ['Net deferred tax asset', '795', '772']]","[Error]unterminated string literal (detected at line 6) (<string>, line 6)"
+12,f8ac9ddd-9872-4681-902d-a0ee7c0ee83a,2.98,percent,25.1,percent,"def run(table):
+    for row in table:
+        if 'Net deferred tax asset' in row[0]:
+            value_2018 = float(row[2].replace(' ', ''))
+            value_2019 = float(row[1].replace(' ', ''))
+            percentage_change = ((value_2019 - value_2018) / value_2018) * 100
+            return (round(percentage_change, 2), 'percent')
+
+# Example usage
+table = [['', 'December 31', ''], ['', '2019', '2 0 1 8'], ['', 'U.S.  in thousands', ''], ['Operating loss carryforward', '73260', '57768'], ['Net deferred tax asset before valuation allowance', '19911', '15916'], ['Valuation allowance', '(19911)', '(15916)'], ['Net deferred tax asset', '795', '772']]
+print(run(table))","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What is the percentage change in the net deferred tax asset from 2018 to 2019?  
+
+Table: [['', 'December 31', ''], ['', '2019', '2 0 1 8'], ['', 'U.S.  in thousands', ''], ['Operating loss carryforward', '73260', '57768'], ['Net deferred tax asset before valuation allowance', '19911', '15916'], ['Valuation allowance', '(19911)', '(15916)'], ['Net deferred tax asset', '795', '772']]",
+13,e9a946ce-72a9-4b42-86d6-4d91fceb14db,2.93,,532.8,none,"def run(table):
+    assets_2019 = float(table[9][1])
+    liabilities_2019 = float(table[16][1])
+    
+    ratio = assets_2019 / liabilities_2019
+    
+    return round(ratio, 2), ''","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What is the ratio of IMFT’s total assets to total liabilities in 2019?  
+
+Table: [['As of', '2019', '2018'], ['Assets', '', ''], ['Cash and equivalents', '130', '91'], ['Receivables', '128', '126'], ['Inventories', '124', '114'], ['Other current assets', '9', '8'], ['Total current assets', '391', '339'], ['Property, plant, and equipment', '2235', '2641'], ['Other noncurrent assets', '38', '45'], ['Total assets', '2664', '3025'], ['Liabilities', '', ''], ['Accounts payable and accrued expenses', '118', '138'], ['Current debt', '696', '20'], ['Other current liabilities', '37', '9'], ['Total current liabilities', '851', '167'], ['Long-term debt', '53', '1064'], ['Other noncurrent liabilities', '5', '74'], ['Total liabilities', '909', '1305']]",
+14,e9a946ce-72a9-4b42-86d6-4d91fceb14db,0.87,,87.31,none,"def run(table):
+    for row in table:
+        if 'Property, plant, and equipment' in row:
+            ppe_2018 = float(row[2])
+        if 'Total assets' in row:
+            total_assets_2018 = float(row[2])
+    
+    proportion = (ppe_2018 / total_assets_2018) * 100
+    return (round(proportion, 2), 'percent') if proportion < 1 else (round(proportion, 2), '')
+
+# Example of running the function with the provided table
+table = [['As of', '2019', '2018'], ['Assets', '', ''], ['Cash and equivalents', '130', '91'], ['Receivables', '128', '126'], ['Inventories', '124', '114'], ['Other current assets', '9', '8'], ['Total current assets', '391', '339'], ['Property, plant, and equipment', '2235', '2641'], ['Other noncurrent assets', '38', '45'], ['Total assets', '2664', '3025'], ['Liabilities', '', ''], ['Accounts payable and accrued expenses', '118', '138'], ['Current debt', '696', '20'], ['Other current liabilities', '37', '9'], ['Total current liabilities', '851', '167'], ['Long-term debt', '53', '1064'], ['Other noncurrent liabilities', '5', '74'], ['Total liabilities', '909', '1305']]
+print(run(table))","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What is the proportion of IMFT’s property, plant, and equipment over total assets in 2018?  
+
+Table: [['As of', '2019', '2018'], ['Assets', '', ''], ['Cash and equivalents', '130', '91'], ['Receivables', '128', '126'], ['Inventories', '124', '114'], ['Other current assets', '9', '8'], ['Total current assets', '391', '339'], ['Property, plant, and equipment', '2235', '2641'], ['Other noncurrent assets', '38', '45'], ['Total assets', '2664', '3025'], ['Liabilities', '', ''], ['Accounts payable and accrued expenses', '118', '138'], ['Current debt', '696', '20'], ['Other current liabilities', '37', '9'], ['Total current liabilities', '851', '167'], ['Long-term debt', '53', '1064'], ['Other noncurrent liabilities', '5', '74'], ['Total liabilities', '909', '1305']]",
+15,e9a946ce-72a9-4b42-86d6-4d91fceb14db,-361.0,,361.0,none,"def run(table):
+    for row in table:
+        if 'Total assets' in row:
+            assets_2019 = float(row[1])
+            assets_2018 = float(row[2])
+            change = assets_2019 - assets_2018
+            if change < 0:
+                return (abs(round(change, 2)), '')
+            else:
+                return (round(change, 2), '')
+
+# Example usage
+table = [['As of', '2019', '2018'], ['Assets', '', ''], ['Cash and equivalents', '130', '91'], ['Receivables', '128', '126'], ['Inventories', '124', '114'], ['Other current assets', '9', '8'], ['Total current assets', '391', '339'], ['Property, plant, and equipment', '2235', '2641'], ['Other noncurrent assets', '38', '45'], ['Total assets', '2664', '3025'], ['Liabilities', '', ''], ['Accounts payable and accrued expenses', '118', '138'], ['Current debt', '696', '20'], ['Other current liabilities', '37', '9'], ['Total current liabilities', '851', '167'], ['Long-term debt', '53', '1064'], ['Other noncurrent liabilities', '5', '74'], ['Total liabilities', '909', '1305']]
+print(run(table))","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What is the change of IMFT’s total assets from 2018 to 2019?  
+
+Table: [['As of', '2019', '2018'], ['Assets', '', ''], ['Cash and equivalents', '130', '91'], ['Receivables', '128', '126'], ['Inventories', '124', '114'], ['Other current assets', '9', '8'], ['Total current assets', '391', '339'], ['Property, plant, and equipment', '2235', '2641'], ['Other noncurrent assets', '38', '45'], ['Total assets', '2664', '3025'], ['Liabilities', '', ''], ['Accounts payable and accrued expenses', '118', '138'], ['Current debt', '696', '20'], ['Other current liabilities', '37', '9'], ['Total current liabilities', '851', '167'], ['Long-term debt', '53', '1064'], ['Other noncurrent liabilities', '5', '74'], ['Total liabilities', '909', '1305']]",
+18,403df8e0-6045-4dba-90b3-5c9d8ca55bfb,4227.5,million,,,"def run(table):
+    for row in table:
+        if 'Operating free cash flow' in row[0]:
+            operating_cash_flow_2019 = float(row[1])
+        if 'Taxation' in row[0]:
+            taxation_2019 = float(row[1])
+        if 'Dividends received from associates and investments' in row[0]:
+            dividends_received_2019 = float(row[1])
+        if 'Dividends paid to non-controlling shareholders in subsidiaries' in row[0]:
+            dividends_paid_2019 = float(row[1])
+        if 'Interest received and paid' in row[0]:
+            interest_paid_2019 = float(row[1])
+    
+    free_cash_flow_2019 = operating_cash_flow_2019 - taxation_2019 + dividends_received_2019 - dividends_paid_2019 - interest_paid_2019
+    
+    return (round(free_cash_flow_2019, 2), '')","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What is the 2019 average free cash flow?  
+
+Table: [['', '2019', '2018', '2017'], ['', '€m', '€m', '€m'], ['Cash generated by operations (refer to note 18)', '14182', '13860', '13781'], ['Capital additions', '(7227)', '(7321)', '(7675)'], ['Working capital movement in respect of capital additions', '(89)', '171', '(822)'], ['Disposal of property, plant and equipment', '45', '41', '43'], ['Restructuring payments', '195', '250', '266'], ['Other', '(35)', '–', '34'], ['Operating free cash flow', '7071', '7001', '5627'], ['Taxation', '(1040)', '(1010)', '(761)'], ['Dividends received from associates and investments', '498', '489', '433'], ['Dividends paid to non-controlling shareholders in subsidiaries', '(584)', '(310)', '(413)'], ['Interest received and paid', '(502)', '(753)', '(830)'], ['Free cash flow (pre-spectrum)', '5443', '5417', '4056'], ['Licence and spectrum payments', '(837)', '(1123)', '(474)'], ['Restructuring payments', '(195)', '(250)', '(266)'], ['Free cash flow', '4411', '4044', '3316']]",[Error]could not convert string to float: '(1040)'
+19,403df8e0-6045-4dba-90b3-5c9d8ca55bfb,3680.0,million,,,"def run(table):
+    for row in table:
+        if 'Operating free cash flow' in row:
+            index_2018 = row.index('2018')
+            value_2018 = row[index_2018]
+            return (float(value_2018.replace(',', '')), '')
+
+table = [['', '2019', '2018', '2017'], ['', '€m', '€m', '€m'], ['Cash generated by operations (refer to note 18)', '14182', '13860', '13781'], ['Capital additions', '(7227)', '(7321)', '(7675)'], ['Working capital movement in respect of capital additions', '(89)', '171', '(822)'], ['Disposal of property, plant and equipment', '45', '41', '43'], ['Restructuring payments', '195', '250', '266'], ['Other', '(35)', '–', '34'], ['Operating free cash flow', '7071', '7001', '5627'], ['Taxation', '(1040)', '(1010)', '(761)'], ['Dividends received from associates and investments', '498', '489', '433'], ['Dividends paid to non-controlling shareholders in subsidiaries', '(584)', '(310)', '(413)'], ['Interest received and paid', '(502)', '(753)', '(830)'], ['Free cash flow (pre-spectrum)', '5443', '5417', '4056'], ['Licence and spectrum payments', '(837)', '(1123)', '(474)'], ['Restructuring payments', '(195)', '(250)', '(266)'], ['Free cash flow', '4411', '4044', '3316']]
+
+print(run(table))","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What is the 2018 average free cash flow?  
+
+Table: [['', '2019', '2018', '2017'], ['', '€m', '€m', '€m'], ['Cash generated by operations (refer to note 18)', '14182', '13860', '13781'], ['Capital additions', '(7227)', '(7321)', '(7675)'], ['Working capital movement in respect of capital additions', '(89)', '171', '(822)'], ['Disposal of property, plant and equipment', '45', '41', '43'], ['Restructuring payments', '195', '250', '266'], ['Other', '(35)', '–', '34'], ['Operating free cash flow', '7071', '7001', '5627'], ['Taxation', '(1040)', '(1010)', '(761)'], ['Dividends received from associates and investments', '498', '489', '433'], ['Dividends paid to non-controlling shareholders in subsidiaries', '(584)', '(310)', '(413)'], ['Interest received and paid', '(502)', '(753)', '(830)'], ['Free cash flow (pre-spectrum)', '5443', '5417', '4056'], ['Licence and spectrum payments', '(837)', '(1123)', '(474)'], ['Restructuring payments', '(195)', '(250)', '(266)'], ['Free cash flow', '4411', '4044', '3316']]",[Error]'2018' is not in list
+20,403df8e0-6045-4dba-90b3-5c9d8ca55bfb,547.5,million,367.0,scale: million,"def run(table):
+    data = table[2:]
+    cash_flow_2019 = float(data[-1][1])
+    cash_flow_2018 = float(data[-1][2])
+    
+    change = cash_flow_2019 - cash_flow_2018
+    
+    return round(change, 2), ''","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What is the change between 2018 and 2019 average free cash flow?  
+
+Table: [['', '2019', '2018', '2017'], ['', '€m', '€m', '€m'], ['Cash generated by operations (refer to note 18)', '14182', '13860', '13781'], ['Capital additions', '(7227)', '(7321)', '(7675)'], ['Working capital movement in respect of capital additions', '(89)', '171', '(822)'], ['Disposal of property, plant and equipment', '45', '41', '43'], ['Restructuring payments', '195', '250', '266'], ['Other', '(35)', '–', '34'], ['Operating free cash flow', '7071', '7001', '5627'], ['Taxation', '(1040)', '(1010)', '(761)'], ['Dividends received from associates and investments', '498', '489', '433'], ['Dividends paid to non-controlling shareholders in subsidiaries', '(584)', '(310)', '(413)'], ['Interest received and paid', '(502)', '(753)', '(830)'], ['Free cash flow (pre-spectrum)', '5443', '5417', '4056'], ['Licence and spectrum payments', '(837)', '(1123)', '(474)'], ['Restructuring payments', '(195)', '(250)', '(266)'], ['Free cash flow', '4411', '4044', '3316']]",
+21,77d8e381-01d0-4cf9-882e-e1162db2cff2,3728.0,thousand,,,"def run(table):
+    ebitda_2019 = float(table[7][1].replace('(', '-').replace(')', '').replace(',', ''))
+    ebitda_2018 = float(table[7][2].replace('(', '-').replace(')', '').replace(',', ''))
+    underlying_ebitda_2019 = float(table[13][1].replace('(', '-').replace(')', '').replace(',', ''))
+    underlying_ebitda_2018 = float(table[13][2].replace('(', '-').replace(')', '').replace(',', '')
+    
+    avg_diff = (abs(ebitda_2019 - underlying_ebitda_2019) + abs(ebitda_2018 - underlying_ebitda_2018)) / 2
+    
+    return (round(avg_diff, 2), '')","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What was the average difference between EBITDA and underlying EBITDA for both FYs?  
+
+Table: [['', '30 June 2019', '30 June 2018', 'Change'], ['', '’000', '’000', '%'], ['Net profit/(loss) after tax', '(9819)', '6639', '(248%)'], ['Add: finance costs', '54897', '25803', '113%'], ['Less: interest income', '(8220)', '(5778)', '42%'], ['Add/(less): income tax expense/(benefit)', '(6254)', '4252', '(247%)'], ['Add: depreciation and amortisation', '48442', '33038', '47%'], ['EBITDA', '79046', '63954', '24%'], ['Less: gain on extinguishment of B1 lease', '(1068)', '-', ''], ['Less: gain on extinguishment of APDC leases', '(1291)', '-', ''], ['Less: distribution income', '(1344)', '(3191)', '(58%)'], ['Add: APDC transaction costs', '5459', '1812', '201%'], ['Add: landholder duty on acquisition of APDC properties', '3498', '-', ''], ['Add: Singapore and Japan costs', '823', '-', ''], ['Underlying EBITDA', '85123', '62575', '36%']]","[Error]'(' was never closed (<string>, line 5)"
+25,cc4f089d-e7bf-4b00-a096-48a3eed39f86,1.57,percent,9.37,percent,"def run(table):
+    data = table[2:]
+    div_yield_2019 = float(data[4][1][:-1])
+    div_yield_2018 = float(data[4][2][:-1])
+    div_yield_2017 = float(data[4][3][:-1])
+    
+    average_div_yield = (div_yield_2019 + div_yield_2018 + div_yield_2017) / 3
+    
+    return (round(average_div_yield, 2), 'percent')","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What was the average dividend yield for the 3 years from 2017 to 2019?  
+
+Table: [['', 'Year Ended May 31,', '', ''], ['', '2019', '2018', '2017'], ['Expected life (in years)', '4.6', '4.7', '4.8'], ['risk-free interest rate', '2.7%', '2.0%', '1.0%'], ['Volatility', '24%', '22%', '23%'], ['Dividend yield', '1.7%', '1.5%', '1.5%'], ['Weighted-average fair value per share', '10.77', '9.34', '8.18']]",
+26,cc4f089d-e7bf-4b00-a096-48a3eed39f86,1.9,percent,23.0,percent,"def run(table):
+    data = table[1:]
+    interest_rates = [float(data[3][i][:-1]) for i in range(1, 4)]
+    average_rate = sum(interest_rates) / len(interest_rates)
+    return (round(average_rate, 2), 'percent')","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What was the average risk-free interest rate over the 3 year period from 2017 to 2019?  
+
+Table: [['', 'Year Ended May 31,', '', ''], ['', '2019', '2018', '2017'], ['Expected life (in years)', '4.6', '4.7', '4.8'], ['risk-free interest rate', '2.7%', '2.0%', '1.0%'], ['Volatility', '24%', '22%', '23%'], ['Dividend yield', '1.7%', '1.5%', '1.5%'], ['Weighted-average fair value per share', '10.77', '9.34', '8.18']]",
+32,8749fc7b-19fb-4014-8eed-f96a05da50cf,0.51,percent,7.19,percent,"def run(table):
+    for i in range(len(table)):
+        if 'Total' in table[i][0]:
+            total_2017 = float(table[i][1])
+            total_2018 = float(table[i][5])
+            percentage_change = ((total_2018 - total_2017) / total_2017) * 100
+            return (round(percentage_change, 2), 'percent')
+
+# Example of running the function with the provided table
+table = [['(In Millions)', 'Dec 29, 2018', 'Acquisitions', 'Transfers', 'Other', 'Dec 28, 2019'], ['Data Center Group', '5424', '1758', '—', '—', '7155'], ['Internet of Things Group', '1579', '—', '—', '—', '1579'], ['Mobileye', '10290', '—', '—', '—', '10290'], ['Programmable Solutions Group', '2579', '67', '—', '8', '2681'], ['Client Computing Group', '4403', '—', '—', '(70)', '4333'], ['All other', '238', '—', '—', '—', '238'], ['Total', '24513', '1825', '—', '(62)', '26276'], ['(In Millions)', 'Dec 30, 2017', 'Acquisitions', 'Transfers', 'Other', 'Dec 29, 2018'], ['Data Center Group', '5421', '3', '—', '—', '5424'], ['Internet of Things Group', '1126', '16', '480', '(43)', '1579'], ['Mobileye', '10278', '7', '—', '5', '10290'], ['Programmable Solutions Group', '2490', '89', '—', '—', '2579'], ['Client Computing Group', '4356', '47', '—', '—', '4403'], ['All other', '718', '—', '(480)', '—', '238'], ['Total', '24389', '162', '—', '(38)', '24513']]
+print(run(table))","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: How much is the percentage change of total goodwill amount from 2017 to 2018?  
+
+Table: [['(In Millions)', 'Dec 29, 2018', 'Acquisitions', 'Transfers', 'Other', 'Dec 28, 2019'], ['Data Center Group', '5424', '1758', '—', '—', '7155'], ['Internet of Things Group', '1579', '—', '—', '—', '1579'], ['Mobileye', '10290', '—', '—', '—', '10290'], ['Programmable Solutions Group', '2579', '67', '—', '8', '2681'], ['Client Computing Group', '4403', '—', '—', '(70)', '4333'], ['All other', '238', '—', '—', '—', '238'], ['Total', '24513', '1825', '—', '(62)', '26276'], ['(In Millions)', 'Dec 30, 2017', 'Acquisitions', 'Transfers', 'Other', 'Dec 29, 2018'], ['Data Center Group', '5421', '3', '—', '—', '5424'], ['Internet of Things Group', '1126', '16', '480', '(43)', '1579'], ['Mobileye', '10278', '7', '—', '5', '10290'], ['Programmable Solutions Group', '2490', '89', '—', '—', '2579'], ['Client Computing Group', '4356', '47', '—', '—', '4403'], ['All other', '718', '—', '(480)', '—', '238'], ['Total', '24389', '162', '—', '(38)', '24513']]",
+33,8749fc7b-19fb-4014-8eed-f96a05da50cf,0.7000000000000001,,0.7,million,"def run(table):
+    dcg_2019 = float(table[1][5])
+    mobileye_2019 = float(table[3][5])
+    
+    ratio = round(dcg_2019 / mobileye_2019, 2)
+    
+    return (ratio, '')","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What is the ratio of Data Center Group to Mobileye goodwill amount in 2019?  
+
+Table: [['(In Millions)', 'Dec 29, 2018', 'Acquisitions', 'Transfers', 'Other', 'Dec 28, 2019'], ['Data Center Group', '5424', '1758', '—', '—', '7155'], ['Internet of Things Group', '1579', '—', '—', '—', '1579'], ['Mobileye', '10290', '—', '—', '—', '10290'], ['Programmable Solutions Group', '2579', '67', '—', '8', '2681'], ['Client Computing Group', '4403', '—', '—', '(70)', '4333'], ['All other', '238', '—', '—', '—', '238'], ['Total', '24513', '1825', '—', '(62)', '26276'], ['(In Millions)', 'Dec 30, 2017', 'Acquisitions', 'Transfers', 'Other', 'Dec 29, 2018'], ['Data Center Group', '5421', '3', '—', '—', '5424'], ['Internet of Things Group', '1126', '16', '480', '(43)', '1579'], ['Mobileye', '10278', '7', '—', '5', '10290'], ['Programmable Solutions Group', '2490', '89', '—', '—', '2579'], ['Client Computing Group', '4356', '47', '—', '—', '4403'], ['All other', '718', '—', '(480)', '—', '238'], ['Total', '24389', '162', '—', '(38)', '24513']]",
+34,32edf644-acb0-4260-9392-f0baa4253f5a,13237.4,million,12884.29,scale: million,"def run(table):
+    data = table[3:8]
+    total = 0
+    count = 0
+    for row in data:
+        for i in range(1, 6):
+            total += float(row[i])
+            count += 1
+    average = total / count
+    return round(average, 2), ''","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: How much was the average operating income from 2015 to 2019?  
+
+Table: [['', '', '', '', 'As of and for the Year Ended May 31,', ''], ['(in millions, except per share amounts)', '2019', '2018 (4)', '2017 (4)', '2016 (4)', '2015 (4)'], ['', 'Consolidated Statements of Operations Data:', '', '', '', ''], ['Total revenues', '39506', '39383', '37792', '37047', '38226'], ['Operating income', '13535', '13264', '12913', '12604', '13871'], ['Net income (1)', '11083', '3587', '9452', '8901', '9938'], ['Earnings per share—diluted (1)', '2.97', '0.85', '2.24', '2.07', '2.21'], ['Diluted weighted average common shares outstanding', '3732', '4238', '4217', '4305', '4503'], ['Cash dividends declared per common share', '0.81', '0.76', '0.64', '0.60', '0.51'], ['', 'Consolidated Balance Sheets Data:', '', '', '', ''], ['Working capital (2)', '27756', '57035', '50995', '47105', '47314'], ['Total assets (2)', '108709', '137851', '136003', '112180', '110903'], ['Notes payable and other borrowings (3)', '56167', '60619', '57909', '43855', '41958']]",
+35,32edf644-acb0-4260-9392-f0baa4253f5a,35796.0,million,0,scale: million,"def run(table):
+    total_expenses = 0
+    for row in table:
+        if 'Oracle' in row[0]:
+            total_expenses = float(row[2])
+    
+    return (total_expenses, '') if total_expenses == 0 else (total_expenses, '')","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What was the total expenses for Oracle in 2018?  
+
+Table: [['', '', '', '', 'As of and for the Year Ended May 31,', ''], ['(in millions, except per share amounts)', '2019', '2018 (4)', '2017 (4)', '2016 (4)', '2015 (4)'], ['', 'Consolidated Statements of Operations Data:', '', '', '', ''], ['Total revenues', '39506', '39383', '37792', '37047', '38226'], ['Operating income', '13535', '13264', '12913', '12604', '13871'], ['Net income (1)', '11083', '3587', '9452', '8901', '9938'], ['Earnings per share—diluted (1)', '2.97', '0.85', '2.24', '2.07', '2.21'], ['Diluted weighted average common shares outstanding', '3732', '4238', '4217', '4305', '4503'], ['Cash dividends declared per common share', '0.81', '0.76', '0.64', '0.60', '0.51'], ['', 'Consolidated Balance Sheets Data:', '', '', '', ''], ['Working capital (2)', '27756', '57035', '50995', '47105', '47314'], ['Total assets (2)', '108709', '137851', '136003', '112180', '110903'], ['Notes payable and other borrowings (3)', '56167', '60619', '57909', '43855', '41958']]",
+36,386352cf-f7e3-4148-920c-63bc57cf156b,64509.0,thousand,0,million,"def run(table):
+    total_assets = 0
+    for row in table:
+        if 'Assets' in row:
+            for i in range(1, len(row)):
+                if row[i].replace(',', '').replace('(', '-').replace(')', '') != '':
+                    total_assets += float(row[i].replace(',', '').replace('(', '-').replace(')', ''))
+    return (round(total_assets, 2), '')","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What were the total Assets as reported?  
+
+Table: [['', '', 'As of February 28, 2019', ''], ['', '', 'ASC 606', 'Without ASC 606'], ['', 'As reported', 'Adjustments', 'Adoption'], ['Assets', '', '', ''], ['Prepaid expenses and other current assets (1)', '19373', '(1473)', '17900'], ['Deferred income tax assets', '22626', '(532)', '22094'], ['Other assets (1)', '22510', '(3319)', '19191'], ['', ""Liabilities and Stockholders' Equity"", '', ''], ['Deferred revenue (2)', '24264', '(1945)', '22319'], ['Other non-current liabilities (2)', '38476', '(5353)', '33123'], [""Stockholders' equity:"", '', '', ''], ['Accumulated deficit', '(2227)', '1689', '(538)']]",
+37,386352cf-f7e3-4148-920c-63bc57cf156b,62740.0,thousand,0,million,"def run(table):
+    total = 0
+    for row in table:
+        if ""Liabilities and Stockholders' Equity"" in row:
+            for i in range(1, len(row)):
+                if row[i].replace(',', '').replace('(', '-').replace(')', '').replace('%', '').replace('percent', '').replace(' ', '').replace(':', '').replace(';', '').replace('.', '').replace('-', '').isdigit():
+                    total += float(row[i].replace(',', '').replace('(', '-').replace(')', '').replace('%', '').replace('percent', ''))
+    return (round(total, 2), '') if '%' not in row else (round(total, 2), 'percent')","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What were the total Liabilities and Stockholders' Equity as reported?  
+
+Table: [['', '', 'As of February 28, 2019', ''], ['', '', 'ASC 606', 'Without ASC 606'], ['', 'As reported', 'Adjustments', 'Adoption'], ['Assets', '', '', ''], ['Prepaid expenses and other current assets (1)', '19373', '(1473)', '17900'], ['Deferred income tax assets', '22626', '(532)', '22094'], ['Other assets (1)', '22510', '(3319)', '19191'], ['', ""Liabilities and Stockholders' Equity"", '', ''], ['Deferred revenue (2)', '24264', '(1945)', '22319'], ['Other non-current liabilities (2)', '38476', '(5353)', '33123'], [""Stockholders' equity:"", '', '', ''], ['Accumulated deficit', '(2227)', '1689', '(538)']]",
+38,386352cf-f7e3-4148-920c-63bc57cf156b,14212.0,thousand,14212,million,"def run(table):
+    deferred_revenue = 24264
+    other_non_current_liabilities = 38476
+    
+    difference = other_non_current_liabilities - deferred_revenue
+    
+    return round(difference, 2), ''","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What is the difference in amount between Deferred Revenue and Other non-current liabilities as reported?  
+
+Table: [['', '', 'As of February 28, 2019', ''], ['', '', 'ASC 606', 'Without ASC 606'], ['', 'As reported', 'Adjustments', 'Adoption'], ['Assets', '', '', ''], ['Prepaid expenses and other current assets (1)', '19373', '(1473)', '17900'], ['Deferred income tax assets', '22626', '(532)', '22094'], ['Other assets (1)', '22510', '(3319)', '19191'], ['', ""Liabilities and Stockholders' Equity"", '', ''], ['Deferred revenue (2)', '24264', '(1945)', '22319'], ['Other non-current liabilities (2)', '38476', '(5353)', '33123'], [""Stockholders' equity:"", '', '', ''], ['Accumulated deficit', '(2227)', '1689', '(538)']]",
+40,c3d2669c-a641-4c28-80d3-bda1c847027c,0.0,percent,0.0,percent,"def run(table):
+    for row in table:
+        if 'Statutory federal income tax rate' in row:
+            rate_2019 = float(row[1].replace('%', '')) / 100
+            rate_2018 = float(row[2].replace('%', '')) / 100
+            change = round((rate_2019 - rate_2018), 2)
+            return (change, 'percent')
+
+# Example of calling the function with the provided table
+print(run([['Years Ended December 31,', '2019', '2018', '2017'], ['Statutory federal income tax rate', '21.0%', '21.0%', '35.0%'], ['State and local income tax rate, net of federal tax benefits', '3.7', '3.7', '1.6'], ['Preferred stock disposition', '(9.9)', '—', '—'], ['Affordable housing credit', '(0.4)', '(0.6)', '(0.6)'], ['Employee benefits including ESOP dividend', '(0.3)', '(0.3)', '(0.5)'], ['Impact of tax reform re-measurement', '—', '—', '(81.6)'], ['Internal restructure', '—', '(9.1)', '(0.6)'], ['Noncontrolling interests', '(0.5)', '(0.5)', '(0.6)'], ['Non-deductible goodwill', '0.1', '4.7', '1.0'], ['Other, net', '(0.7)', '(0.6)', '(2.0)'], ['Effective income tax rate', '13.0%', '18.3%', '(48.3)%']]))","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What was the change in the statutory federal income tax rate from 2018 to 2019?  
+
+Table: [['Years Ended December 31,', '2019', '2018', '2017'], ['Statutory federal income tax rate', '21.0%', '21.0%', '35.0%'], ['State and local income tax rate, net of federal tax benefits', '3.7', '3.7', '1.6'], ['Preferred stock disposition', '(9.9)', '—', '—'], ['Affordable housing credit', '(0.4)', '(0.6)', '(0.6)'], ['Employee benefits including ESOP dividend', '(0.3)', '(0.3)', '(0.5)'], ['Impact of tax reform re-measurement', '—', '—', '(81.6)'], ['Internal restructure', '—', '(9.1)', '(0.6)'], ['Noncontrolling interests', '(0.5)', '(0.5)', '(0.6)'], ['Non-deductible goodwill', '0.1', '4.7', '1.0'], ['Other, net', '(0.7)', '(0.6)', '(2.0)'], ['Effective income tax rate', '13.0%', '18.3%', '(48.3)%']]",
+42,c3d2669c-a641-4c28-80d3-bda1c847027c,-9.9,percent,,,"def run(table):
+    for row in table:
+        if 'Preferred stock disposition' in row:
+            change = float(row[1].replace('(', '-').replace(')', '')) - float(row[2].replace('(', '-').replace(')', ''))
+            if change < 0:
+                return (round(change, 2), '')
+            else:
+                return (round(change, 2), 'percent')","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What was the change in the preferred stock disposition from 2018 to 2019?  
+
+Table: [['Years Ended December 31,', '2019', '2018', '2017'], ['Statutory federal income tax rate', '21.0%', '21.0%', '35.0%'], ['State and local income tax rate, net of federal tax benefits', '3.7', '3.7', '1.6'], ['Preferred stock disposition', '(9.9)', '—', '—'], ['Affordable housing credit', '(0.4)', '(0.6)', '(0.6)'], ['Employee benefits including ESOP dividend', '(0.3)', '(0.3)', '(0.5)'], ['Impact of tax reform re-measurement', '—', '—', '(81.6)'], ['Internal restructure', '—', '(9.1)', '(0.6)'], ['Noncontrolling interests', '(0.5)', '(0.5)', '(0.6)'], ['Non-deductible goodwill', '0.1', '4.7', '1.0'], ['Other, net', '(0.7)', '(0.6)', '(2.0)'], ['Effective income tax rate', '13.0%', '18.3%', '(48.3)%']]",[Error]could not convert string to float: '—'
+43,5127ef77-7d11-4b1c-93f8-1818f39070a8,1.9,percent,66.22,percent,"def run(table):
+    apac_2018 = float(table[2][1])
+    apac_2017 = float(table[2][3])
+    
+    change = ((apac_2018 - apac_2017) / apac_2017) * 100
+    
+    return (round(change, 2), 'percent')","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What was the change in the percent of total sales from APAC between 2017 and 2018?  
+
+Table: [['', 'Fiscal Year 2018', '', 'Fiscal Year 2017', ''], ['', 'Net Sales', '% of Total', 'Net Sales', '% of Total'], ['APAC', '479987', '40.0%', '288764', '38.1%'], ['EMEA', '277898', '23.1%', '237437', '31.4%'], ['Americas', '259105', '21.6%', '224056', '29.6%'], ['JPKO', '183191', '15.3%', '7081', '0.9%'], ['Total', ' 1200181', '', ' 757338', '']]",
+48,0f012382-d9ba-409c-94db-0b9bf50d0746,-21.7,million,21.7,million,"def run(table):
+    for row in table:
+        if 'Revenues' in row:
+            revenue_2019 = float(row[2])
+            revenue_2018 = float(row[1])
+            change = revenue_2019 - revenue_2018
+            return (round(change, 2), '')","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What was the change in the revenues from 2018 to 2019?  
+
+Table: [['', 'Fiscal Year Ended', ''], ['(Dollars in Millions)', 'April 27, 2019', 'April 28, 2018'], ['Revenues', '1073.3', '1095.0'], ['Net Income', '106.4', '70.5']]",
+49,0f012382-d9ba-409c-94db-0b9bf50d0746,88.45,million,,,"def run(table):
+    data = table[1:]
+    net_income_2018 = float(data[3][2])
+    net_income_2019 = float(data[3][1])
+    
+    average_net_income = (net_income_2018 + net_income_2019) / 2
+    
+    return (round(average_net_income, 2), '')","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What is the average net income for 2018 and 2019?  
+
+Table: [['', 'Fiscal Year Ended', ''], ['(Dollars in Millions)', 'April 27, 2019', 'April 28, 2018'], ['Revenues', '1073.3', '1095.0'], ['Net Income', '106.4', '70.5']]",[Error]list index out of range
+50,13bb283b-4b9c-42b9-9b02-f1b2e1a87abf,61.6,million,-61.6,million,"def run(table):
+    for row in table:
+        if 'Closing cash' in row:
+            change = float(row[2]) - float(row[1])
+            return (round(change, 2), '') 
+
+# Example of calling the function
+print(run([[' million', '2019', '2018', 'Change (%)'], ['Order intake1', '532.0', '470.0', '13.2'], ['Revenue', '503.6', '476.9', '5.6'], ['Gross profit', '368.6', '344.5', '7.0'], ['Gross margin (%)', '73.2', '72.2', '1.0'], ['Adjusted operating costs2', '275.7', '267.4', '3.1'], ['Adjusted operating profit2', '92.9', '77.1', '20.5'], ['Adjusted operating margin3 (%)', '18.4', '16.2', '2.2'], ['Reported operating profit', '88.6', '57.5', '54.1'], ['Effective tax rate4 (%)', '13.0', '15.4', '(2.4)'], ['Reported profit before tax', '89.6', '61.2', '46.4'], ['Adjusted basic earnings per share5 (cents)', '13.40', '10.86', '23.4'], ['Basic earnings per share (cents)', '12.79', '9.14', '39.9'], ['Free cash flow6', '100.1', '50.9', '96.7'], ['Closing cash', '183.2', '121.6', '50.7'], ['Final dividend per share7 (cents)', '3.45', '2.73', '26.4']]))","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What was the change in closing cash?  
+
+Table: [[' million', '2019', '2018', 'Change (%)'], ['Order intake1', '532.0', '470.0', '13.2'], ['Revenue', '503.6', '476.9', '5.6'], ['Gross profit', '368.6', '344.5', '7.0'], ['Gross margin (%)', '73.2', '72.2', '1.0'], ['Adjusted operating costs2', '275.7', '267.4', '3.1'], ['Adjusted operating profit2', '92.9', '77.1', '20.5'], ['Adjusted operating margin3 (%)', '18.4', '16.2', '2.2'], ['Reported operating profit', '88.6', '57.5', '54.1'], ['Effective tax rate4 (%)', '13.0', '15.4', '(2.4)'], ['Reported profit before tax', '89.6', '61.2', '46.4'], ['Adjusted basic earnings per share5 (cents)', '13.40', '10.86', '23.4'], ['Basic earnings per share (cents)', '12.79', '9.14', '39.9'], ['Free cash flow6', '100.1', '50.9', '96.7'], ['Closing cash', '183.2', '121.6', '50.7'], ['Final dividend per share7 (cents)', '3.45', '2.73', '26.4']]",
+51,13bb283b-4b9c-42b9-9b02-f1b2e1a87abf,-78.06,percent,3.1,percent,"def run(table):
+    for row in table:
+        if 'Adjusted operating costs2' in row:
+            cost_2019 = float(row[1])
+            cost_2018 = float(row[2])
+            change = ((cost_2019 - cost_2018) / cost_2018) * 100
+            return (round(change, 2), 'percent')
+
+# Example of running the function with the provided table
+table = [[' million', '2019', '2018', 'Change (%)'], ['Order intake1', '532.0', '470.0', '13.2'], ['Revenue', '503.6', '476.9', '5.6'], ['Gross profit', '368.6', '344.5', '7.0'], ['Gross margin (%)', '73.2', '72.2', '1.0'], ['Adjusted operating costs2', '275.7', '267.4', '3.1'], ['Adjusted operating profit2', '92.9', '77.1', '20.5'], ['Adjusted operating margin3 (%)', '18.4', '16.2', '2.2'], ['Reported operating profit', '88.6', '57.5', '54.1'], ['Effective tax rate4 (%)', '13.0', '15.4', '(2.4)'], ['Reported profit before tax', '89.6', '61.2', '46.4'], ['Adjusted basic earnings per share5 (cents)', '13.40', '10.86', '23.4'], ['Basic earnings per share (cents)', '12.79', '9.14', '39.9'], ['Free cash flow6', '100.1', '50.9', '96.7'], ['Closing cash', '183.2', '121.6', '50.7'], ['Final dividend per share7 (cents)', '3.45', '2.73', '26.4']]
+print(run(table))","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: For adjusted operating costs, what was the percentage change in the amount of before exceptional items, acquisition related costs, acquired intangible asset amortisation and share-based payment between 2018 and 2019?  
+
+Table: [[' million', '2019', '2018', 'Change (%)'], ['Order intake1', '532.0', '470.0', '13.2'], ['Revenue', '503.6', '476.9', '5.6'], ['Gross profit', '368.6', '344.5', '7.0'], ['Gross margin (%)', '73.2', '72.2', '1.0'], ['Adjusted operating costs2', '275.7', '267.4', '3.1'], ['Adjusted operating profit2', '92.9', '77.1', '20.5'], ['Adjusted operating margin3 (%)', '18.4', '16.2', '2.2'], ['Reported operating profit', '88.6', '57.5', '54.1'], ['Effective tax rate4 (%)', '13.0', '15.4', '(2.4)'], ['Reported profit before tax', '89.6', '61.2', '46.4'], ['Adjusted basic earnings per share5 (cents)', '13.40', '10.86', '23.4'], ['Basic earnings per share (cents)', '12.79', '9.14', '39.9'], ['Free cash flow6', '100.1', '50.9', '96.7'], ['Closing cash', '183.2', '121.6', '50.7'], ['Final dividend per share7 (cents)', '3.45', '2.73', '26.4']]",
+52,8692f92d-668a-452d-be7a-2b491ee27585,984.0,million,939.5,the scale of the values in the table is million.,"def run(table):
+    total_2017 = float(table[10][3])
+    total_2018 = float(table[10][2])
+    
+    average = (total_2017 + total_2018) / 2
+    
+    return (round(average, 2), '')","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What is the average total current tax expense for 2017 and 2018?   
+
+Table: [['Income tax expense', '', '', ''], ['', '2019', '2018', '2017'], ['', '€m', '€m', '€m'], ['United Kingdom corporation tax expense/(credit):', '', '', ''], ['Current year1', '21', '70', '27'], ['Adjustments in respect of prior years', '(9)', '(5)', '(3)'], ['', '12', '65', '24'], ['Overseas current tax expense/(credit):', '', '', ''], ['Current year', '1098', '1055', '961'], ['Adjustments in respect of prior years', '(48)', '(102)', '(35)'], ['', '1050', '953', '926'], ['Total current tax expense', '1062', '1018', '950'], ['Deferred tax on origination and reversal of temporary differences:', '', '', ''], ['United Kingdom deferred tax', '(232)', '39', '(16)'], ['Overseas deferred tax', '666', '(1936)', '3830'], ['Total deferred tax expense/(credit)', '434', '(1897)', '3814'], ['Total income tax expense/(credit)', '1496', '(879)', '4764']]",
+53,8692f92d-668a-452d-be7a-2b491ee27585,1040.0,million,1001.5,the scale of the values in the table is million.,"def run(table):
+    total_current_tax_2018 = float(table[10][2])
+    total_current_tax_2019 = float(table[10][1])
+    
+    average_total_current_tax = (total_current_tax_2018 + total_current_tax_2019) / 2
+    
+    return (round(average_total_current_tax, 2), '')","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What is the average total current tax expense for 2018 and 2019?  
+
+Table: [['Income tax expense', '', '', ''], ['', '2019', '2018', '2017'], ['', '€m', '€m', '€m'], ['United Kingdom corporation tax expense/(credit):', '', '', ''], ['Current year1', '21', '70', '27'], ['Adjustments in respect of prior years', '(9)', '(5)', '(3)'], ['', '12', '65', '24'], ['Overseas current tax expense/(credit):', '', '', ''], ['Current year', '1098', '1055', '961'], ['Adjustments in respect of prior years', '(48)', '(102)', '(35)'], ['', '1050', '953', '926'], ['Total current tax expense', '1062', '1018', '950'], ['Deferred tax on origination and reversal of temporary differences:', '', '', ''], ['United Kingdom deferred tax', '(232)', '39', '(16)'], ['Overseas deferred tax', '666', '(1936)', '3830'], ['Total deferred tax expense/(credit)', '434', '(1897)', '3814'], ['Total income tax expense/(credit)', '1496', '(879)', '4764']]",
+54,8692f92d-668a-452d-be7a-2b491ee27585,56.0,million,,,"def run(table):
+    data = table[4:]
+    
+    current_tax_2017_2018 = float(data[8][2]) + float(data[11][2])
+    current_tax_2018_2019 = float(data[8][1]) + float(data[11][1])
+    
+    change = current_tax_2018_2019 - current_tax_2017_2018
+    
+    return round(change, 2), ''","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What is the change in the average total current tax expense between 2017-2018, and 2018-2019?  
+
+Table: [['Income tax expense', '', '', ''], ['', '2019', '2018', '2017'], ['', '€m', '€m', '€m'], ['United Kingdom corporation tax expense/(credit):', '', '', ''], ['Current year1', '21', '70', '27'], ['Adjustments in respect of prior years', '(9)', '(5)', '(3)'], ['', '12', '65', '24'], ['Overseas current tax expense/(credit):', '', '', ''], ['Current year', '1098', '1055', '961'], ['Adjustments in respect of prior years', '(48)', '(102)', '(35)'], ['', '1050', '953', '926'], ['Total current tax expense', '1062', '1018', '950'], ['Deferred tax on origination and reversal of temporary differences:', '', '', ''], ['United Kingdom deferred tax', '(232)', '39', '(16)'], ['Overseas deferred tax', '666', '(1936)', '3830'], ['Total deferred tax expense/(credit)', '434', '(1897)', '3814'], ['Total income tax expense/(credit)', '1496', '(879)', '4764']]",[Error]could not convert string to float: ''
+56,4232c6c1-97cf-48ad-8b8b-f956871a3212,0.9500000000000001,,73.96,percent,"def run(table):
+    for row in table:
+        if 'Employee terminations costs' in row:
+            total_costs_2018 = float(row[1])
+            employee_termination_costs = float(row[2])
+            proportion = (employee_termination_costs / total_costs_2018) * 100
+            return (round(proportion, 2), 'percent')
+
+# Example of calling the function
+print(run([['', 'Balances, January 31, 2018', 'Additions', 'Payments', 'Adjustments (1)', 'Balances, January 31, 2019'], ['Fiscal 2018 Plan', '', '', '', '', ''], ['Employee terminations costs', '53.0', '39.2', '(89.7)', '(0.5)', '2.0'], ['Facility terminations and other exit costs', '2.5', '3.2', '(5.7)', '0.1', '0.1'], ['Total', '55.5', '42.4', '(95.4)', '(0.4)', '2.1'], ['Current portion (2)', '55.5', '', '', '', '2.1'], ['Total', '55.5', '', '', '', '2.1']]))","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What was the employee termination costs as a proportion of total costs in 2018?  
+
+Table: [['', 'Balances, January 31, 2018', 'Additions', 'Payments', 'Adjustments (1)', 'Balances, January 31, 2019'], ['Fiscal 2018 Plan', '', '', '', '', ''], ['Employee terminations costs', '53.0', '39.2', '(89.7)', '(0.5)', '2.0'], ['Facility terminations and other exit costs', '2.5', '3.2', '(5.7)', '0.1', '0.1'], ['Total', '55.5', '42.4', '(95.4)', '(0.4)', '2.1'], ['Current portion (2)', '55.5', '', '', '', '2.1'], ['Total', '55.5', '', '', '', '2.1']]",
+57,4232c6c1-97cf-48ad-8b8b-f956871a3212,0.05,million,,,"def run(table):
+    for row in table:
+        if 'Employee terminations costs' in row:
+            total_cost = float(row[1]) + float(row[2]) + float(row[3]) + float(row[4]) + float(row[5])
+            average_cost_per_employee = total_cost / float(row[1])
+            return (round(average_cost_per_employee, 2), '') 
+
+# Example usage
+table = [['', 'Balances, January 31, 2018', 'Additions', 'Payments', 'Adjustments (1)', 'Balances, January 31, 2019'], ['Fiscal 2018 Plan', '', '', '', '', ''], ['Employee terminations costs', '53.0', '39.2', '(89.7)', '(0.5)', '2.0'], ['Facility terminations and other exit costs', '2.5', '3.2', '(5.7)', '0.1', '0.1'], ['Total', '55.5', '42.4', '(95.4)', '(0.4)', '2.1'], ['Current portion (2)', '55.5', '', '', '', '2.1'], ['Total', '55.5', '', '', '', '2.1']]
+print(run(table))","Generate a Python function 'run(table)' that can answer the following question using the following table! The function must use text search in row selection and return numeric float results with accuracy to two decimal places. If result value or calculation is percent calculation return format (value, 'percent'), every orher case return (value, '') . Do not write explanation, just code.
+
+Question: What was the average employee termination cost per employee in 2018?  
+
+Table: [['', 'Balances, January 31, 2018', 'Additions', 'Payments', 'Adjustments (1)', 'Balances, January 31, 2019'], ['Fiscal 2018 Plan', '', '', '', '', ''], ['Employee terminations costs', '53.0', '39.2', '(89.7)', '(0.5)', '2.0'], ['Facility terminations and other exit costs', '2.5', '3.2', '(5.7)', '0.1', '0.1'], ['Total', '55.5', '42.4', '(95.4)', '(0.4)', '2.1'], ['Current portion (2)', '55.5', '', '', '', '2.1'], ['Total', '55.5', '', '', '', '2.1']]",[Error]could not convert string to float: '(89.7)'
