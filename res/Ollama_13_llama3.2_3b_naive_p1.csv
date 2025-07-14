@@ -1,0 +1,498 @@
+,qid,question,derivation,pred,pred_scale,answer,scale,abs,inv,good,parenth,em
+0,b2786c1a-37de-4120-b03c-32bf5c81f157,What was the change in the amount for Appliances in 2019 from 2018?,680-774,170.0,thousand,-94.0,million,False,,False,False,False
+1,fe11f001-3bfe-4089-8108-412676f0a780,What was the percentage change in the amount for Appliances in 2019 from 2018?,(680-774)/774,0.09,percent,-12.14,percent,False,,False,False,False
+2,5103aed0-b4e8-4fae-bf78-e2c9f4ba84cf,"What is the difference between the domestic and international discount rates as at September 30, 2019?",4.00 - 1.90 ,1.9,percent,2.1,percent,False,,False,False,False
+3,4dc8be43-d8d9-4b08-9ffd-9c19012361ce,What is the year on year percentage change in domestic discount rate between 2018 and 2019?,(4.00 - 3.75)/3.75 ,0.0,percent,6.67,percent,False,,False,False,False
+4,6c44a1a8-0785-43a0-90ab-7e21df2c57d9,What is the year on year percentage change in international expected return on plan assets between 2018 and 2019?,(3.40 - 3.70)/3.70 ,0.0,percent,-8.11,percent,False,,False,False,False
+5,a0414f81-8dc2-44b2-a441-2c9d9c805c4d,What is the 2019 average defined contribution schemes?,(166+178)/2,166.0,thousand,172.0,million,False,,False,False,False
+6,bf7abd62-d9cd-48d2-8826-1457684019a3,What is the 2019 average defined benefit schemes?,(57+44)/2,78.0,thousand,50.5,million,False,,False,False,False
+7,4d259081-6da6-44bd-8830-e4de0031744c,What is the difference between 2019 average defined contribution schemes and 2019 average defined benefit schemes?,[(166+178)/2] - [(57+44)/2],166 - 57,thousand,121.5,million,False,,False,False,False
+8,bed1fce2-69cb-4d1e-a34a-01950a1770bd,What is the percentage change in the operating loss carryforward from 2018 to 2019?,"(73,260-57,768)/57,768",7.62,percent,26.82,percent,False,,False,True,False
+9,aea850af-68cb-4cc1-80b2-c9c2860b273e,What is the percentage change in the net deferred tax asset from 2018 to 2019?,(795-772)/772,4.2,percent,2.98,percent,False,,False,True,False
+10,ba6783f3-8207-419a-b407-3f688682caef,What is the ratio of IMFT’s total assets to total liabilities in 2019?,"2,664/909 ",2.664 / 0.909,billion,2.93,,False,,False,False,False
+11,263d03ec-83d2-48df-8376-1a72167798f7,"What is the proportion of IMFT’s property, plant, and equipment over total assets in 2018?","2,641/3,025 ",0.03,billion,0.87,,False,,False,False,False
+12,78fc6d55-c20c-4f71-99fe-bc40a16e61d0,What is the change of IMFT’s total assets from 2018 to 2019?,"2,664 - 3,025 ",673.0,thousand,-361.0,,False,,False,False,False
+13,a4f782f1-de3b-47a3-87af-1cb33c112b39,"What was the percentage change in Value added tax receivables, net, noncurrent in 2019 from 2018?",(592-519)/519,21.677,percent,14.07,percent,False,,False,False,False
+14,dc5e217a-a7b3-4fc9-ac0f-13d328f26b20,What is the 2019 average free cash flow?,"(4,411+4,044)/2",,,4227.5,million,False,,False,True,False
+15,7cd3aedf-1291-4fea-bc9d-a25c65727b7b,What is the 2018 average free cash flow?,"(4,044+3,316)/2",4.044,,3680.0,million,False,,False,True,False
+16,22e20f25-669a-46b9-8779-2768ba391955,What is the change between 2018 and 2019 average free cash flow?,"[(4,411+4,044)/2] -[(4,044+3,316)/2]",1.0,,547.5,million,False,,False,True,False
+17,a983501d-2eec-486d-9661-e520c7c8af5e,What was the average difference between EBITDA and underlying EBITDA for both FYs?,"((85,123 - 79,046) + (63,954 - 62,575)) / 2 ",10.92,thousand,3728.0,thousand,False,,False,True,False
+18,64c902c6-f426-4432-84b3-c10b3065716f,What was the difference in net profit between both FYs?,"-9,819 - 6,639 ",9139.0,thousand,-16458.0,thousand,False,,False,True,False
+19,91812b92-5e94-414f-a447-4622aa3c2d10,What was the average dividend yield for the 3 years from 2017 to 2019?,(1.7%+1.5%+1.5%)/3,1.57%,,1.57,percent,False,,False,False,True
+20,29b63db7-4925-4629-b108-49bbb27fb565,What was the average risk-free interest rate over the 3 year period from 2017 to 2019?,(2.7%+2.0%+1.0%)/3,2.7%,,1.9,percent,False,,False,False,False
+21,6100c476-160a-4f1e-bfc1-a16f4cc18b52,What was the increase / (decrease) in the cost from 2018 to 2019?,100 - 82,$23,million,18.0,million,False,,False,True,False
+22,a81f1322-e74f-4e3c-a6cf-4b8d25d01cf5,"What is the average Selling, general and administrative?",(453 + 361 + 384) / 3,453.0,million,399.33,million,False,,False,True,False
+23,f7cac790-05ae-4a55-a41d-836a6b415f88,"What is the percentage increase / (decrease) of Research, development and engineering from 2018 to 2019?",126 / 67 - 1,43.0,percent,88.06,percent,False,,False,True,False
+24,65ec782c-691e-45df-b541-caecb85154ff,What was the change in Capital redemption reserve in 2019 from 2018?,0.7-0.5,0.2,,0.2,million,False,,True,True,False
+25,94916f79-4b6d-487f-8fa2-39f81a085760,What was the percentage change in Capital redemption reserve in 2019 from 2018?,(0.7-0.5)/0.5,0.4,percent,40.0,percent,False,,False,True,False
+26,bbe335ff-414f-48b3-8126-5a2c7c505de3,How much was the average operating income from 2015 to 2019?," (13,535+13,264+12,913+12,604+13,871) / 5 ",11.93,million,13237.4,million,False,,False,False,False
+27,ef274d2b-fbd6-4e9f-95f9-79b37827d91c,What was the total expenses for Oracle in 2018?,"39,383-3,587 ",38983-39684,million,35796.0,million,False,,False,False,False
+28,191c3926-7356-4ab8-a8f9-41e7b7c8a492,What were the total Assets as reported?,"(19,373+22,626+22,510)",,,64509.0,thousand,False,,False,True,False
+29,bd2d81eb-46fc-4e62-908d-aebfccf46246,What were the total Liabilities and Stockholders' Equity as reported?,"(24,264+38,476)",,,62740.0,thousand,False,,False,True,False
+30,010df393-a62e-408d-888a-045a4e435e6a,What is the difference in amount between Deferred Revenue and Other non-current liabilities as reported?,"(38,476-24,264)",5.443,thousand,14212.0,thousand,False,,False,True,False
+31,58adf6c4-41ae-4f3f-84cb-cf3469a80ce4,What was the percentage change in Total Other operating expenses between 2018 and 2019?,($166.3-$513.3)/$513.3,38.3,percent,-67.6,percent,False,,False,False,False
+32,79f06004-f4fc-4e82-a9fe-3c389a2f81b6,What was the change in the statutory federal income tax rate from 2018 to 2019?,21.0% - 21.0%,0.0,percent,0.0,percent,False,,True,True,False
+33,a360cee9-ce60-4f29-988d-8c6c627bb51f,"What was the average State and local income tax rate, net of federal tax benefits between 2017-2019?",(3.7 + 3.7 + 1.6) / 3,2.4%,,3.0,percent,False,,False,True,False
+34,5c8c999e-354f-4693-9b2d-29e3c03cb2af,What was the change in the preferred stock disposition from 2018 to 2019?,-9.9 - 0,10.1,percent,-9.9,percent,False,,False,True,False
+35,6cc73a99-0323-40d5-9d92-b285579b3482,What was the percentage change in gross profit between 2018 and 2019?,"(315,652-365,607)/365,607",8.79,percent,-13.66,percent,False,,False,False,False
+36,fa43e8cd-7fea-4738-85ee-f61ae8529f96,What was the change in the revenues from 2018 to 2019?,"1,073.3 - 1,095.0",21.7,million,-21.7,million,False,,False,False,False
+37,2067daa1-9905-456b-bcbf-42bc66b47259,What is the average net income for 2018 and 2019?,(106.4 + 70.5) / 2,$84.45M,,88.45,million,False,,False,False,False
+38,a1912c87-d68c-42ea-b0da-98908097d227,What was the change in closing cash?,183.2-121.6,50.7,million,61.6,million,False,,False,False,False
+39,692ea65a-9a60-4210-bd75-d34231e2e113,What is the average total current tax expense for 2017 and 2018? ,"(1,018+950)/2",(945.00),million,984.0,million,False,,False,True,False
+40,7cba7400-af25-4f71-a49d-35d5eec31458,What is the average total current tax expense for 2018 and 2019?,"(1,062+1,018)/2",1.018 + 1.062) / 2,million,1040.0,million,False,,False,True,False
+41,94ef7822-a201-493e-b557-a640f4ea4d83,"What is the change in the average total current tax expense between 2017-2018, and 2018-2019?","[(1,062+1,018)/2] - [(1,018+950)/2]",1042.0,,56.0,million,False,,False,True,False
+42,bfce0375-cbd0-4e25-9b82-0424058918f1,"What is the total number of nonvested shares as of December 31, 2019 and 2018?","6,148+5,974",11.082,thousand,12122.0,thousand,False,,False,True,False
+43,73693527-ed4b-4d07-941e-0e654095a43d,What was the employee termination costs as a proportion of total costs in 2018?,53.0/55.5,0.12,percent,0.9500000000000001,,False,,False,True,False
+44,4a253bf4-b9fc-4ec3-b99b-d2744646a296,What was the change in Total (loan) in 2019 from 2018?,828.8-885.3,72.5,million,-56.5,million,False,,False,False,False
+45,74183d5d-7633-43b5-bd7b-f0894fbe2299,What was the percentage change in Total (loan) in 2019 from 2018?,(828.8-885.3)/885.3,59.0%,percent,-6.38,percent,False,,False,False,False
+46,1238d807-aa57-48a3-93b6-591873788625,What was the increase / (decrease) in the Statutory federal income tax (benefit) from 2018 to 2019?,"14,694 - 34,105",,,-19411.0,thousand,False,,False,True,False
+47,ef9d4839-5277-4614-bb73-f902fd8a38b6,What was the average Tax exempt interest income?,- (197 + 101 + 206) / 3,(197+101+206)/3,thousand,-168.0,thousand,False,,False,True,False
+48,fec503e8-6f91-483e-856d-bb1278bd031f,What was the percentage change in the Domestic manufacturers deduction from 2017 to 2018?,"-2,545 / 4,095 - 1",null,percent,-162.15,percent,False,,False,True,False
+49,a3e21403-222e-4328-8f7d-9383d2d91fe9,What is the average dividend yield in 2017 and 2018?,(4.1% + 4.6%)/2 ,4.1,,4.35,percent,False,,False,False,False
+50,a3637ae4-b286-44a5-a115-83867e4bb14e,What is the average dividend yield in 2018 and 2019?,(4.6% + 4.5%)/2 ,,,4.55,percent,False,,False,False,False
+51,d3f04ae4-ced9-446d-87b7-bb9d193e3603,What is the average expected volatility in 2017 and 2018?,(27.1% + 28.7%)/2 ,27.1,percent,27.9,percent,False,,False,False,False
+52,8b6a4479-3b77-4db7-a90c-8b1ca41a8997,What was the change in net debt from 2018 to 2019?,295.2-235.8,0.5,percent,59.4,million,False,,False,False,False
+53,7b2b17a9-6409-45fb-907f-270832305974,What was the percentage change in net debt from 2018 to 2019?,(295.2-235.8)/235.8,,,25.19,percent,False,,False,False,False
+54,3b5bb347-41c7-499a-b044-87b9a04b0833,What was the percentage change in Total Other in 2018 from 2017?,(95-82)/82,0.04,percent,15.85,percent,False,,False,False,False
+55,0d0c77cf-d32c-4b0e-8da0-dcaa3f681f59,What is the percentage of Bell Wireless out of the Total BCE operating revenues in Q4 2019?,"2,493/6,316",79.0,percent,39.47,percent,False,,False,True,False
+56,259e18e8-4738-4f4d-b625-e352ca78a136,What is the increase / (decrease) in the recorded investment from 2018 to 2019?,"22,446 - 31,182",-$864,million,-8736.0,million,False,,False,False,False
+57,407d43ea-c405-4b88-95ae-d15b1f25fb25,What is the average Specific allowance for credit losses?,(177 + 220) / 2,177.0,million,198.5,million,False,,False,False,False
+58,681dcc0f-a32e-46ca-9785-1289a6aba802,What is the percentage increase / (decrease) in the Net financing receivables from 2018 to 2019?,"22,224 / 30,890 - 1",8.26,percent,-28.05,percent,False,,False,False,False
+59,d2969c34-708e-4ab0-8e21-32c0b18c544c,What is the ratio of current deferred revenue to non-current deferred revenue as of end of period?,"4,483/3,444",4.483/3.444,thousand,1.3,,False,,False,True,False
+60,59f13f19-4494-4c54-8e9a-1b499d50021a,What is the total price of shares that were exercised or canceled between 2016 and 2017?,"(235,514*2.92)+(81,794*3.59) ",,,981341.34,,False,,False,True,False
+61,b382a11b-749b-425a-a77d-20e943e00f77,"What is the proportion of granted shares between 2017 and 2018 over outstanding shares at September 30, 2017?","299,397/2,845,866 ",0.11,percent,0.11,,False,,True,True,False
+62,741f8b2e-9312-4426-893d-69b99fab247b,"What is the price of outstanding shares on September 30, 2019?","1,686,902*7.00 ",,,11808314.0,,False,,False,True,False
+63,cf89ffee-b551-4e34-9321-30325df32cc1,What was the change in the Amount recognized in other comprehensive (loss) income from 2017 to 2018?,-7 - 10,$43,million,-17.0,million,False,,False,True,False
+64,147f7c09-a627-4719-93ad-33661b5a4543,"What was the change in Total interest expense, net presented in the consolidated statements of income in which the effects of cash flow hedges are recorded between 2017 and 2018?",138-140,$5,million,-2.0,million,False,,False,True,False
+65,6a441650-9d8a-43a0-8906-bec97a73ca2c,What is the total special termination benefits charge in 2018 and 2019?,6+15,27.0,million,21.0,million,False,,False,True,False
+66,eb1ecc18-e3d3-4dd6-a689-546998eb2784,What is the percentage change in interest cost in 2019 from 2018?,(436-392)/392,29.51,percent,11.22,percent,False,,False,True,False
+67,8a21f821-eaf6-421a-8c67-795e7e2d1f61,What was the percentage change in Adjusted EBITDA between 2018 and 2019?,"(108,307-93,081)/93,081",25.6%,thousand,16.36,percent,False,,False,True,False
+68,07ec204e-3922-4b5c-b1fd-9cb9311a53e5,What was the percentage change in the Total net deferred tax assets between 2018 and 2019?,"(14,158-18,211)/18,211",3.25,percent,-22.26,percent,False,,False,True,False
+69,f1034ee7-b182-48d5-bad8-1d9902500f57,What is the difference in the number of rights 'granted during the period' between 2018 and 2019?,"5,691,731 - 4,465,617 ",2.48M,,1226114.0,,False,,False,True,False
+70,545cb01f-9b10-4a1b-8a7c-e9e74e725b26,What is the average number of rights 'outstanding at end of period' for 2018 and 2019?,"(13,477,758 + 10,692,594)/2 ",,,12085176.0,,False,,False,True,False
+71,cc053817-3496-48b3-9bfc-83e9ba71bb57,What is the percentage increase in the number of rights 'outstanding at the start of period' from 2018 to 2019? ,"(10,692,594 - 6,737,076)/6,737,076 ",0.28,percent,58.71,percent,False,,False,True,False
+72,fda3b0cb-bc87-4cbc-bc8f-79604538a700,What is the average Legal reserve within Appropriation of earnings?,"(707,299+963,947) / 2",,,835623.0,thousand,False,,False,True,False
+73,8d8c9fb6-6316-4fad-881e-7cdb3cfa965a,What is the increase/ (decrease) in Legal reserve within Appropriation of earnings from 2018 to 2019?,"963,947-707,299",0.26,thousand,256648.0,thousand,False,,False,True,False
+74,b4aabd48-5010-425f-be30-c63f1c648c85,What is the increase/ (decrease) in Cash dividends within Appropriation of earnings from 2018 to 2019?,"9,765,155-6,916,105",2.84905,billion,2849050.0,thousand,False,,False,True,False
+75,f12806ca-aa4c-4fe6-84fc-10cefca76a9e,What is the change in the operating revenue under continuing operations from 2018 to 2019?,"154,159-176,931",13.0,percent,-22772.0,thousand,False,,False,True,False
+76,f36e5912-f63c-4837-a9ed-ddbe73e5148b,What is the percentage of the operating leases of more than 5 years in the total operating leases?,"11,825/98,389",11.825 / 38989 * 100,percent,12.02,percent,False,,False,False,False
+77,7ff6facd-1f7b-471c-9e38-5177c4eac9ba,What is the percentage of capital leases in the total liabilities?,"50,049/8,031,229",,,0.62,percent,False,,False,False,False
+78,d13b3204-0428-41af-8e4a-771dde352c50,What is the percentage of the purchase obligations of more than 5 years in the total purchase obligations?,"36,675/424,561",13.542 / 424561 * 100,percent,8.64,percent,False,,False,False,False
+79,e1ae4755-8038-4862-9f2f-b4197f9f2159,What was the increase / (decrease) in the contractual obligation for operating leases from 2020 to 2021-2022?,"7,111-4,143 ",5.0,thousand,2968.0,thousand,False,,False,False,False
+80,eb50d3aa-16da-4087-9ab2-10106ebd10e7,What is the average annual Operating leases contractual obligations for 2020-2024?,"(4,143+7,111+3,686)/5",4.285,thousand,2988.0,thousand,False,,False,False,False
+81,61451090-3f7b-4fb1-b405-64a786d937d8,What was the increase / (decrease) in the asset retirement obligation from 2021-2022 to 2022-2023?,250-150,250.0,thousand,100.0,thousand,False,,False,False,False
+82,56a014a9-5b9c-41e5-9523-ebbd3a01dd6d,"What is the increase/ (decrease) in Statutory Audit, Certification, Audit of Individual and Consolidated Financial Statements from the period 2018 to 2019?","4,105,000-4,556,500",152405.0,,-451500.0,,False,,False,False,False
+83,2af4c7cf-79a2-4bdf-81b8-dbaff5081bc3,What is the increase/ (decrease) in Audit-Related Fees from the period 2018 to 2019?,"209,005-173,934",209005 - 173934,thousand,35071.0,,False,,False,False,False
+84,856c56ac-e6f5-4cfc-8f29-69f67dc717da,What is the increase/ (decrease) in total Fees from the period 2018 to 2019?,"4,314,005-4,730,434",4159404.0,million,-416429.0,,False,,False,False,False
+85,593a3304-3fbe-47d2-a004-f4459ef3d014,"In 2019, what is the percentage constitution of prepaid expenses among the total prepaid expenses and other?","2,303/2,496",0.46,percent,92.27,percent,False,,False,False,False
+86,0f45cc67-fd57-4930-a0d0-f5d7174d7562,What is the percentage change in the value of raw materials between 2018 and 2019?,(222 - 191)/191 ,50.0,percent,16.23,percent,False,,False,True,False
+87,a30ab3a2-f930-4bf4-9b52-35c9c504d992,What is the percentage change in the value of work-in-process inventory between 2018 and 2019?,"(2,370 - 2,929)/2,929 ",0.285714,percent,-19.09,percent,False,,False,True,False
+88,7df5635a-6f79-4fd2-8dc4-a5040e04cf4c,What is the percentage change in the value of finished goods between 2018 and 2019?, (668 - 716)/716 ,16.841,percent,-6.7,percent,False,,False,True,False
+89,da716abd-9641-4038-8f1d-4233fcf405ee,What is the percentage change in the long-lived assets in United States from 2018 to 2019?,"(933,054-$784,469)/$784,469",0.0,percent,18.94,percent,False,,False,False,False
+90,3561fe2c-d1b1-4968-9d89-b6fa2d24bbe7,What is the percentage change in the long-lived assets in Korea from 2018 to 2019?,"(28,200-24,312)/24,312",6.2,percent,15.99,percent,False,,False,False,False
+91,cd461457-bc43-45fe-9a82-147a7dd1c700,What is the percentage change in the total long-lived assets from 2018 to 2019?,"(1,059,077-902,547)/902,547",30.35,percent,17.34,percent,False,,False,False,False
+92,440e65d7-7c5c-4a28-871c-a828fa9860f3,What was the average Services for 2018 and 2019?,"(243,053 + 246,548) / 2",245.5455,thousand,244800.5,thousand,False,,False,True,False
+93,f1d5753b-05a9-4752-b03a-493e97804fb7,What is the average total cost of revenue for 2018 and 2019?,"(324,350 + 296,783) / 2",,,310566.5,thousand,False,,False,True,False
+94,2e3d4fe2-96f3-4ad9-b23f-1c590897b6e5,What is the increase / (decrease) in the RSUs Granted from 2018 to 2019?,674 - 583,90.0,million,91.0,million,False,,False,False,False
+95,99f83ba7-2e57-44d8-ac0a-64ab3e9c7b47,What is the average RSUs vested?,(428 + 381 + 463) / 3,343.0,million,424.0,million,False,,False,False,False
+96,8b2d5db2-7a47-4269-9df2-f44385bc0883,What is the percentage increase / (decrease) in PSUs granted from 2018 to 2019?,164 / 118 - 1,14.0,percent,38.98,percent,False,,False,False,False
+97,9963bd65-093e-4801-8050-d2524ff06e7f,"For 2018, what is the percentage of constitution of employee severance and related costs among the total cost?","7,845/10,647",,,73.68,percent,False,,False,False,False
+98,f91f52fd-ed2d-448f-82ad-c95a10bc64d2,What was the percentage change in total assets between 2015 and 2016?,"($667,235-$632,904)/$632,904",5.0,percent,5.42,percent,False,,False,False,False
+99,568f039b-5753-4e91-b3aa-17cbcbe9b259,What was the change in the Pre-contract costs from 2018 to 2020?,6 - 41,41 - 6,million,-35.0,million,False,,False,False,False
+100,00a60f91-b2d2-4bc5-acc4-69121abf68a9,What was the change in the Equity method investments from 2018 to 2020?,19 - 26,19 - 26,million,-7.0,million,False,,False,False,False
+101,9634107c-5ee5-4ad0-bc6e-47d6651b4d07,What is the average sales for years F19 and F18?,"(1,671 + 1,612) / 2 ",1687.0,million,1641.5,million,False,,False,True,False
+102,e18e3335-7e7a-4138-9f1b-813604e44c3c,What is the nominal difference in EBITDA between F19 and F18?,372 - 361 ,11.0,thousand,11.0,million,False,,True,True,False
+103,9750180c-588d-4ba3-bc94-297d64b50e44,What is the percentage constitution of Depreciation and Amortisation in EBITDA in F19?,111 / 372 ,2.7e-05,percent,29.84,percent,False,,False,True,False
+104,7e058249-0f63-4002-912b-598bb9c62352,What is the total value of computer equipment and software at the end of 2018 and 2019 altogether?,"14,689 + 14,058 ",,,28747.0,,False,,False,True,False
+105,afab19a4-a914-4a88-bc9d-699662b7fd3d,What is the average value of computer equipment and software in both 2018 and 2019?,"(14,689 + 14,058)/2 ",14250.0,,14373.5,,False,,False,True,False
+106,b11567d3-d651-40d8-9b9e-bc71eb37d7f9,What was the percentage change in Transportation equipment in 2019 from 2018?,(613-636)/636,1.0,,-3.62,percent,False,,False,False,False
+107,93c3d11c-cf30-4464-a882-479f5f0b3f79,"What was the percentage change in total receivables, net between 2018 and 2019?","($572,238-$537,192)/$537,192",,,6.52,percent,False,,False,True,False
+108,ffae65ab-7123-4c57-88a8-3bfec53e782a,What was the change in Autodesk's goodwill from 2018 to 2019?,"2,450.8-1,620.2",699.6,million,830.6,million,False,,False,True,False
+109,f4abaf73-faa0-430f-8a7c-c499b84550bf,What is the total ending goodwill for the years 2018 and 2019?,"2,450.8+1,620.2",2.4508,,4071.0,million,False,,False,True,False
+110,9547b235-f8de-4c17-a9ac-e78277fcaf1a,What is the average ending goodwill for the 2 year period from 2018 to 2019?,"(2,450.8+1,620.2)/2 ",,,2035.5,million,False,,False,True,False
+111,14381fab-36ac-482b-9f77-2c78f3f34ffb,What was the change in Additions in 2019 from 2018?,3.1-2.4,0.7,,0.7000000000000001,million,False,,True,False,False
+112,20092aeb-d39f-4b50-b927-0602b8a95c08,What was the percentage change in Additions in 2019 from 2018?,(3.1-2.4)/2.4,0.69,percent,29.17,percent,False,,False,False,False
+113,775c21fd-9c4c-44d7-9879-81c2ca6d2420,What was the percentage change in cash and cash equivalents from 2018 to 2019 year end?,"(9,472-7,554)/7,554",1058.69,percent,25.39,percent,False,,False,True,False
+114,b70b2805-122b-436f-99cb-53be477a2b6e,What was the percentage change in net inventories from 2018 to 2019 year end?,"(12,542-9,317)/9,317",4.225,percent,34.61,percent,False,,False,True,False
+115,732c81f8-a16d-4d34-9917-fa98c195feec,What was the percentage change in accounts payables from 2018 to 2019 year end?,"[(-18,668) - (-9,166)] / -9,166",,,103.67,percent,False,,False,True,False
+116,182dd9ea-dd5f-4ea0-bc30-bb42ef1f801c,What percentage of the total unrealized gain is generated from U.S. government obligations in 2018?,"416/14,650 ",17.65,percent,2.84,percent,False,,False,False,False
+117,f6cb9974-2af7-43b3-9e1c-8cd5439dff67,What percentage of the total amortized cost is made up of foreign government obligations in 2018?,"73,798/171,021 ",14.650 / 171.021 * 100,percent,43.15,percent,False,,False,False,False
+118,f6ccfc15-3970-467d-b83e-e2ce0ff365e3,What were the total expenses in 2019?,"125,843-42,959 ",125843 - 82333 - 42959,million,82884.0,million,False,,False,True,False
+119,405f18a8-803b-4f68-be49-7490b74b3697,What was the change in Earnings before interest and taxes EBIT in 2018/2019 from 2017/2018?,828-713,125.0,million,115.0,million,False,,False,False,False
+120,c5757bb4-a312-48ed-a244-29932669363c,What was the percentage change in Earnings before interest and taxes EBIT in 2018/2019 from 2017/2018?,(828-713)/713,0.16,percent,16.13,percent,False,,False,False,False
+121,1504af2b-2364-4a59-8883-634a4ef67a34,What was the average orders for 2019 and 2018?,"(12,749 + 11,875) / 2",12.75,thousand,12312.0,million,False,,False,False,False
+122,7a77310d-bdbd-4ddd-886d-15b70985e957,What is the increase / (decrease) in revenue from 2018 to 2019?,"10,227 - 9,122",1212.0,million,1105.0,million,False,,False,False,False
+123,ef466edc-6087-429c-89ac-359e6cb0977f,What is the increase / (decrease) in the Adjusted EBITDA margin from 2018 to 2019?,4.7% - 5.3%,0.2,percent,-0.6000000000000001,percent,False,,False,False,False
+124,c36e2211-e46a-43d1-a0a8-ae87af347ae8,What was the change in the Net cash provided by (used in) investing activities from 2017 to 2018?,-114 - (71),-49.0,million,-43.0,million,False,,False,True,False
+125,163f08ab-cfae-426a-9c03-4f84feba3bb6,What was the average Net cash used in financing activities between fiscal years 2017-2019?,(709 + 707 + 429) / 3,-(720/3),million,615.0,million,False,,False,True,False
+126,e81574d8-f9e8-48b3-85ab-a7ed36f8cbb0,What was the change in Acquisition and integration costs in 2019 from 2018?,17-8,9.0,million,9.0,million,False,,True,False,True
+127,426e47ae-aff7-43e2-81be-0bb951b0def1,What was the percentage change in Acquisition and integration costs in 2019 from 2018?,(17-8)/8,56.25,percent,112.5,percent,False,,False,False,False
+128,07148f97-1ced-46e4-a141-5cdffe6e6528,What was the change in the (Loss)/profit before taxation from 2018 to 2019?,-42.7 - 20.9,-23.0,million,-63.6,million,False,,False,True,False
+129,88795fae-3c5b-48d4-ae2d-57fe04b15c31,What is the average Non-deductible items for 2018 and 2019?,-(0.9 + 0.1) / 2,0.05,,-0.5,million,False,,False,True,False
+130,ed9e3e80-6941-4888-9e40-bbd1cb092485,What was the average Adjustment for share-based payments for 2018 and 2019?,-(0.4 + 0.6) / 2,0.5,,-0.5,million,False,,False,True,False
+131,5f282807-f3fe-4efd-a4ef-b88a3d580bf9,What was the change in revenue from external customers from UK in 2019 from 2018?,83.2-73.5,10.7,,9.7,million,False,,False,False,False
+132,44f28f4e-ce84-4300-b8d1-1644dda31933,What was the percentage change in revenue from external customers from UK in 2019 from 2018?,(83.2-73.5)/73.5,10.7,percent,13.2,percent,False,,False,False,False
+133,cfbbdf60-d0d7-458c-853c-d1ffa1e8356f,What was the increase / (decrease) in the Furniture and equipment from 2018 to 2019?,"11,604 - 10,671",729.0,thousand,933.0,thousand,False,,False,True,False
+134,a032279a-fde8-4152-9350-e5a9340f27c4,What was the average Furniture and equipment for 2018 and 2019?,"(11,604 + 10,671) / 2",16.671,thousand,11137.5,thousand,False,,False,True,False
+135,f5eb2ada-9a3c-4bbd-b96d-a83844cef935,What was the average leasehold improvements for 2018 and 2019?,"(6,981 + 6,819) / 2",5.9,thousand,6900.0,thousand,False,,False,True,False
+136,5c59c850-a720-4b1f-b703-9e1d9ff8e242,What was the change in Accrued pension liabilities in 2019 from 2018?,3.4-3.3,0.1,million,0.1,million,False,,True,False,True
+137,4f1d7142-98fe-4e6a-b8ea-3c2c451f5037,What was the percentage change in Accrued pension liabilities in 2019 from 2018?,(3.4-3.3)/3.3,(−0.91),percent,3.03,percent,False,,False,False,False
+138,e3041bef-c305-431f-b165-54cb8bca77fb,What was the change in Inventory between 2018 and 2019?,"$7,144-$6,609",,,535.0,thousand,False,,False,True,False
+139,8c13eea0-3bc9-44d4-9352-e8380333a791,What was the change in deferred compensation between 2018 and 2019?,"5,660-4,779",,,881.0,thousand,False,,False,True,False
+140,95d916dc-67ce-4af0-8a84-574dce094c84,What was the percentage change in net deferred tax assets between 2018 and 2019?,"($7,561-$37,187)/$37,187",84.56,percent,-79.67,percent,False,,False,True,False
+141,c0d6605c-50c2-42b1-94f6-c4c601559918,"What was the change in the State income taxes, net of federal tax benefit from 2017 to 2018?",10 - 31,15.0,,-21.0,million,False,,False,True,False
+142,b194279c-16e5-4a17-9733-c8babb6e8281,What is the average Excess tax benefits from stock-based compensation in 2018 and 2017?,-(9 + 12) / 2,8.5,million,-10.5,million,False,,False,True,False
+143,81cab6e1-acb6-4c1e-a5f7-ae283cbd1b53,What is the net difference in sale of systems between 2017 and 2019?,"-139,042  - 392,883 ",392.0,,-531925.0,thousand,False,,False,True,False
+144,ff1e12e8-e148-470f-95a8-3f23e02fa62d,What is the net difference in sale of modules between 2017 and 2019?,"958,115 - 304,397 ",439841.0,thousand,653718.0,thousand,False,,False,True,False
+145,a4be9eab-ad03-4d67-9136-62d7cbe40e1e,What is the net percentage difference in net sales between 2017 and 2019?,"(819,073 - 697,280) / 2,941,324 ",36.0,percent,4.14,percent,False,,False,True,False
+146,162f80b9-b689-4405-b6b2-5e98d3882ce7,What is the change in Trade receivables from 2018 to 2019?,"3,770-3,054",1516.0,thousand,716.0,thousand,False,,False,True,False
+147,0b7463b3-ed9e-47a0-b838-b26e0ab886eb,What is the change in Allowance for expected credit losses from 2018 to 2019?,135-23,-112.0,,112.0,thousand,False,,False,True,False
+148,acbacb07-2a66-418b-b6da-53424c35abd5,What is the change in Other receivables from 2018 to 2019?,"4,223-4,082",71.0,thousand,141.0,thousand,False,,False,True,False
+149,49e5b466-62c9-4cab-8d70-8e9317e7a007,"In the first quarter of 2018, what is the difference between the low and high price?",8.40-5.99,4.8,,2.41,,False,,False,False,False
+150,5beff07b-d9e0-4592-b11a-47bc4bbb5e07,What is the average quarterly low price in 2018?,(5.99+4.79+2.66+1.88)/4,$4.77,thousand,3.83,,False,,False,False,False
+151,7707ff1b-ca2c-4d72-aad1-81315a5f54ff,"What is the change in the value of Total inventories between October 31, 2019 and 2018?","289,928-240,056",49072.0,thousand,49872.0,thousand,False,,False,False,False
+152,12005950-7f78-497e-a1b4-cfc8c7389aa1,"What is the average value of Packaging materials for October 31, 2019 and 2018?","(7,488+6,547)/2",7.488,thousand,7017.5,thousand,False,,False,False,False
+153,297b00ae-9c26-4401-82b5-a6de76674ee9,"What is the average value of Prepared chicken for October 31, 2019 and 2018?","(20,032+ 13,591)/2",20.032,thousand,16811.5,thousand,False,,False,False,False
+154,ebae8430-83a7-49c7-af14-99ddf4b1e376,What is the total amount of audit fees in both 2018 and 2019?,"58,000+55,000",113000.0,,113000.0,,False,,True,False,True
+155,1fe30b3b-c8d4-47e2-a4b2-d2a583da9ce7,What is the percentage change in tax fees from 2018 to 2019?,"(11,000-28,000)/28,000",33.82,percent,-60.71,percent,False,,False,False,False
+156,2d0072b8-5110-4323-ac2e-0d294045da92,What is the percentage of audit fees in total fees in 2019?,"55,000/66,000",55.0,percent,83.33,percent,False,,False,False,False
+157,c34555c9-39a6-4505-bc7e-fcabfa3ae6cd,"What is the net total underlying rights and other for both finite-lived and indefinite-lived intangible assets as of June 30, 2019?",14.5+1.9,14.9,million,16.4,million,False,,False,True,False
+158,2e569f93-d58b-44a7-a947-ea6784b0623d,"What is the increase/ (decrease) in Revenues from, 2019 to 2018?","601,256-510,762",90.0,,90494.0,thousand,False,,False,True,False
+159,fd59c14d-0312-4725-92d8-5c30cd5c5c7a,"What is the increase/ (decrease) in Voyage expenses from, 2019 to 2018?","21,387-28,237",-6722.0,thousand,-6850.0,thousand,False,,False,True,False
+160,4cf34f4c-68c1-40f0-bb79-80ee15b256ed,What is the average tax related accruals for 2018 and 2019?,(30.8+38.4)/2,37.6,thousand,34.6,,False,,False,False,False
+161,ea159bf1-8401-4540-b5a7-8fbdb5476944,What is the average accrued payroll and employee benefits for 2018 and 2019?,(116.9+105.9)/2,114.4,thousand,111.4,,False,,False,False,False
+162,79f51c3d-59d3-4abc-b0cd-d9e28668fbf4,What is the average derivative liabilities for 2018 and 2019?,(93.8+120.5)/2,27.7,thousand,107.15,,False,,False,False,False
+163,2b5044df-ad20-4146-a571-e778cfc88c8d,"What is the percentage change of the investments accounted for at cost, adjusted for observable price changes between 2018 and 2019?","($1,750-$1,250)/$1,250",,,40.0,percent,False,,False,False,False
+164,170c75fb-da08-4e9d-8c5a-7cbb94e4176e,What percentage of total non-marketable investments were accounted for using the equity method in 2019?,"(8,000/$9,750)",8.0,percent,82.05,percent,False,,False,False,False
+165,b8afd327-b836-4276-8556-eac89746b09f,What is the change in the Combustion of fuel and operation of facilities (Scope 1) from FY18 to FY19 for UK and Ireland only?,"59,495 - 66,336",8.0,,-6841.0,,False,,False,False,False
+166,4946fa71-15ec-4d2f-8604-2d1f775950fc,"What is the average Electricity, heat, steam and cooling purchased for own use (Scope 2) for FY18 and FY19 for UK and Ireland only?","(27,633+ 32,389)/2",32.389,thousand,30011.0,,False,,False,False,False
+167,95497d9b-23d7-4c89-832c-bcf408981985,What is the change in the Green tariff from FY18 to FY19 for UK and Ireland only?,"-27,603 - 0",-27.6,thousand,-27603.0,,False,,False,False,False
+168,27bc5656-93b7-4109-b1d2-25710ca3240f,How much is the change in transfers between 2018 year end and 2019 year end?,"-1,421-(-78,816)",1.0,million,77395.0,million,False,,False,True,False
+169,e314bfab-8cd6-4bb3-b0e6-df664300c380,How much is the change in disposals between 2018 year end and 2019 year end?,"-16,664-(-14,805)",8.0,thousand,-1859.0,million,False,,False,True,False
+170,f96cce90-9703-4b6b-9ea4-1a650ac8765a,"What is the change in ""impact of exchange rate"" from FY 2018 to FY 2019?",7.6-(-2.3) ,5.9,percent,9.9,percent,False,,False,False,False
+171,127264c3-16b9-4324-aff1-722420c93b5d,What is the average INR-GBP exchange rate in FY 2019?,1/91.60 ,1.73,,0.01,,False,,False,False,False
+172,3a467fa9-64d9-4214-9f5e-0e7a101efd57,What is the average USD-EUR exchange rate in FY 2019?,70.07/80.82 ,70.07/80.82,thousand,0.87,,False,,False,False,False
+173,9f7000b0-e7b7-48b2-bcc6-8f77209894f2,What is the current ratio in 2019?," 121,041 / 154,619 ",73.0,thousand,0.78,,False,,False,False,False
+174,6514b16b-bdc1-4fa7-8e3a-3ec766713975,What is the debt-to-asset ratio in 2018?,"92,364/336,032",0.24,percent,0.27,,False,,False,False,False
+175,a1631baf-106c-4867-8173-6ff98f4ec421,What is the change in current ratio from 2018 to 2019?,"(121,041/154,619)-(73,202/90,392)",1.64,thousand,-0.03,,False,,False,False,False
+176,bd8bb8d3-c7e9-4a7f-be23-97b27a29f74e,What was the percentage change in the total between 2018 and 2019?,"(5,015-5,256)/5,256",9.76%,,-4.59,percent,False,,False,False,False
+177,81c99a9e-786b-4ab6-94ed-e3149d697347,What is the percentage difference of total liabilities when comparing after adjustment to before adjustment?,5.2/94.9,1.9,percent,5.48,percent,False,,False,False,False
+178,9332c840-68f6-43e1-a06c-902dae3fef81,"What is the total equity of the acquisation as of December 31, 2019?",545.8-100.1,446.7,million,445.7,million,False,,False,False,False
+179,e151e953-f5ab-4041-8e6f-7aec08ed5a60,"What is the liability to asset ratio as of December 31, 2019?",100.1/545.8,1.83,billion,18.34,percent,False,,False,False,False
+180,503dde52-a6e1-4c63-aca5-ff3d92ea2854,What is the change in income from operations between 2019 and 2018?,"12,491-9,587",521.0,thousand,2904.0,thousand,False,,False,False,False
+181,e2419503-003d-4893-947b-72c8161ec572,What is the average amount of revenues for 2018 and 2019?,"(68,024+ 67,314)/2",67.314 + 68.024) / 2,,67669.0,thousand,False,,False,False,False
+182,e172ba38-34fa-477b-b535-bac8d65756fb,What is the percentage change in revenues from 2018 to 2019?,"(68,024-67,314)/67,314",16010.0,percent,1.05,percent,False,,False,False,False
+183,398246d7-5500-4560-8a8f-220a782b05e5,What was the percentage change in net inventories between 2018 and 2019?,"(42,237-43,486)/43,486",0.02,percent,-2.87,percent,False,,False,True,False
+184,cf67e41d-d7f2-4804-97a2-5c81fa266ad3,How much is the Revenue in the first quarter of Fiscal 2018 as a percentage of the total revenue that year?,"($88,081/$365,912)",29.4,percent,24.07,percent,False,,False,True,False
+185,0b835494-2c10-4f6b-b54a-60aa73ebdabe,What is the change in the Total Gross Margin between Fiscal 2018 and 2019?,(41.2%-40.6%),3.1,percent,0.6000000000000001,percent,False,,False,True,False
+186,716a0054-4177-43f6-b320-8de375eb3642,What was the average Expected term (years) for 2017-2019?,(3.9 + 3.4 + 7.0) / 3,4.7,,4.77,,False,,False,False,False
+187,4ba37f67-0474-4e5c-8f45-da51a2873072,What is the change in the Expected volatility from 2018 to 2019?,51.9 - 45.8,8.1,percent,6.1,percent,False,,False,False,False
+188,bfb033dc-19dc-41cc-9253-aa7e03b61a62,What was the difference in the Weighted-Average Useful Lives between Trademarks and tradenames and Other intangible assets?,5.0-2.0,3.2,,3.0,,False,,False,False,False
+189,f8011fb0-e5d3-464f-85c0-1d6752a8617c,"What is the increase/ (decrease) in Revenues of Teekay LNG from, 2019 to 2018?","601,256-510,762",94.0,thousand,90494.0,thousand,False,,False,True,False
+190,214a2cb0-5810-4004-9020-33578ea08030,"What is the increase/ (decrease) in Revenues of Teekay Tankers from, 2019 to 2018?","943,917-776,493",,,167424.0,thousand,False,,False,True,False
+191,58060f0e-fb29-4aaf-b4c7-7e43d16e009d,"What is the average Employee separation expenses for the year ended December 31, 2019 to 2018?","(1,150+2,094) / 2",,,1622.0,thousand,False,,False,False,False
+192,3258cedc-30b4-4048-bf67-9aa0b487e1b3,"What is the average Lease related expenses for the year ended December 31, 2019 to 2018?","(1,301+1,608) / 2",1.0,thousand,1454.5,thousand,False,,False,False,False
+193,3525bcc2-5684-45a3-9a2e-4b35de25551a,"What is the average Other for the year ended December 31, 2019 to 2018?",(185+136) / 2,$146,thousand,160.5,thousand,False,,False,False,False
+194,4cee3e03-ed30-4e2c-8718-e65ad795d4e8,What is the increase / (decrease) in the Gross Profit from 2018 to 2019?,"222,859 - 361,046",88.0,thousand,-138187.0,thousand,False,,False,True,False
+195,3502f875-f816-4a00-986c-fef9b08c0f96,What is the COGS for 2019?,"54,229 - 222,859",222859.0,thousand,-168630.0,thousand,False,,False,True,False
+196,0cca40eb-3b7e-4ea2-83b0-c6be83190b12,What is the percentage increase / (decrease) in average Urner Barry Spot Egg Market Quotations 1 in 2019 compared to 2018?,1.23 / 1.49 - 1,0.06,percent,-17.45,percent,False,,False,True,False
+197,d06a5ade-d848-4325-a2a5-8f5ef427d246,What is the average total basic earnings per share for both 2018 and 2019?,(206.2 + 132.6)/2 ,2.57M,,169.4,,False,,False,True,False
+198,87cdfd06-a9ef-48e8-a44e-9addd92a0d0c,What is the percentage constitution of continuing operations in diluted earnings per share in 2019?,113.6/204.9 ,113.6/1313.7*100,percent,55.44,percent,False,,False,True,False
+199,8c882f0d-684c-430e-8194-997c565a7258,What is the nominal difference for basic earnings per share (cents per share) between 2018 and 2019?,206.2 - 132.6 ,10.9,thousand,73.6,,False,,False,True,False
+200,9a11777d-c146-4a13-aaa0-7676223a7849,What is the increase / (decrease) in the Realized gains (losses) on maturity and/or partial termination of cross currency swap from 2018 to 2019?,"0 - (-42,271)",,,42271.0,thousand,False,,False,True,False
+201,f49252e2-158b-4a79-ac56-d21ea67082a8,What was the average realized losses?,"-(5,062 + 6,533 + 18,494) / 3",-5.062,thousand,-10029.67,thousand,False,,False,True,False
+202,a58cbfcf-2568-4bd6-ae26-b64656f22dcf,What is the percentage increase / (decrease) in the Unrealized (losses) gains from 2017 to 2018?,"21,240 / 82,668 - 1",4.21,percent,-74.31,percent,False,,False,True,False
+203,d8ef780b-5c02-4c2e-a0c5-b9fd8dba625c,"What is the difference between the high and low price in September 29, 2019?",$91.30 - $70.77 ,21.21,,20.53,,False,,False,False,False
+204,e378f03f-8e13-4020-b4ba-641859e16e25,"What is the percentage increase in the high price from July 7, 2019 to September 29, 2019?",(91.30-87.84)/87.84 ,2.24,,3.94,percent,False,,False,False,False
+205,3b3d21ab-f76f-4ae3-ae00-cecf04e0b499,"What is the difference in the low prices between September 30, 2018 and July 8, 2018?",$81.87 - $79.23 ,22.12,,2.64,,False,,False,False,False
+206,8697d0a4-7073-4834-a055-44cccb3db95c,"What is the average Selling, general and administrative expense for December 31, 2018 and 2019?","(24,371,349+14,794,205) / 2",16.0,thousand,19582777.0,,False,,False,False,False
+207,6c9d393a-c3d5-496f-a9d1-717fe1878c68,"What is the average Research, development and engineering expense for December 31, 2018 and 2019?","(7,496,012+3,766,160) / 2",,,5631086.0,,False,,False,False,False
+208,c91ad938-6ad1-4481-8f6b-43ccd2f69926,What is the nominal difference for ROFE between F19 and F18?,17.1 - 15.2 ,4.0,percent,1.9,percent,False,,False,True,False
+209,3c257d89-4281-43df-998a-f7850b4fda9c,What is the average value for sales per square metre for both F19 and F18?,"(18,675 + 18,094)/2 ",18.7,thousand,18384.5,million,False,,False,True,False
+210,6586d5cf-16c3-444a-b946-f8485a5c2a82,What is the average ROFE for the years F19 and F18?,(15.2 + 17.1)/2 ,16.12,percent,16.15,percent,False,,False,True,False
+211,d8637395-dbdb-4d49-a48b-ef14e97ebce5,What is the average voyage revenue in 2018 and 2019?,"(289,016 + 317,220)/2 ",290160.0,thousand,303118.0,thousand,False,,False,True,False
+212,bdcabe8e-6738-47d3-8412-40e5e9a359d0,What is the average voyage expenses in 2018 and 2019?,"(165,012 + 141,770)/2 ",13233.33333,thousand,153391.0,thousand,False,,False,True,False
+213,c1529a4c-f974-466d-b9e5-356cb9a7c928,What is the average net voyage revenue in 2018 and 2019?,"(124,004 + 175,450)/2 ",,,149727.0,thousand,False,,False,True,False
+214,889488f7-d2a4-4612-b146-a5dd3db8ff2e,How much was the average interest expenses in 2018 and 2019 ?,"(2,082 + 2,025) / 2 ",,,2053.5,million,False,,False,False,False
+215,2e453484-3c53-4073-a29f-56a64364f4d9,What was the difference in interest expenses in 2019 and 2018?,"2,082 - 2,025 ",57.0,million,57.0,million,False,,True,False,True
+216,aa4b7a98-1ec7-4bd8-a258-e928e92c9f75,What is the average of Net revenues by geographical region of shipment?,"(9,556+9,664+8,347) / 3",,,9189.0,,False,,False,False,False
+217,fa5d745e-66cd-49cf-ac91-b6916a412c7d,What is the average of Revenues from sale of services?,(148+151+133) / 3,148.0,thousand,144.0,,False,,False,False,False
+218,699b2f87-84df-49a3-a9a1-41e26eed0577,What is the average of Other revenues?,(27+52+39) / 3,27.0,,39.33,,False,,False,False,False
+219,805a22a0-bc6b-42e1-98a3-9f665b8b4eec,What is the change in total cost of revenue between 2019 and 2018?,"(48,881-51,896)/51,896",,,-5.8100000000000005,percent,False,,False,True,False
+220,d9eba295-6903-457d-924d-663e41d20b46,What is the total cost of revenue in both 2019 and 2018?,"($48,881+$51,896)",,,100777.0,thousand,False,,False,True,False
+221,dd31fc40-d055-4356-bcfc-c7348842bf3c,What is the proportion of products as a percentage of the total cost of revenue in 2019?,"$29,816/$48,881",29.816 / 48.881 * 100,percent,61.0,percent,False,,False,True,False
+222,ca5ace26-609f-4199-b5a0-68ccf25ba98e,What was the sum of all Income tax net operating loss carryforwards?,"$57,299+$565,609",622592.0,thousand,622908.0,thousand,False,,False,False,False
+223,fe5839ad-4387-4abb-ae4b-9e61feacd97a,What was the sum of all Tax credit carryforwards?,"$39,784+$3,313+$15,345",0.0,thousand,58442.0,thousand,False,,False,False,False
+224,a1fb1d57-243c-49e0-84ee-43d969cd41b0,What was the domestic-state tax credit carryforwards as a ratio of domestic-federal tax credit carryforwards?,"$3,313/$39,784",3.313/39.784,thousand,0.08,percent,False,,False,False,False
+225,54dd0e9e-c525-4bea-8bd7-b292e9dd9be3,What is the percentage change in the net investment in finance lease from 2018 to 2019?,(0.8-1.2)/1.2,0.4,percent,-33.33,percent,False,,False,False,False
+226,ab7c4466-0cd7-4f3b-8d2a-73bb9abf0053,What is the percentage change in the amounts owed by members of Peel from 2018 to 2019?,(0.3-0.3)/0.3,-25.00%,percent,0.0,percent,False,,False,False,False
+227,8c6bc2ca-b758-49f8-82e3-c1ede110102b,What is the percentage change in the amounts owed to members of Peel from 2018 to 2019?,(0.1-0.1)/0.1,0.0,percent,0.0,percent,False,,True,False,False
+228,b5ede057-3e98-4851-a1e1-1774c52cd908,What is the average salaries and fees between 2018 and 2019?,(4+4)/2,1.0,thousand,4.0,million,False,,False,False,False
+229,7639efef-c768-4631-95b5-382a0fde501d,What is the average incentive schemes between 2018 and 2019?,(2+3)/2,1.5,,2.5,million,False,,False,False,False
+230,f86dbe96-d977-4f6f-8846-fe1b44c8e205,What is the difference between average salaries and fees and average incentive schemes from 2018 to 2019?,[(4+4)/2] - [(2+3)/2],-1.0,,1.5,million,False,,False,False,False
+231,005da8e4-571e-4612-9333-6c77d03ed838,What is the percentage change of total assets from 2018 to 2019?,"(5,765.2-5,050.2)/5,050.2",9.8,percent,14.16,percent,False,,False,False,False
+232,af4ea6d6-4672-4ddb-8348-047ced2b5572,What is the average total asset value for 2018 and 2019?,"(5,765.2+5,050.2)/2",3.46,million,5407.7,million,False,,False,False,False
+233,ee74c321-b0e8-44f6-b15a-a4e8511b6183,What was the change in total emissions?,"4,785.7-5,087.6",304.9,,-301.9,,False,,False,False,False
+234,d5656a8c-6ef7-4e56-a3d4-8e3dc2bd5bed,What was the percentage change in total emissions?,"(4,785.7-5,087.6)/5,087.6",2.18,percent,-5.93,percent,False,,False,False,False
+235,8fb4b76c-b4d9-40e9-8233-28a19d06df41,What is the difference between the net cash provided by operating activities from 2018 to 2019?,"14,551-15,386",,,-835.0,million,False,,False,True,False
+236,2438c6b7-f88b-46c9-a0d8-4031e6452955,How much was the average net cash provided by operating activities from 2018 to 2019?,"(15,386+14,551)/2",10.963,million,14968.5,million,False,,False,True,False
+237,524463b6-b8d7-410d-926a-699f7b7cdd99,What is the difference between the net cash used for financing activities in 2018 and 2019?,"(-42,056)-(-9,982)",28354.0,million,-32074.0,million,False,,False,True,False
+238,4990b27f-a8a6-4683-82f8-c1cf657ba9c1,What is the average discount rate for 2018 and 2019?,(2.9% + 3.8%)/2 ,3.4,percent,3.35,percent,False,,False,False,False
+239,066fbf2d-e3e7-4f55-bbe0-a71ddeaa2685,What is the change in expected rate of salary increase between 2018 and 2019?,2.5% - 2.5% ,0.0,percent,0.0,percent,False,,True,False,False
+240,0f6a8eaa-3e1e-4c91-b175-22bcef454b35,What is the average rate of price inflation for 2018 and 2019?,(2.0% + 2.0%)/2 ,2.0,percent,2.0,percent,False,,True,False,True
+241,078e34fa-b33a-43fe-afd3-d39b4cbd6a6b,What was the change in percentage of sales represented by gross profit between 2018 and 2019?,40.0-50.9,10.9,percent,-10.9,percent,False,,False,False,False
+242,85bc877a-ecc1-4d1a-9e45-6ddb6d0a4dc3,What was the change in percentage of sales represented by net other income between 2018 and 2019?,1.6-0.1,-3.4,percent,1.5,percent,False,,False,False,False
+243,37a06d19-6aec-40a6-862a-fa7629b64208,What was the change in percentage of sales represented by provision for income taxes between 2018 and 2019?,1.4-3.5,0.02,percent,-2.1,percent,False,,False,False,False
+244,e10133f7-0579-4a1d-b41c-c12210fc7559,What is the percentage change in the total trade receivables from 2018 to 2019?,(39.9-35.8)/35.8,£35.800000,percent,11.45,percent,False,,False,False,False
+245,34e0adca-febe-4862-a4db-8581df95e44b,What is the percentage of the trade receivables that are three to six months of age in the total trade receivables in 2019?,10.0/39.9,10.0/39.9*100,percent,25.06,percent,False,,False,False,False
+246,c72f2f6d-3d88-406d-a482-0736ae4846b0,What was the change in the amount in APJ in 2019 from 2018?,98.7-103.6,4.9,thousand,-4.9,million,False,,False,False,False
+247,634122ee-5fb5-4e38-a552-5673e23987cf,What was the percentage change in the amount in APJ in 2019 from 2018?,(98.7-103.6)/103.6,3.33,percent,-4.73,percent,False,,False,False,False
+248,15cd82e8-7fe9-4529-a44f-eca0ce5137fb,What is the Total net revenue for fiscal 2018 and 2017?,"2,280+1,664",2280.0,million,3944.0,million,False,,False,False,False
+249,8f75bf3a-849c-4979-b82a-b53dbcf42509,What is the average net revenue for fiscal year 2018 and 2017?,"(2,280+1,664)/2",5840.0,,1972.0,million,False,,False,False,False
+250,b99d3748-44ec-44e8-9de7-12567ccbd479,What is the average Operating income for Fiscal 2018 and 2017?,"(1,111+839)/2",,,975.0,million,False,,False,False,False
+251,ff71e762-7a3d-4b9e-aa75-3ab148d8154c,What was the change in the average life expectancy for a male member aged 65 in 2019 from 2018?,86.8-87.3,0.2,percent,-0.5,,False,,False,False,False
+252,8cf06f37-dccd-4b16-8f75-5359a9a55d93,What was the percentage change in the average life expectancy for a male member aged 65 in 2019 from 2018?,(86.8-87.3)/87.3,1.2,percent,-0.5700000000000001,percent,False,,False,False,False
+253,df12359b-c35a-4c26-bfbf-a8c05f063be9,How much more cloud and license revenues came from the Americas as compared to Asia Pacific in 2018?,"(18,030 - 4,848)  ",512.0,million,13182.0,million,False,,False,False,False
+254,beabd8a7-9ed5-4121-8415-6198bb1d642f,What was the total applications revenues in 2019 and 2018?,"11,510 + 11,065",,,22575.0,million,False,,False,False,False
+255,3cbbe606-2c3c-4e20-a266-3dc3fc00adb7,What was the change in the Total amount in 2019 from 2018?,44.5-41.0,3.5,million,3.5,million,False,,True,False,True
+256,0f59d1f7-562f-4f9a-a0ff-1abba61accbe,What was the percentage change in the Total amount in 2019 from 2018?,(44.5-41.0)/41.0,0.08,percent,8.54,percent,False,,False,False,False
+257,973464b5-a5fe-4381-9bc5-e225f5ba9a2c,What was the absolute percentage change in risk-free interest rate between 2018 and 2019?,2.0-1.2,1.0,percent,0.8,percent,False,,False,False,False
+258,4082086c-6f47-40b1-8ac1-757d437a502d,What was the absolute percentage change in Expected volatility between 2019 and 2020?,27.4-33.5,6.1,percent,-6.1,percent,False,,False,False,False
+259,0dbcbf46-790f-465c-ae57-ffe0167aee5e,"What is the change in Revenue of Software delivery, support and maintenance between 2017 and 2018?","9,441-10,949",687.0,,-1508.0,thousand,False,,False,True,False
+260,4608c69d-d134-4d16-b639-731f5d3b03cd,"What is the change in Cost of revenue of Software delivery, support and maintenance between 2018 and 2017?","2,322-2,918",896.0,thousand,-596.0,thousand,False,,False,True,False
+261,0550ae54-99f4-4b87-b1a7-11d402a94918,What is the change in Cost of revenue of Client services from 2018 to 2017?,830-261,261.0,thousand,569.0,thousand,False,,False,True,False
+262,e3f430ad-0f9f-4cfc-9976-3e99271555fa,What was the change in services between 2018 and 2019?,"$59,545 - $64,476 ",1159.0,percent,-4931.0,thousand,False,,False,True,False
+263,7f111469-0ffc-4d6f-bde7-0f150bf0c93e,What was the change in total revenue between 2018 and 2019?,"$63,333 - $69,549 ",1092.0,,-6216.0,thousand,False,,False,True,False
+264,0339e2bb-4a63-4f23-aaea-b9fa3cb29737,"From fiscal year 2020 - 2024, what is the difference in the number of ground leases and land and building leases expiring?",697 - 381 ,247.0,thousand,316.0,,False,,False,False,False
+265,73521986-bd59-404b-8eb5-c2a24e2bc8ee,"From fiscal year 2025 - 2029, what is the total number of ground leases and land and building leases expiring in total?",198 + 270 ,627.0,thousand,468.0,,False,,False,False,False
+266,258df1b4-3db1-4616-ae6b-c46a98b88dcf,What is the difference of ground leases expiring between the periods 2020 - 2024 and 2025 - 2029?,381 - 198 ,203.0,thousand,183.0,,False,,False,False,False
+267,61c7a52b-6849-4e09-84e4-a5020e51c744,What is the average discount rate over the 3 year period from 2017 to 2019?,(2.5+2.4+3.2)/(2019-2017+1),2.76%,percent,2.7,percent,False,,False,False,False
+268,c55030b2-41b7-4a9e-b954-03680ac7002f,How much did the expected long term rate of return on plan assets decrease by from 2017 to 2019?,4.3%-3.3%,0.0,percent,1.0,percent,False,,False,False,False
+269,a6dca142-4691-4a05-9c78-9087cdc491f6,What is the average discount rate over the 3 year period from 2017 to 2019?,(2.5+2.4+3.2)/3 ,2.76%,percent,2.7,percent,False,,False,False,False
+270,a8ab5675-0560-4cd0-a294-76fd54b04ad6,What was the change in the amount for Ireland?,0.4-0.5,0.1,thousand,-0.1,million,False,,False,False,False
+271,0ae9262d-c0fd-4b56-b896-2b37f90810bc,What was the percentage change in the amount for Ireland?,(0.4-0.5)/0.5,4.0,percent,-20.0,percent,False,,False,False,False
+272,e4f21617-1a84-40e4-bdf0-671df88cb862,"What is the percentage change in the working capital adjustment at June 30 and December 31, 2019?",(18-38)/38 ,20.0,percent,-52.63,percent,False,,False,True,False
+273,22ea63c7-2e41-48d8-8133-1fd9acebbb5b,"What is the percentage change in the total fair value of consideration transferred at June 30 and December 31, 2019?","(3,777 - 3,757)/3,757 ",0.01,percent,0.53,percent,False,,False,True,False
+274,bdfa7f74-0ec6-461f-a531-c164c7134a2f,What is the percentage change in the audit fees from 2018 to 2019?,"(1,092-823)/823",16.25,percent,32.69,percent,False,,False,False,False
+275,153f3925-277e-4fe8-8edc-50a5089420ea,What is the percentage of non-audit fees in the total fees paid to auditor in 2019?,"598/1,690",58.0,percent,35.38,percent,False,,False,False,False
+276,d374633d-d7ff-41b7-9982-f0388c3d0323,What is the percentage change in the total fees paid to auditor from 2018 to 2019?,"(1,690-1,104)/1,104",33.34,percent,53.08,percent,False,,False,False,False
+277,359f9c4c-b405-40e5-88b5-86bfa0069b89,What was the percentage change in the Reductions related to a lapse of applicable statute of limitations between 2017 and 2018?,"(-3,144-(-1,102))/-1,102",,,185.3,percent,False,,False,True,False
+278,9fa0bb46-4243-4629-81c2-3ba6e549fee0,What was the change in the land value from 2018 to 2019?,3.7 - 0.8,2.0,,2.9,million,False,,False,False,False
+279,204ecd0e-d405-4a41-8163-10f670f987b5,What is the average Buildings and Building Improvements value for 2018 and 2019?,(81.2 + 69.2) / 2,74.2,,75.2,million,False,,False,False,False
+280,f2f39c26-9c31-4b39-b9c1-d5b4508736d6,What was the change in average price paid per share between the first to second month period?,65.53-64.77,2.76,thousand,0.76,,False,,False,False,False
+281,e02b2c21-3972-41cc-b391-5478da7df9d8,What was the change in the total number of shares purchased between the second to third month period?,"3,608-3,380",2620.0,thousand,228.0,thousand,False,,False,False,False
+282,9a098fcb-9839-4b16-8eeb-7cf291463744,What was the total number of shares purchased between the first month as a percentage of total shares purchased in the three month period?,"262/7,250",306255 / 7250) * 100,percent,3.61,percent,False,,False,False,False
+283,24395900-adc1-4c9d-8ce9-bd21c5a54808,What was the percentage change in Net income attributable to American Tower Corporation stockholders between 2018 and 2019?,"($1,887.8-$1,236.4)/$1,236.4",14.3,percent,52.69,percent,False,,False,True,False
+284,d1e84439-5663-4c28-9d59-3854a0104409,What is the percentage increase in cash provided from financing activities between 2018 and 2019?,"(1,389 - 1,779) / 1,779 ",343 / 1000,,-21.92,percent,False,,False,True,False
+285,6befb6ea-a586-43d2-80bd-14f0721dd6f1,What is the percentage change in the total other non-current assets between 2018 and 2019?,"(41,846 - 8,620)/8,620 ",5.93,percent,385.45,percent,False,,False,False,False
+286,c52dc053-375e-4b4d-b4ce-757bb39fa256,What is the total value of other non-current assets between 2018 to 2019?,"41,846+8,620",,,50466.0,thousand,False,,False,False,False
+287,9df4e7cf-9a10-40e2-b52e-9278948fce53,What is the total deposits in 2018 and 2019?,"2,338 + 1,975 ",4028.46,,4313.0,thousand,False,,False,False,False
+288,5a09d607-3502-4451-9d1a-a222dfc32968,"What is the average number of nonvested shares granted on January 1, 2017 and between December 30, 2018 and December 29, 2019?",(132 + 353)/2 ,132.00 / ((98 + 353) * 2),thousand,242.5,thousand,False,,False,True,False
+289,f9898b19-f84e-4cd8-9cd2-330767f39a38,"What is the average number of nonvested shares vested on January 1, 2017 and between December 30, 2018 and December 29, 2019?",(43 + 118)/2 ,2.65,thousand,80.5,thousand,False,,False,True,False
+290,f140a65f-c408-45fc-8c60-e98e13530452,"What is the average number of nonvested shares forfeited on January 1, 2017 and between December 30, 2018 and December 29, 2019?",(19 + 41)/2 ,(2),thousand,30.0,thousand,False,,False,True,False
+291,34144864-790c-4733-8323-91347f68f5ef,What is the global increase / (decrease) in the hindi films from 2018 to 2019?,7 - 10,5.0,percent,-3.0,,False,,False,False,False
+292,6ba4045d-4222-4da0-a126-94b267a707ec,What is the average global regional films (excluding Tamil films) from 2017-2019?,(49 + 3 + 12) / 3,9.0,thousand,21.33,,False,,False,False,False
+293,e9b75381-50b1-4717-a322-31ed1eef4259,What is the global increase / (decrease) in the Tamil films from 2017 to 2018?,1 - 3,5.0,thousand,-2.0,,False,,False,False,False
+294,070a9fb1-6d17-40ba-b34e-82d0fe14037b,What is the percentage change in the research and development costs incurred from 2018 to 2019?,"(18,478-17,793)/17,793",0.05,percent,3.85,percent,False,,False,False,False
+295,a8a7c154-567e-4b21-878e-85dab9d28fc9,What is the percentage change in the total expense relating to operating leases from 2018 to 2019?,"(4,402-3,650)/3,650",61.14,percent,20.6,percent,False,,False,False,False
+296,9fce8f25-dd3b-4c50-9b7b-d200ced15ded,What is the percentage change in the finance costs expensed from 2018 to 2019?,(200-62)/62,62.0,percent,222.58,percent,False,,False,False,False
+297,54fec8b2-3105-45fc-aa90-fd07cdd582ae,What is the average age of the executive officers of the company as at 24 February 2020?,(47 + 51 + 64 + 47 + 54 + 41 + 37)/7 ,51.0,thousand,48.71,,False,,False,False,False
+298,06dfc869-b3e2-446e-9b9a-1b2374c63c04,What is the percentage change in cash provided by financing activities between 2018 and 2019?,"(5,798-3,624)/3,624 ",2.0,percent,59.99,percent,False,,False,True,False
+299,521b36fd-2b60-466b-b420-fbf776531e37,What is the total cash provided by financing activities between 2017 to 2019?,"5,798+3,624+8,420",10.0,billion,17842.0,thousand,False,,False,True,False
+300,9238f11f-18d1-416b-ad2d-2692229c8d3a,What is the total cash provided by all cash flow related activities between 2017 to 2019?,"$5,121 +$(-5,946) + $17,592 ",39.0,,16767.0,thousand,False,,False,True,False
+301,c438e7d0-68d6-46c5-b5c7-6507889fa210,What was the average Interest income for 2018 and 2019?,"(30,182 + 13,281) / 2",,,21731.5,thousand,False,,False,True,False
+302,1427bbad-0def-4340-a537-4713dad96ea7,What was the average interest expense for 2018 and 2019?,"(17,334 + 6,442) / 2",11.09,thousand,11888.0,thousand,False,,False,True,False
+303,0a9b94be-b354-46e2-a448-e68b5f9f5e92,What is the percentage change of net operating losses and credits from 2018 to 2019?,"(113,475-61,494)/61,494",,,84.53,percent,False,,False,True,False
+304,33fd26df-9da7-489c-96e6-bd43a8b79d89,"What is the average Products and licensing costs for December 31, 2018 and 2019?","(16,684,172+8,078,870) / 2",11.641906,thousand,12381521.0,,False,,False,False,False
+305,032682c3-c3c1-4e3b-9554-05f68fdb4cc8,"What is the average Technology development costs for December 31, 2018 and 2019?","(18,649,161+15,400,475) / 2",,,17024818.0,,False,,False,False,False
+306,a3ea64bc-4447-4c0b-b76c-84575a3a0de2,What is the average Research and development funding?,(132+52+65) / 3,($132 + $52 + $65) / 3,million,83.0,million,False,,False,True,False
+307,33de3029-3056-4598-bdff-30d9be4f52c3,What is the average gain on sale of businesses and non-current assets?,(7+8+4) / 3,8.0,million,6.33,million,False,,False,True,False
+308,cd3367c7-d3bd-440c-8c51-90a6ee95cc77,What is the increase/ (decrease) in Research and development funding from 2017 to 2019?,132-65,80.0,million,67.0,million,False,,False,True,False
+309,a8b031ed-58ec-418a-a229-89ad5444a6bb,"What was the change in Property, Plant, and Equipment, Net in 2019 from 2018?","3,574-3,497",169.0,million,77.0,million,False,,False,True,False
+310,c174c321-d180-4335-b562-e570536f0725,"What was the percentage change in Property, Plant, and Equipment, Net in 2019 from 2018?","(3,574-3,497)/3,497",5.84,percent,2.2,percent,False,,False,True,False
+311,073c6499-cf72-47f2-8874-7dfc67f1e251,What is the average of Net cash from operating activities?,(14.8+15.2+16.7) / 3,$14.8 + $15.2 + $16.7 / 3,billion,15.57,billion,False,,False,False,False
+312,bf683a17-9353-4784-94b3-8cf2a677b1f4,"What is the average of Cash, restricted cash and short-term marketable securities?",(9.0+12.2+12.8) / 3,$12.40,billion,11.33,billion,False,,False,False,False
+313,4875e520-3ead-44f2-aefc-d1a9d087419d,What is the average of Committed global credit facilities?,(15.3+15.3+15.3) / 3,7.3,billion,15.3,billion,False,,False,False,False
+314,c0ba2609-ef77-4d95-883b-369d6d3258c7,What was the change in Transportation Solutions in 2019 from 2018?,"4,781-4,707",$   20,million,74.0,million,False,,False,False,False
+315,c48a89ed-da90-4c07-b51e-2e77b5817f3d,What was the percentage change in Transportation Solutions in 2019 from 2018?,"(4,781-4,707)/4,707",30.0,percent,1.57,percent,False,,False,False,False
+316,d76df306-5452-4d72-ba6a-968482943bee,What was the average interest income for 2017 and 2018?,"(1,310 + 510) / 2",670.0,thousand,910.0,thousand,False,,False,True,False
+317,12756239-28b8-482e-bfc8-c3dd6b2f2954,What is the average Interest expense for 2017 and 2018?,-(598 + 268) / 2,-268000 / -330000,thousand,-433.0,thousand,False,,False,True,False
+318,19bf32fd-847e-4449-84cf-f2f3df81b71b,What is the percentage change in the total dividends paid from 2018 to 2019?,"(28,128-25,633)/25,633",9.5,percent,9.73,percent,False,,False,True,False
+319,9f000c2e-f928-401a-a3ba-2ef71b2bccf6,What is the percentage change in the final dividend from 2018 to 2019?,"(13,327-12,534)/12,534",1.04,percent,6.33,percent,False,,False,True,False
+320,6fbcd1ee-5060-442b-a2d2-8d62ac822942,What is the percentage change in the interim dividend from 2018 to 2019?,"(14,801-13,099)/13,099",11.2,percent,12.99,percent,False,,False,True,False
+321,ff9b07aa-2cdc-425a-86b6-2f231421ce11,What is the proportion (in percentage) of the sum of Grocery & Snacks and Refrigerated & Frozen’s net sales over total net sales in fiscal year 2018?,"($ 3,287.0+2,753.0)/$ 7,938.3 ",63.46%,,76.09,percent,False,,False,True,False
+322,eca3afa3-cd52-44ed-9e62-2003038a0926,What is the percentage change in total net sales of International and Foodservice from fiscal year 2018 to 2019?,"((793.4+934.2)-(843.5+1,054.8))/(843.5+1,054.8) ",7.0,percent,-8.99,percent,False,,False,True,False
+323,49dbbc90-5307-49ae-b802-e87d19214c40,What is the change in total sales from fiscal 2018 to 2019?," $9,538.4 - $7,938.3 ",1510.0,million,1600.1,million,False,,False,True,False
+324,2b77bd1e-17ee-4f74-9fb7-7cc4ad5142dd,What is the percentage change in Other for deferred tax assets?,(577-553)/553,,,4.34,percent,False,,False,True,False
+325,190316bd-8f09-4e44-9648-e83d0bab44fb,What was the change in Impairment losses between 2017 and 2018?,"200,657-50,565",135792.0,thousand,150092.0,thousand,False,,False,True,False
+326,5f289981-f13d-4160-8879-c81dc0b7381e,What was the percentage change in the Share based compensation between 2017 and 2018?,"(4,556-4,296)/4,296",0.13,percent,6.05,percent,False,,False,True,False
+327,4dc88328-739b-43e5-a61d-8492ec4552a6,"What is the increase / (decrease) in Outstanding, beginning of the year from 2018 to 2019?","42,607 - 40,446",305.0,thousand,2161.0,,False,,False,True,False
+328,90f9af10-77ac-441c-a53d-3167c15ad61b,What was the average Issued from 2018 to 2019?,"(11,328 + 6,662) / 2",3545.0,,8995.0,,False,,False,True,False
+329,b679f4bd-7a0f-4b2e-b8fc-12f08a5749fe,What was the average dividend equivalent from 2018 to 2019?,"(1,095 + 1,048) / 2",33.0,thousand,1071.5,,False,,False,True,False
+330,4b1ab745-9b93-495b-9c45-ede4e32b7657,What proportion of level 2 inputs is made up of money market funds? ,"2,010/442,262",20.0,percent,0.45,percent,False,,False,False,False
+331,710bc8e8-3a6b-42ef-b122-a348250715f1,What proportion of Total FairValue is made up of  level 2 inputs?,"442,262/442,262",73.5,billion,1.0,,False,,False,False,False
+332,20b9f972-d7e9-4a47-a9ab-8c789db18f9d,"What is the percentage of other foreign borrowings and other domestic borrowings as a percentage of Total debt as of December 31, 2019 in fair values?","(12.4+89.0)/4,073.9",(13.6 / (1e06)) * 100,percent,2.49,percent,False,,False,False,False
+333,57f38b17-ccdb-4d57-b075-9d1ff7dfb5e7,"What is the percentage difference between fair value and carrying amount of total debt as of December 31, 2018?","(3,535.1-3,474.2)/3,474.2",,,1.75,percent,False,,False,False,False
+334,77b14f34-b206-4b50-babb-aa9ee379410a,"What is the total carrying amount of Senior Notes due by December 2024 as of December 31, 2019?",421.9+422.0+445.6+421.9,421.9,million,1711.4,million,False,,False,False,False
+335,52b32d22-da73-4420-81e4-8cdad82d2125,What was the change in the amount Outstanding at 1 April in 2019 from 2018?,"3,104,563-2,682,738",421.0,thousand,421825.0,,False,,False,True,False
+336,5c487c82-e20a-4c76-9f52-7831ab15075e,What was the percentage change in the amount Outstanding at 1 April in 2019 from 2018?,"(3,104,563-2,682,738)/2,682,738",13.63,percent,15.72,percent,False,,False,True,False
+337,56327885-98fe-40db-93f8-f762b1bf5d20,What was the percentage change in the ending balance between 2017 and 2018?,(-1.3-(-1.9))/-1.9,0.13,percent,-31.58,percent,False,,False,False,False
+338,90f6b6b5-3d82-459d-b9b7-d86dae985655,What was the change in Net operating loss carryforwards from 2018 to 2019?,"65,477 - 64,887",,,590.0,thousand,False,,False,True,False
+339,d547e798-a829-4b95-af68-e50705558993,What was the average of Research and development credits in 2018 and 2019?,"(80,404 + 75,032) / 2",,,77718.0,thousand,False,,False,True,False
+340,ecf25a96-a643-4bed-a0bb-c6eaf4999269,What is the 2019 average total amount falling due within one year?,"(243,424+221,233)/2",241.992,,232328.5,million,False,,False,False,False
+341,c07a4e8f-96eb-4b0d-b668-f7d6e64ed707,What is the 2019 average total amount falling due after more than one year?,"(3,439+2,480)/2",2155.0,,2959.5,million,False,,False,False,False
+342,ab50c5ce-cf88-45c7-acc8-2b73faa97d99,What was the change in the number of shares granted in 2019 from 2018?,"1,001.1-907.3",410.8,thousand,93.8,thousand,False,,False,True,False
+343,43e6bb90-dd1b-4f54-bdb7-60556312ad4e,What was the percentage change in the number of shares granted in 2019 from 2018?,"(1,001.1-907.3)/907.3",29.8,,10.34,percent,False,,False,True,False
+344,91f1515f-4771-403c-ba45-309079ea2723,"What is the change in Net Sales from Fiscal Year Ended April 28, 2018 to Fiscal Year Ended April 27, 2019?","1,000.3-908.3",13.0,million,92.0,million,False,,False,False,False
+345,6a94f765-2c5a-4486-ba06-0057636740e0,"What is the change in Income before Income Taxes from Fiscal Year Ended April 28, 2018 to Fiscal Year Ended April 27, 2019?",103.6-123.8,11.2,million,-20.2,million,False,,False,False,False
+346,78f0aebe-c955-4e78-831e-0ffa77c0f50b,What was the change in deferred revenue in 2019 from 2018?,4-5,4.0,million,-1.0,million,False,,False,True,False
+347,73618a72-ca8a-43f4-b384-409aec6bbb75,What was the percentage change in deferred revenue in 2019 from 2018?,(4-5)/5,2.0,percent,-20.0,percent,False,,False,True,False
+348,643cfcef-6d2c-4df7-b538-3588e28b58e1,"What was the average losses recognized in other income (expense), net, across the 3 year period?",(64+255+389)/3,(-176),million,236.0,million,False,,False,True,False
+349,f4a95f4d-5957-44e8-81b7-f0cd392c4409,"What was the % change in gains recognized in other comprehensive income (loss), net of tax of $1, $11, and $4 from 2018 to 2019?",(159-219)/219,56.0,,-27.4,percent,False,,False,True,False
+350,beb114d0-5ff6-452b-ae71-774f70b9cca5,What was the % change in gains reclassified from accumulated other comprehensive income (loss) into revenue from 2017 to 2018?,(185-555)/555,88.63,percent,-66.67,percent,False,,False,True,False
+351,1068bcff-95a1-49cf-b41a-36b9ccb93c8b,What was the percentage change in net cash provided by operating activities from 2017 to 2018?,"($283,710 - $223,630)/$223,630 ",7.4,percent,26.87,percent,False,,False,True,False
+352,8b54ebf5-4deb-4d05-b274-874b3d637456,What was the percentage change in net cash provided by financing activities from 2017 to 2018?,"(368,120 - 7,265)/7,265 ",359.0,percent,4967.03,percent,False,,False,True,False
+353,c45b4b2a-bfb7-4b05-af7c-2c0d31dbe7dd,What is the difference in low and medium country risk due for 1-90 days past due?,"1,347-891",722.0,thousand,456.0,,False,,False,False,False
+354,c26ef418-e7bb-47ca-8f70-dabe35ffc766,What is the difference between 1-90 and 91-180 days past due in low risk country?,"1,347-125",625.0,thousand,1222.0,,False,,False,False,False
+355,4190424e-ce6e-4f5c-9175-51afdba156e5,What is the difference between 181-360 and >360 due for all countries?,"2,447-944",1.0,thousand,1503.0,,False,,False,False,False
+356,d21b8fe8-119a-4bd7-ba93-24cb28deb15c,"What was the percentage increase / (decrease) in the selling, general and administrative expenses from 2018 to 2019?",24.9 / 33.5 - 1,8.6,percent,-25.67,percent,False,,False,True,False
+357,3bc9ea91-f346-4cc1-9ca7-10c481be3ac9,What is the average depreciation and amortization expense?,(0.1 + 0.1) / 2,0.1,thousand,0.1,million,False,,True,True,False
+358,ed47e72c-c67c-4c61-abfa-9aefcf4caa89,What is the percentage increase / (decrease) in the loss from operations from 2018 to 2019?,-25.0 / -33.6 - 1,8.6,percent,-0.26,percent,False,,False,True,False
+359,a9fa838a-1b85-47f0-a6f7-716f8bb333a1,What was the percentage change in the net Total other (expense) income between 2017 and 2018?,"(-2,935-1,758)/1,758",2.93,,-266.95,percent,False,,False,True,False
+360,6315382f-6dba-46d9-adc5-08a0ad6efb7a,What was the difference in total expected charges between Transportation Solutions and Industrial Solutions?,160-80,145.0,million,80.0,million,False,,False,False,False
+361,54b11fb5-014a-4042-affa-fe96ea5e5eaa,What was the average amount of total expected charges per segment?,(160+80+49)/3,$144.00,million,96.33,million,False,,False,False,False
+362,26460beb-b3dd-4fb0-9b73-dd204c76dba8,What was the difference between total net receivables and current net receivables?,"27,579 - 23,524 ",5.0,thousand,4055.0,thousand,False,,False,False,False
+363,c2c0704d-355b-45d8-ac15-d315be9f3c57,What is the difference in the gross carrying amount between the current and the total?,"28,320-23,762",5.0,thousand,4558.0,thousand,False,,False,False,False
+364,088b90b2-a788-4339-bc5b-ff03b64883a1,How much was the percentage of current net receivables out of total net receivables?,"23,524 / 27,579 ",0.1,percent,85.3,percent,False,,False,False,False
+365,8414474d-b00d-4231-8973-9c76f29d3e1c,What was the change in the dividend shares awarded in 2019 from 2018?,"4,518-9,778",2.52k,,-5260.0,,False,,False,True,False
+366,017d15d5-93f1-4f9a-b7c3-08cd59292dd6,What was the change in the amount Outstanding at 31 March in 2019 from 2018?,"320,872-690,791",26.0,thousand,-369919.0,,False,,False,True,False
+367,babee4bb-4861-4918-9a8e-dbadec47fe94,What was the percentage change in the amount Outstanding at 31 March in 2019 from 2018?,"(320,872-690,791)/690,791",16.0,percent,-53.55,percent,False,,False,True,False
+368,83cb2a97-d51f-43d8-b3ee-ee59994a1238,What was the percentage change in net bookings between 2018 and 2019?,"($6,388-$7,262)/$7,262",-13.03%,,-12.04,percent,False,,False,True,False
+369,040fbb37-ccac-4854-ad02-539c11a00b6f,What was the percentage change in in-game net bookings between 2018 and 2019?,"($3,366-$4,203)/$4,203",13.33,,-19.91,percent,False,,False,True,False
+370,fd8d07ff-964d-4689-a845-575b95201ca5,What is the increase / (decrease) in the Weighted-average common stock outstanding from 2018 to 2019?,44.8 - 44.3,0.5,,0.5,million,False,,True,True,False
+371,58753c83-a3d7-445d-83bf-57461882a6ca,What is the average unvested restricted stock?,(0.6 + 0.4) / 2,0.6/1000000,million,0.5,million,False,,False,True,False
+372,66e5cc1b-5eea-45d7-acff-5eeef83184e1,What was the average Preferred stock (as-converted basis)?,(2.1 + 4.9) / 2,2.1,billion,3.5,million,False,,False,True,False
+373,2f68d64d-b509-4961-9d86-9a04afb7c35c,What is the company's average goodwill impairment in 2018 and 2019?,"(14,740 + 1,910)/2 ",12.83,thousand,8325.0,thousand,False,,False,True,False
+374,e9ee1e78-8957-4be8-a10e-672ec4fe6dbe,What is the company's total goodwill impairment in 2018 and 2019?,"14,740 + 1,910 ",14440.0,thousand,16650.0,thousand,False,,False,True,False
+375,b4a95b0a-37ee-4d0b-bc03-12bcd8753011,What is the value of the change in goodwill impairment between 2018 and 2019 as a percentage of the 2018 goodwill impairment?,"12,830/14,740 ",12.83,percent,87.04,percent,False,,False,True,False
+376,e93ba03b-59c0-4107-8f4b-ce9da002e06c,"What is the increase/ (decrease) in Salaries, employee benefits and outsourced services from 2018 to 2019?","345,041-317,118",28223.0,thousand,27923.0,thousand,False,,False,False,False
+377,639b5703-5b0a-4089-a94c-29ef5f406a23,What is the increase/ (decrease) in Service delivery costs from 2018 to 2019?,"661,214-615,267",34497.0,thousand,45947.0,thousand,False,,False,False,False
+378,178fa6e6-ea30-4670-88d4-de26aab62fcd,What is the increase/ (decrease) in Customer related costs from 2018 to 2019?,"83,401-68,744 ",6597.0,thousand,14657.0,thousand,False,,False,False,False
+379,90e6adf2-242b-4ffb-916c-96bc3af28b46,What is the average Net deferred tax liabilities for fiscal years 2019 and 2018?,"(74,132+ 62,793)/2",,,68462.5,thousand,False,,False,True,False
+380,0d1598eb-f32e-4b1e-9fbb-349b717126fb,What is the average total deferred tax liabilities for fiscal years 2019 and 2018?,"(150,416+ 90,102)/2",149.0,thousand,120259.0,thousand,False,,False,True,False
+381,26e26667-9c7f-4b7f-9618-a641fdc0ac94,What is the average total deferred tax assets for fiscal years 2019 and 2018?,"(76,284+ 27,309)/2",291.94,thousand,51796.5,thousand,False,,False,True,False
+382,662a1cd9-966c-4ba9-9eb4-5870082bce7d,What was the average cost of revenues between 2017-2019?,(234 + 259 + 282) / 3,142000.0,,258.33,thousand,False,,False,False,False
+383,072bf5fb-0edd-4267-bae7-b57f1c598017,"What was the change in the Selling, general and administrative between 2018 and 2019?",722 - 670,452.0,thousand,52.0,thousand,False,,False,False,False
+384,c5f0987e-eeb3-40cd-af72-085dae874436,What is the average Trade accounts receivable?,"(1,396+1,292) / 2",1140.0,,1344.0,,False,,False,True,False
+385,79f658b0-e8e5-4b83-bdbe-4d4f96261c69,What is the average Allowance for doubtful accounts?,(16+15) / 2,-0.12,percent,15.5,,False,,False,True,False
+386,03613059-6978-437c-ba63-bd30acaf1440,What is the increase/ (decrease) in Trade accounts receivable from 2018 to 2019?,"1,396-1,292",104.0,,104.0,,False,,True,True,True
+387,f329027f-e65a-402c-908e-21f0a0d25fe0,What is the increase / (decrease) in the primary service units  in net additions(losses) from 2018 to 2019?,"16,981 - 20,251",3.97,thousand,-3270.0,,False,,False,True,False
+388,da0d6d2a-67e5-46ea-be1a-68797ec6b8ed,What was the average increase / (decrease) in internet service customers between 2018 and 2019?,"(21,189 + 21,417) / 2",1013.46,percent,21303.0,,False,,False,True,False
+389,9c43de49-fcef-4ced-b07d-55fb6fff5f38,What was the increase / (decrease) in the video service customers from 2018 to 2019?,"-4,697 - (-6,760)",,,2063.0,,False,,False,True,False
+390,438d631c-1dd3-4620-b851-d9ea5cec4ad5,What was the change in the prepaid expenses and other from 2018 to 2019?,"2,578 - 2,083",495 / 1000000.0,million,495.0,million,False,,False,False,False
+391,565fb688-b453-46ce-ba8f-bfe2375a80d8,What was the average of other assets for 2018 and 2019?,"(1,911 + 1,812) / 2",1.51,,1861.5,million,False,,False,False,False
+392,4ece6b8e-230b-475b-8354-b7d281332895,What was the percentage change in the other assets from 2018 to 2019?,"1,911 / 1,812 - 1",0.05,percent,5.46,percent,False,,False,False,False
+393,6a964030-4a22-4fc0-a434-ebde9a551dbf,What is the change between direct energy consumption (MWh) in 2018 and 2019 year end?,"19,144.17-12,852.04",5381.13,million,6292.13,,False,,False,False,False
+394,24cd1ddb-a87d-4fde-9129-770a5fb65657,What is the change between indirect energy consumption (MWh) in 2018 and 2019 year end?,"185,948.09-154,636.44",31961.65,million,31311.65,,False,,False,False,False
+395,cd629cd1-a7ef-4d8c-a40a-a807f4564116,What is the change between running water consumption (MWh) in 2018 and 2019 year end?,"1,283,749.73-973,413.06",111336.67,million,310336.67,,False,,False,False,False
+396,e3121b60-1b2f-4e65-92a2-cf3f02e60b46,What is the increase / (decrease) in the Net cash from operating activities from 2018 to 2019?,"1,869 - 1,845",$313,million,24.0,million,False,,False,True,False
+397,2cbf4301-6904-43a6-9fc0-0aa2869fff4f,What is the average Net cash used in investing activities?,"- (1,172 + 1,212 + 1,468) / 3 ",-0.49,million,-1284.0,million,False,,False,True,False
+398,ceb35697-abdc-4acf-a54f-5b6716749d2b,What is the percentage increase / (decrease) in Free Cash Flow from 2018 to 2019?,497 / 533 - 1,(28.94),percent,-6.75,percent,False,,False,True,False
+399,9f84812f-f352-4bdf-835d-e8d19254149a,What is the nominal difference for the number of fully paid ordinary shares between 2018 and 2019?,"1,313,323,941 - 1,258,690,067 ",5.0,thousand,54633874.0,,False,,False,True,False
+400,9c58a8eb-0bda-45fb-ac55-f13dae2ee285,What is the average contributed equity at end of period for 2018 and 2019 in terms of $M?,"(5,828 + 6,055)/2 ",1.51,,5941.5,million,False,,False,True,False
+401,9a09df98-b30c-4f69-bf52-74532c8fdf9e,What is the nominal difference in contributed equity between 2018 and 2019 in terms of $M ?,"6,055 - 5,828 ",305.0,,227.0,million,False,,False,True,False
+402,176587d4-2707-40ee-9bd5-cd2d75e17980,What is the percentage change in net income between fiscal years 2019 and 2018?,"(53,294-61,431)/61,431",,,-13.25,percent,False,,False,True,False
+403,61c26008-59e3-4d44-b02e-2a473fb54600,What is the percentage change in the cash and cash equivalents from 2018 to 2019?,"(21,956-33,045)/33,045",(10.72,,-33.56,percent,False,,False,False,False
+404,b112827b-5e3d-43d3-a5a2-fb8fc885bd26,What is the percentage change in the trade receivables and contract assets from 2018 to 2019?,"(22,989-28,710)/28,710",5.45,percent,-19.93,percent,False,,False,False,False
+405,a6cc136d-ceb2-49d7-9a0b-fae5b6d0424c,What is the percentage change in the trail commission asset from 2018 to 2019?,"(114,078-102,920)/102,920",7.11,,10.84,percent,False,,False,False,False
+406,add9076b-b167-4ff6-a071-fc94902d728d,What was the change in Distribution in 2019 from 2018?,136.4-131.7,5.7,million,4.7,million,False,,False,False,False
+407,dab0e943-fc62-4e26-95e5-025b98ff9b57,What was the percentage change in Distribution in 2019 from 2018?,(136.4-131.7)/131.7,36.4,percent,3.5700000000000003,percent,False,,False,False,False
+408,6f65d33d-c721-45f9-9519-9ea4f5d7e740,What is the percentage change in Net cash used in investing activities between 2018 and 2019?,"(-97,727-(-20,876))/(-20,876)",-21.71,percent,368.13,percent,False,,False,True,False
+409,bb5be96c-78ed-4453-92cc-d07a3bf0b6ff,What is the percentage change in net cash provided by operating activities between 2017 and 2018?,"($90,253-$67,510)/$67,510",27.55,percent,33.69,percent,False,,False,True,False
+410,058d1fa4-99b9-481d-a815-3c6df09cc031,"What is the percentage change in the net cost of land, property, and equipment in 2019 compared to 2018?","(1,298-1,601)/1,601 ",0.81,percent,-18.93,percent,False,,False,True,False
+411,dba26022-09e9-486b-bc40-e2a9627384ed,"What is the proportion of land and leasehold improvements over the gross cost of land, property, and equipment in 2019?","(672+798)/8,109 ",67.82%,,0.18,,False,,False,True,False
+412,aa016321-4bee-4f8c-a4a9-9abdfeddf9c2,"What is the ratio of the gross cost of land, property, and equipment in fiscal 2019 to fiscal 2018?","8,109/8,381 ",1.299997,thousand,0.97,,False,,False,True,False
+413,bbf04869-c442-4909-a65d-c7bc89b6e726,What is the percentage increase in Swiss income from 2017 to 2018?,"($177,935 - $161,544) / $161,544",23.05,percent,10.15,percent,False,,False,False,False
+414,f46b6e30-d8a2-4d40-b485-b8c0c98d1b5b,What percentage of the total income before taxes does Swiss income form a part of in 2019?,"($212,986 / $271,133)",57.7,percent,78.55,percent,False,,False,False,False
+415,475616e0-6449-444e-8087-f9afc6da36be,"For Balance payable as at June 30, 2019, what is Workforce reduction expressed as a percentage of Facility costs?","1,046/2,949",3.254,percent,35.47,percent,False,,False,True,False
+416,33437a5b-9c80-4961-a8c6-9a31c6458cf8,What is the average percentage of net revenues of OEM?,(70+65+66) / 3,67.0,percent,67.0,percent,False,,True,False,True
+417,a6bc87a3-0335-4914-bdc1-69fc6b941b69,What is the average percentage of net revenues of Distribution?,(30+35+34) / 3,35.0,percent,33.0,percent,False,,False,False,False
+418,6a9b6186-6fea-4846-a230-053903f31e2d,What is the increase/ (decrease) in percentage of net revenues of OEM from 2017 to 2019?,70%-66%,6.0,percent,4.0,percent,False,,False,False,False
+419,b70433bd-7c92-413d-af00-cef3907cafe8,What is the percentage constitution of cash in the total gains on the sale of company-operated restaurants in 2019?,"1,280/1,366 ",1326 / 1051667,percent,93.7,percent,False,,False,True,False
+420,73f75537-695c-431d-a917-18071def0090,What was the change in the leasehold external valuation % from 2018 to 2019?,23 - 60,5.0,percent,-37.0,percent,False,,False,False,False
+421,98b13aba-4ca2-4369-87eb-a960c71b8a2c,What is the average freehold internal valuation for 2018 and 2019?,(62 + 73) / 2,47.5,percent,67.5,percent,False,,False,False,False
+422,eb86d5f5-d1b0-4761-ae4c-417b8775ce5b,What is the change in the number of shares granted between 2018 and 2019?,"253,113 - 200,000 ",,,53113.0,,False,,False,False,False
+423,8c47c1a7-0fea-4501-a9f3-8c2b3b5989b1,What is the average shares vested between 2018 and 2019?,"(82,270 + 323,420)/2 ",290.0,thousand,202845.0,,False,,False,False,False
+424,81bfcf69-2537-4d6b-8795-5dc91dc4e2d1,What is the total provision for income taxes between 2017 to 2019?,"$1,407 + $1,082 + $1,206",1.0,million,3695.0,thousand,False,,False,True,False
+425,13d32108-e758-457b-95a1-73f3bd918975,What is the change in the current provision for income taxes at the state level between 2018 and 2019?,(49-44)/44 ,26.0,thousand,11.36,percent,False,,False,True,False
+426,68107102-0fdc-4e64-850f-8eda6bcc892a,What is the total federal tax expense between 2017 to 2019?,3 + (13) + 26 ,26.0,thousand,16.0,,False,,False,True,False
+427,cbe6cbca-b772-4e12-b0ba-c32a7629d43e,What is the Total change in general and administrative expenses from Fiscal year 2017 to 2019?,"2,682+34,874",,,37556.0,thousand,False,,False,True,False
+428,2581c0dc-1e8d-49b5-90a0-dd8a0f0ecfef,What is the average annual Total change in general and administrative expenses for fiscal year 2017 to 2019? ,"(2,682+34,874)/2",34.876,thousand,18778.0,thousand,False,,False,True,False
+429,fa15cd27-153d-44a0-b315-1fd0e6022714,What is the difference in the increase of Travel and communication expense in fiscal years 2019 and 2018 as compared to 2018 and 2017? ,794-80,794.0,thousand,714.0,thousand,False,,False,True,False
+430,6ba75fbd-3fd8-4756-b583-f696a50e39a7,What is the average net change in cash balance across the 2 years?,(-16-5) / 2,13.1,million,-10.5,million,False,,False,True,False
+431,abe51f5c-86e3-43cd-8e55-fd387d978321,What is the average Cost of sales?,"(5,860+5,803+5,075) / 3",,,5579.33,million,False,,False,True,False
+432,4758b4f3-871c-42e4-a606-284e26845ed1,What is the average Gross profit?,"(3,696+3,861+3,272) / 3",,,3609.67,million,False,,False,True,False
+433,a648d9e3-1fea-40c9-a7e1-37dab9e1f934,What is the average Gross margin (as percentage of net revenues)?,(38.7+40.0+39.2) / 3,39.6,percent,39.3,percent,False,,False,True,False
+434,ac017bd6-9ee5-4d08-b96c-19fc5bb9d1ed,What is the percentage change in gross deferred tax assets in 2019 compared to 2018?,"(38,771-38,721)/38,721",38.77,percent,0.13,percent,False,,False,True,False
+435,08ec32ab-4f3e-4549-876c-f4e668439ad9,"What is the proportion, in percentage, of deferred revenue and accrued warranty over gross deferred tax assets in 2019?","(425+33)/38,771 ",(2.19),percent,1.18,percent,False,,False,True,False
+436,32cbd9ff-637d-4b5f-b10b-92243f2e1a93,What is the ratio of inventory reserves to accrued compensation in 2018?,948/358 ,948/358,thousand,2.65,,False,,False,True,False
+437,24f8613a-5516-4f0e-9839-8f6e31480785,What was the percentage of total financial assets in Euro over the Group total?,115.9/431.9,29.1 / 431.9 * 100,percent,26.83,percent,False,,False,False,False
+438,fb2036af-5359-4b80-975f-3604f1ad67d5,What was the percentage of financial assets on which interest is earned over the total financial assets forEuro?,(115.9-97.9)/115.9,16.6 / 115.9 * 100,percent,15.53,percent,False,,False,False,False
+439,0e22cef8-0342-4085-b5ad-a9ea512a8b3f,What was the average Interest expense?,"(1,344 + 723) / 2",,,1033.5,million,False,,False,True,False
+440,312a9328-b83f-43c6-b652-59547090cd30,What is the increase / (decrease) in Acquisition-related charges from 2018 to 2019? ,-228 - 0,205.0,million,-228.0,million,False,,False,True,False
+441,276f39d7-5428-46cf-b808-7dd9eefab430,What is the increase / (decrease) in the Operating (non-GAAP) interest expense from 2018 to 2019?,"1,116 - 723",$541,million,393.0,million,False,,False,True,False
+442,f027451d-00f0-4ac1-8dd4-941404139f04,What is the value of the company's total financing obligations as a percentage of its total purchase obligations?,"8,868/97,219 ",8.887,percent,9.12,percent,False,,False,False,False
+443,a8306bab-9758-4e8b-be9a-f797a6601422,What is the percentage increase in Total assets after adoption of new standard?,"114/15,824",114 / 1512140,percent,0.72,percent,False,,False,True,False
+444,1f619243-959e-4b47-a656-1d16b03e2ca5,What is the percentage increase in Total stockholders’ equity after adoption of new standard?,"242/5,496",242.0,percent,4.4,percent,False,,False,True,False
+445,78d004fb-a7b1-4ad5-8870-a7e0462e999e,What is the percentage increase in Retained earnings after adoption of new standard?,247/686,247.0,percent,36.01,percent,False,,False,True,False
+446,55a6f613-38bc-4bf6-b53a-bf2ef01c6ed2,What is the company's average revenue from software license between 2018 and 2019?,"(282,950 + 275,792)/2 ",2888.88,thousand,279371.0,thousand,False,,False,True,False
+447,dc1e344f-db11-4415-af80-728cd87e1b6b,What is the company's average revenue from maintenance between 2018 and 2019?,"(239,310 + 254,924)/2 ",,,247117.0,thousand,False,,False,True,False
+448,d3dc2462-fd1b-4871-a0f6-6b4837100c05,What is the company's average revenue from cloud between 2018 and 2019?,"(67,918 + 45,218)/2 ",22.0,,56568.0,thousand,False,,False,True,False
+449,ce61f92d-668f-47cd-9b72-2265209f67a2,What was the average orders for 2019 and 2018?,"(19,975 + 18,451) / 2",19.975,million,19213.0,million,False,,False,False,False
+450,3d8a0eb1-e9be-49e7-855c-cce8b1f2ee03,What is the increase / (decrease) in revenue from 2018 to 2019?,"17,663 - 18,125",1.62,percent,-462.0,million,False,,False,False,False
+451,276ac70b-a4ae-4163-bf39-bdb6ed29a4be,What is the increase / (decrease) in the Adjusted EBITDA margin from 2018 to 2019?,3.8% - 4.0%,0.2,percent,-0.2,percent,False,,False,False,False
+452,5512e4f4-6808-464d-884d-95db34563593,What was the average interest income for 2018 and 2019?,"(2,515 + 1,310) / 2",1.0,,1912.5,thousand,False,,False,True,False
+453,5de0027a-4080-4423-8987-a11e2a2fc793,What was the average interest expense for 2018 and 2019?,"-(5,940 + 598) / 2",,,-3269.0,thousand,False,,False,True,False
+454,311dc93c-93b4-49a5-ba50-5d97cc16e4fa,What is the average investment income between 2018 and 2019? ,(433+685)/2,616.0,,559.0,million,False,,False,True,False
+455,9c364cfe-84e4-479d-b3ca-dab2b412e8c4,What is the average financing costs between 2018 and 2019?,"[(-2,088) + (-1,074)]/2",€1.07m,million,-1581.0,million,False,,False,True,False
+456,10e936a6-8d76-4bbe-b058-86f12091b447,What is the difference between the average investment income and average financing costs?,"[(433+685)/2] - [(-2,088) + (-1,074)]/2",(309),,2140.0,million,False,,False,True,False
+457,f9c8ce19-71ce-48aa-b3f3-9414d7112a4b,What is the change in Total Fees from 2018 to 2019?," $17,912,003 - $17,439,340 ",493673.0,,472663.0,,False,,False,False,False
+458,e6655bf9-a024-476a-b3dc-4aaf6ae67ba0,What is the percentage change in audit-related fees in 2019?,"($153,203-$106,528)/$106,528",19.38,percent,43.81,percent,False,,False,False,False
+459,86f8addb-85de-4f61-86d5-da4b6eca413a,What is the percentage change of  Total Revenue from 2018 to 2019?," ($3,037,000 - $22,106,000 )/ $22,106,000 ",8.0,percent,-86.26,percent,False,,False,False,False
+460,8b3a0a0b-cbef-40a4-81f4-0d55a2e65b85,What is the  Royalty Bearing Licenses for 2019 expressed as a percentage of  Total Revenue for 2019?," 2,907,000/3,037,000",35.0,percent,95.72,percent,False,,False,False,False
+461,6c4b20ff-34f4-4d53-aa16-de4fecd30f3e,What was the total USD denominated monetary assets as at 31 December 2019?,"27,728+373",,,28101.0,million,False,,False,True,False
+462,aab66af5-afb9-4f2f-b45b-68f16542760b,What was the total non-USD denominated monetary liabilities as at 31 December 2019?,"14,732+5,739",-12.0,,20471.0,million,False,,False,True,False
+463,60b10a63-4d7d-4ef8-9400-f0d8a6ee3ffe,What was the total USD denominated monetary assets as at 31 December 2018?,"18,041+2,642",13224.0,million,20683.0,million,False,,False,True,False
+464,ba16499f-3c96-4faa-81b0-874f9ace7c8c,What was the change in the basic net income per share between 2017 and 2018?,0.43-1.75,0.85,thousand,-1.32,,False,,False,False,False
+465,9d2aa4d9-194f-417a-9ed7-95cf4f5c95cd,"What is the change in accumulated depreciation for PPE between December 31, 2018 and 2019?","(2,964.6 - 2,755.1)/2,755.1 ",400.5,,7.6,percent,False,,False,True,False
+466,25fc46b8-4381-4d77-9c83-b69bcda8e189,What is the total network equiption between 2018 to 2019?,"4,044.6+3,913.3",1743.3,million,7957.9,million,False,,False,True,False
+467,14120019-ba0a-483f-9046-2f2d4118761c,How much is the change in additions of financial assets from 2018 to 2019?,"39,116-51,185",34.0,million,-12069.0,million,False,,False,True,False
+468,71162a9c-f1b1-42fa-a137-c79fa19030ae,What is the 2019 financial assets closing balance expressed as a percentage of 2018 financial assets closing balance?,"123,093/83,934",123093 / 83934 * 100,,146.65,percent,False,,False,True,False
+469,bb6966e0-61e6-44c6-87ad-69f952453829,How much is the change between 2018 and 2019 currency translation differences of financial assets?,"1,740-4,946",2.74,million,-3206.0,million,False,,False,True,False
+470,64d8c7e4-99d6-4d2e-ac39-dbee2a0dbc85,What is the sum of finance leases from 2020 to 2024?,47+28+22+22+21,$220,,140.0,million,False,,False,True,False
+471,edfd8e56-88a7-402a-bd78-b867bf509fa8,What is the percentage change in the amount of operating leases in 2021 from 2020?,(361-460)/460,145.0,percent,-21.52,percent,False,,False,True,False
+472,16f3274f-d35e-459a-9216-4d83b725f9b6,How much is the change between 2018 to 2019 carrying amount of the interest rate swaps?,"-494-1,663",,,-2157.0,million,False,,False,True,False
+473,c9b0fa1e-6fe7-403e-b0f1-9367e6485fcf,How much is the change between 2018 and 2019 notional amount of the interest rate swaps?,"29,423-77,630",44607.0,million,-48207.0,million,False,,False,True,False
+474,8cb754f8-8411-4846-b6f8-8e2467ce08f3,How many percent did the weighted average hedged rate for the year change by from 2018 to 2019?,2.10-1.60,20.4,percent,0.5,percent,False,,False,True,False
+475,12a99674-3d7b-43b8-acce-98a83bd7c70e,"What is the percentage change of revenue from Hong Kong from 2017 to 2018, based on the geographic location of the customer’s headquarters?","(1,761-1,429)/1,429 ",0.91,percent,23.23,percent,False,,False,False,False
+476,f1a33e83-3a96-410a-8878-5e1fd1773a6d,"What is the total percentage of revenue from Taiwan and Japan over total revenue in 2019, based on the geographic location of the customer's headquarters?","(2,703+958)/23,406 ",11.13,percent,15.64,percent,False,,False,False,False
+477,eccadabb-b970-47f6-8537-27907d2408c6,What is the total earnings in 2019?,"0.34*13,442,871",4466156.0,million,4570576.14,,False,,False,False,False
+478,803799b7-519c-4ca2-8e72-a76fe69b2e6a,What is the total goodwill acquired in the Network Software & Systems segment from 2018 to 2019?,"33.1+1,303.6 ",1460.0,,1336.7,,False,,False,True,False
+479,4c5a0a4f-9e3f-434f-831b-530327547a01,"What is the proportion of balances in the Application Software and Process Technologies segments over total balances in all segments at December 31, 2018?","(5,236.1+312.3)/9,346.8 ",0.0585,percent,0.59,,False,,False,True,False
+480,890e40b2-3009-449f-b806-49d0a4fa82cd,What is the percentage change in the total balance of goodwill of the Network Software & Systems segment in 2019 compared to 2018?,"(3,933.5-2,623.7)/2,623.7 ",11.2,percent,49.92,percent,False,,False,True,False
+481,ca7623cd-811b-4b33-8e3d-b78b0ec1f58e,What is the average annual GAAP-based Professional Service and Other Gross Margin %?,(21.2+19.9+17.2)/3,17.4,percent,19.43,percent,False,,False,True,False
+482,b56cfe42-d808-4b3e-8f81-83acafb052f4,What is the average annual GAAP-based Professional Service and Other Gross Profit? ,"(60,301+62,868+40,362)/3",58.38,thousand,54510.33,thousand,False,,False,True,False
+483,feb46963-3b1f-4eaa-8325-74044812e35b,What is the percentage increase of GAAP-based Professional Service and Other Gross Profit of fiscal year 2017 to 2019?,"(60,301-40,362)/40,362",(7.18),percent,49.4,percent,False,,False,True,False
+484,6ce427fa-d1ff-481d-b6ba-7950d43e7c22,What is the proportion of long-term debt payments due in 5 years or below? ,"(2,747.6+2,287.0)/10,556.6 ",5.0,million,0.48,,False,,False,False,False
+485,ff90c9d7-de34-46da-a7b2-c7c2747fab0a,What is the ratio (in percentage) of total notes payable to total capital lease obligations?,1.0/165.4 ,1.0,percent,0.6000000000000001,percent,False,,False,False,False
+486,7e8041b3-4b8c-4e47-8c83-af0b9a6fdb4c,What was the increase / (decrease) in the FCC licenses from 2018 to 2019?,136.2 - 120.6,16.6,thousand,15.6,million,False,,False,False,False
+487,65581c66-9e18-4e1b-979a-dcd2a873d998,What was the average State licenses?,(2.5 + 2.5) / 2,2.5,,2.5,million,False,,True,False,False
+488,82c155de-a907-4b3f-b89f-1984bd97ddc5,What is the percentage increase / (decrease) in the total from 2018 to 2019?,138.7 / 123.1 - 1,16.4,percent,12.67,percent,False,,False,False,False
+489,5b48fea5-61de-401b-aea9-b2b90b7a0eeb,"What is the percentage of non-vested shares granted in 2019 as a percentage of the total non-vested shares at December 31, 2019?","473,550/1,283,281 ",21.47 %,percent,36.9,percent,False,,False,True,False
+490,8a7ef462-5a25-48c9-8a49-3fb543a73785,"What is the percentage of non-vested shares vested in 2019 as a percentage of the total non-vested shares at December 31, 2019?","365,223/1,283,281 ",21.64,percent,28.46,percent,False,,False,True,False
+491,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,"What is the percentage of non-vested shares forfeited in 2019 as a percentage of the total non-vested shares at December 31, 2019?","12,632/1,283,281 ",13.2 / 1283281 * 100,,0.98,percent,False,,False,True,False
+492,c8ed0bf6-60c5-41e2-97e3-5ece54a1349b,What is the change in total personnel expenses from 2018 to 2019?," 227,727 - 188,503 ",39424.0,thousand,39224.0,,False,,False,False,False
+493,4cdc8b2e-e3ea-4c36-bbda-7c409a84cc78,What is the percentage change in total personnel expenses from 2018 to 2019?," (227,727 - 188,503 )/188,503",39.92,percent,20.81,percent,False,,False,False,False
+494,ec696158-f93d-4608-903d-a6b9c4e7bfd5,What is the increase / (decrease) in the telecommunication maintenance from 2018 to 2019?,86.8 - 87.0,-0.2,thousand,-0.2,million,False,,True,False,False
+495,27911d6f-dfe5-487b-bc56-7e5cf16a32e0,What is the average telecommunications installation?,(33.2 + 41.5) / 2,41.5 + 33.2)/2,thousand,37.35,million,False,,False,False,False
+496,3b8e873e-64d5-4af0-904f-7197dc632773,What is the average Total Marine Services segment revenue?,(172.5 + 194.3) / 2,$172.5,,183.4,million,False,,False,False,False
