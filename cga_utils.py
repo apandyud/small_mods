@@ -119,7 +119,7 @@ def get_answer_with_trace(llm, messages, table, q):
     all_needed_values_selected  =  set(needed_values).issubset(set(selected_values))
     return (v, s, {"value_list" : trace['value_list'] , "code": trace['code'], "selected_values": selected_values, "needed_values": needed_values, "selection_success": all_needed_values_selected })
 
-def execute(llm, messages):
+def execute_datset_predictions(llm, messages):
     devdf = pd.read_json('dataset_raw/tatqa_dataset_dev.json')
     cnt = 0
     res = []
