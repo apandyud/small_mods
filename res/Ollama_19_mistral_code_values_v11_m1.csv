@@ -31,7 +31,7 @@
 29,bd2d81eb-46fc-4e62-908d-aebfccf46246,What were the total Liabilities and Stockholders' Equity as reported?,"(24,264+38,476)",,,62740.0,thousand,False,False,False,True,False
 30,010df393-a62e-408d-888a-045a4e435e6a,What is the difference in amount between Deferred Revenue and Other non-current liabilities as reported?,"(38,476-24,264)",-14212.0,,14212.0,thousand,False,True,False,True,False
 31,58adf6c4-41ae-4f3f-84cb-cf3469a80ce4,What was the percentage change in Total Other operating expenses between 2018 and 2019?,($166.3-$513.3)/$513.3,-27.27272727272728,percent,-67.6,percent,False,False,False,False,False
-32,79f06004-f4fc-4e82-a9fe-3c389a2f81b6,What was the change in the statutory federal income tax rate from 2018 to 2019?,21.0% - 21.0%,0.0,percent,0.0,percent,False,True,True,True,False
+32,79f06004-f4fc-4e82-a9fe-3c389a2f81b6,What was the change in the statutory federal income tax rate from 2018 to 2019?,21.0% - 21.0%,0.0,percent,0.0,percent,False,True,True,True,True
 33,a360cee9-ce60-4f29-988d-8c6c627bb51f,"What was the average State and local income tax rate, net of federal tax benefits between 2017-2019?",(3.7 + 3.7 + 1.6) / 3,3.0,,3.0,percent,False,False,True,True,False
 34,5c8c999e-354f-4693-9b2d-29e3c03cb2af,What was the change in the preferred stock disposition from 2018 to 2019?,-9.9 - 0,,,-9.9,percent,False,False,False,True,False
 35,6cc73a99-0323-40d5-9d92-b285579b3482,What was the percentage change in gross profit between 2018 and 2019?,"(315,652-365,607)/365,607",-46.92,percent,-13.66,percent,False,False,False,False,False
@@ -224,7 +224,7 @@
 222,fe5839ad-4387-4abb-ae4b-9e61feacd97a,What was the sum of all Tax credit carryforwards?,"$39,784+$3,313+$15,345",,,58442.0,thousand,False,False,False,False,False
 223,a1fb1d57-243c-49e0-84ee-43d969cd41b0,What was the domestic-state tax credit carryforwards as a ratio of domestic-federal tax credit carryforwards?,"$3,313/$39,784",8.790576701845646,,0.08,percent,False,False,False,False,False
 224,54dd0e9e-c525-4bea-8bd7-b292e9dd9be3,What is the percentage change in the net investment in finance lease from 2018 to 2019?,(0.8-1.2)/1.2,-28.571428571428566,percent,-33.33,percent,False,False,False,False,False
-225,ab7c4466-0cd7-4f3b-8d2a-73bb9abf0053,What is the percentage change in the amounts owed by members of Peel from 2018 to 2019?,(0.3-0.3)/0.3,0.0,percent,0.0,percent,False,True,True,False,False
+225,ab7c4466-0cd7-4f3b-8d2a-73bb9abf0053,What is the percentage change in the amounts owed by members of Peel from 2018 to 2019?,(0.3-0.3)/0.3,0.0,percent,0.0,percent,False,True,True,False,True
 226,8c6bc2ca-b758-49f8-82e3-c1ede110102b,What is the percentage change in the amounts owed to members of Peel from 2018 to 2019?,(0.1-0.1)/0.1,,,0.0,percent,True,False,False,False,False
 227,b5ede057-3e98-4851-a1e1-1774c52cd908,What is the average salaries and fees between 2018 and 2019?,(4+4)/2,,,4.0,million,False,False,False,False,False
 228,7639efef-c768-4631-95b5-382a0fde501d,What is the average incentive schemes between 2018 and 2019?,(2+3)/2,2.5,million,2.5,million,False,False,True,False,True
