@@ -1,0 +1,809 @@
+,qid,problem,summary,pattern
+0,a0414f81-8dc2-44b2-a441-2c9d9c805c4d,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",summing instead of averaging,
+1,bf7abd62-d9cd-48d2-8826-1457684019a3,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Divide sum by count.,
+2,4d259081-6da6-44bd-8830-e4de0031744c,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",average computation.,
+3,dc5e217a-a7b3-4fc9-ac0f-13d328f26b20,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",average both years for calculation.,
+4,7cd3aedf-1291-4fea-bc9d-a25c65727b7b,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",calculate average of 2017 and 2018.,
+5,22e20f25-669a-46b9-8779-2768ba391955,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",use both years for average.,
+6,a983501d-2eec-486d-9661-e520c7c8af5e,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",average difference computation.,
+7,ef274d2b-fbd6-4e9f-95f9-79b37827d91c,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",expenses calculation.,
+8,191c3926-7356-4ab8-a8f9-41e7b7c8a492,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Summarize the error in data extraction.,
+9,bd2d81eb-46fc-4e62-908d-aebfccf46246,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",line identification error.,
+10,010df393-a62e-408d-888a-045a4e435e6a,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch error.,
+11,58adf6c4-41ae-4f3f-84cb-cf3469a80ce4,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Set scale to percent.,
+12,a360cee9-ce60-4f29-988d-8c6c627bb51f,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale_mismatch,
+13,5c8c999e-354f-4693-9b2d-29e3c03cb2af,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch.,
+14,a1912c87-d68c-42ea-b0da-98908097d227,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",use actual cash change.,
+15,692ea65a-9a60-4210-bd75-d34231e2e113,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use correct headers for tax expense.,
+16,7cba7400-af25-4f71-a49d-35d5eec31458,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use correct tax expense term.,
+17,94ef7822-a201-493e-b557-a640f4ea4d83,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",average tax calculation.,
+18,bfce0375-cbd0-4e25-9b82-0424058918f1,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale inconsistency.,
+19,ef9d4839-5277-4614-bb73-f902fd8a38b6,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Apply correct scale to average.,
+20,fec503e8-6f91-483e-856d-bb1278bd031f,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch.,
+21,a3e21403-222e-4328-8f7d-9383d2d91fe9,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",year filtering error.,
+22,3b5bb347-41c7-499a-b044-87b9a04b0833,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Set scale to percent.,
+23,59f13f19-4494-4c54-8e9a-1b499d50021a,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Multiply by correct category.,
+24,b382a11b-749b-425a-a77d-20e943e00f77,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use 2017 shares in numerator.,
+25,741f8b2e-9312-4426-893d-69b99fab247b,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use correct price extraction.,
+26,8a21f821-eaf6-421a-8c67-795e7e2d1f61,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",incorrect_scale error.,
+27,07ec204e-3922-4b5c-b1fd-9cb9311a53e5,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Apply correct scale to result.,
+28,f1034ee7-b182-48d5-bad8-1d9902500f57,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch error.,
+29,cc053817-3496-48b3-9bfc-83e9ba71bb57,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Apply correct scale to result.,
+30,f12806ca-aa4c-4fe6-84fc-10cefca76a9e,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Check 'CHANGE' in correct field.,
+31,eb50d3aa-16da-4087-9ab2-10106ebd10e7,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Missing 2021-2022 in average.,
+32,0f45cc67-fd57-4930-a0d0-f5d7174d7562,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use 'percent' instead of 'thousand'.,
+33,a30ab3a2-f930-4bf4-9b52-35c9c504d992,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use 'percent' for scale.,
+34,9963bd65-093e-4801-8050-d2524ff06e7f,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Account for category in sum.,
+35,9750180c-588d-4ba3-bc94-297d64b50e44,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale conversion missing.,
+36,b11567d3-d651-40d8-9b9e-bc71eb37d7f9,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use 'scale_mismatch' for error.,
+37,182dd9ea-dd5f-4ea0-bc30-bb42ef1f801c,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use 2019 for total.,
+38,f6cb9974-2af7-43b3-9e1c-8cd5439dff67,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",2018 amortized cost.,
+39,f6ccfc15-3970-467d-b83e-e2ce0ff365e3,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",use correct formula for expenses.,
+40,163f08ab-cfae-426a-9c03-4f84feba3bb6,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use both years for calculation.,
+41,e81574d8-f9e8-48b3-85ab-a7ed36f8cbb0,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",total category years.,
+42,426e47ae-aff7-43e2-81be-0bb951b0def1,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",total category years.,
+43,88795fae-3c5b-48d4-ae2d-57fe04b15c31,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch.,
+44,ed9e3e80-6941-4888-9e40-bbd1cb092485,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Scale values for average calculation.,
+45,e3041bef-c305-431f-b165-54cb8bca77fb,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",inventory category years.,
+46,95d916dc-67ce-4af0-8a84-574dce094c84,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Handle negative values in percentage change.,
+47,81cab6e1-acb6-4c1e-a5f7-ae283cbd1b53,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use 2017 and 2019 for subtraction.,
+48,a4be9eab-ad03-4d67-9136-62d7cbe40e1e,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use 2017 and 2019 for difference.,
+49,0b7463b3-ed9e-47a0-b838-b26e0ab886eb,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",use correct values for subtraction.,
+50,fd59c14d-0312-4725-92d8-5c30cd5c5c7a,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",subtract 2018 from 2019,
+51,f96cce90-9703-4b6b-9ea4-1a650ac8765a,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",impact calculation.,
+52,127264c3-16b9-4324-aff1-722420c93b5d,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")","data mismatch, use INR rate.",
+53,9f7000b0-e7b7-48b2-bcc6-8f77209894f2,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch.,
+54,6514b16b-bdc1-4fa7-8e3a-3ec766713975,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch.,
+55,a1631baf-106c-4867-8173-6ff98f4ec421,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use scale instead of nan.,
+56,bd8bb8d3-c7e9-4a7f-be23-97b27a29f74e,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch error.,
+57,81c99a9e-786b-4ab6-94ed-e3149d697347,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use 'Revised Preliminary' for base.,
+58,9332c840-68f6-43e1-a06c-902dae3fef81,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale for total equity.,
+59,e151e953-f5ab-4041-8e6f-7aec08ed5a60,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Set scale for ratio calculation.,
+60,398246d7-5500-4560-8a8f-220a782b05e5,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Set scale to percent for percentage_change.,
+61,0b835494-2c10-4f6b-b54a-60aa73ebdabe,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use percentage scale for calculation.,
+62,bfb033dc-19dc-41cc-9253-aa7e03b61a62,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",handle missing values properly.,
+63,3258cedc-30b4-4048-bf67-9aa0b487e1b3,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",filtering for 2019 and 2018.,
+64,4cee3e03-ed30-4e2c-8718-e65ad795d4e8,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use correct fiscal years in headers.,
+65,3502f875-f816-4a00-986c-fef9b08c0f96,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",COGS calculation.,
+66,0cca40eb-3b7e-4ea2-83b0-c6be83190b12,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use correct formula for percentage.,
+67,d06a5ade-d848-4325-a2a5-8f5ef427d246,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",use nan as scale .,
+68,8c882f0d-684c-430e-8194-997c565a7258,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale handling error.,
+69,9a11777d-c146-4a13-aaa0-7676223a7849,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Apply scale to result.,
+70,f49252e2-158b-4a79-ac56-d21ea67082a8,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch.,
+71,a58cbfcf-2568-4bd6-ae26-b64656f22dcf,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Set scale to percent for percentage change.,
+72,c91ad938-6ad1-4481-8f6b-43ccd2f69926,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use 'F18' for 52 weeks.,
+73,d8637395-dbdb-4d49-a48b-ef14e97ebce5,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")","Scale mismatch, use 'thousand'",
+74,bdcabe8e-6738-47d3-8412-40e5e9a359d0,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale_mismatch .,
+75,c1529a4c-f974-466d-b9e5-356cb9a7c928,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")","Scale not handled, use 'thousand'",
+76,aa4b7a98-1ec7-4bd8-a258-e928e92c9f75,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",data extraction method.,
+77,805a22a0-bc6b-42e1-98a3-9f665b8b4eec,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",use 'Percent' for scale.,
+78,d9eba295-6903-457d-924d-663e41d20b46,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale inconsistency.,
+79,dd31fc40-d055-4356-bcfc-c7348842bf3c,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch.,
+80,ca5ace26-609f-4199-b5a0-68ccf25ba98e,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Include tax credit carryforwards in sum.,
+81,fe5839ad-4387-4abb-ae4b-9e61feacd97a,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Check header type before inclusion.,
+82,a1fb1d57-243c-49e0-84ee-43d969cd41b0,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use correct scale and ratio.,
+83,8c6bc2ca-b758-49f8-82e3-c1ede110102b,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Initialize current and previous.,
+84,af4ea6d6-4672-4ddb-8348-047ced2b5572,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use 'Total asset value' category.,
+85,524463b6-b8d7-410d-926a-699f7b7cdd99,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Subtract years in reverse order.,
+86,4990b27f-a8a6-4683-82f8-c1cf657ba9c1,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch.,
+87,0f6a8eaa-3e1e-4c91-b175-22bcef454b35,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use scale for result.,
+88,078e34fa-b33a-43fe-afd3-d39b4cbd6a6b,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Subtract 2019 from 2018.,
+89,37a06d19-6aec-40a6-862a-fa7629b64208,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use scale for percentage.,
+90,df12359b-c35a-4c26-bfbf-a8c05f063be9,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use actual revenue values.,
+91,beabd8a7-9ed5-4121-8415-6198bb1d642f,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Summarize the  for the calculation error.,
+92,0f59d1f7-562f-4f9a-a0ff-1abba61accbe,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Set scale to 'percent' for percentage_change.,
+93,4082086c-6f47-40b1-8ac1-757d437a502d,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use percentage for change.,
+94,0339e2bb-4a63-4f23-aaea-b9fa3cb29737,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Assume 'Land and' in all headers.,
+95,258df1b4-3db1-4616-ae6b-c46a98b88dcf,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",subtraction_order_error,
+96,22ea63c7-2e41-48d8-8133-1fd9acebbb5b,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",division by zero.,
+97,359f9c4c-b405-40e5-88b5-86bfa0069b89,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",use 2017 as base.,
+98,e02b2c21-3972-41cc-b391-5478da7df9d8,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale conversion error.,
+99,24395900-adc1-4c9d-8ce9-bd21c5a54808,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")","Set scale to ""percent"".",
+100,d1e84439-5663-4c28-9d59-3854a0104409,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")","wrong formula, correct scale.",
+101,6befb6ea-a586-43d2-80bd-14f0721dd6f1,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Set scale to percent.,
+102,c52dc053-375e-4b4d-b4ce-757bb39fa256,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch.,
+103,9df4e7cf-9a10-40e2-b52e-9278948fce53,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use both years for scale.,
+104,5a09d607-3502-4451-9d1a-a222dfc32968,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",average values error.,
+105,f9898b19-f84e-4cd8-9cd2-330767f39a38,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",average with 2017 and 2019.,
+106,f140a65f-c408-45fc-8c60-e98e13530452,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",'Forfeited' category.,
+107,6ba4045d-4222-4da0-a126-94b267a707ec,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Handle scale properly.,
+108,070a9fb1-6d17-40ba-b34e-82d0fe14037b,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale computation.,
+109,9fce8f25-dd3b-4c50-9b7b-d200ced15ded,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")","Set scale to ""percent"".",
+110,54fec8b2-3105-45fc-aa90-fd07cdd582ae,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",average age calculation.,
+111,06dfc869-b3e2-446e-9b9a-1b2374c63c04,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Set scale to percent.,
+112,521b36fd-2b60-466b-b420-fbf776531e37,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Set scale to 'thousand'.,
+113,9238f11f-18d1-416b-ad2d-2692229c8d3a,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Exclude summary category from sum.,
+114,1427bbad-0def-4340-a537-4713dad96ea7,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",negative sign in calculation.,
+115,0a9b94be-b354-46e2-a448-e68b5f9f5e92,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",incorrect_scale error.,
+116,073c6499-cf72-47f2-8874-7dfc67f1e251,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch error.,
+117,bf683a17-9353-4784-94b3-8cf2a677b1f4,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch.,
+118,4875e520-3ead-44f2-aefc-d1a9d087419d,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch.,
+119,6fbcd1ee-5060-442b-a2d2-8d62ac822942,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale conversion error.,
+120,eca3afa3-cd52-44ed-9e62-2003038a0926,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")","Calculate total, not average.",
+121,190316bd-8f09-4e44-9648-e83d0bab44fb,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch.,
+122,5f289981-f13d-4160-8879-c81dc0b7381e,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch.,
+123,4b1ab745-9b93-495b-9c45-ede4e32b7657,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",level 2 input calculation.,
+124,77b14f34-b206-4b50-babb-aa9ee379410a,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Missing Senior Notes entries.,
+125,5c487c82-e20a-4c76-9f52-7831ab15075e,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Set scale to percent.,
+126,56327885-98fe-40db-93f8-f762b1bf5d20,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Apply correct scale to result.,
+127,90f6b6b5-3d82-459d-b9b7-d86dae985655,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch.,
+128,ecf25a96-a643-4bed-a0bb-c6eaf4999269,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",exclusion of empty categories.,
+129,c07a4e8f-96eb-4b0d-b668-f7d6e64ed707,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use 2018 value for average.,
+130,ab50c5ce-cf88-45c7-acc8-2b73faa97d99,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale_mismatch .,
+131,91f1515f-4771-403c-ba45-309079ea2723,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",data retrieval error.,
+132,6a94f765-2c5a-4486-ba06-0057636740e0,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Calculate actual income instead of percentage difference.,
+133,643cfcef-6d2c-4df7-b538-3588e28b58e1,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",use negative values for average.,
+134,c45b4b2a-bfb7-4b05-af7c-2c0d31dbe7dd,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",subtraction order.,
+135,d21b8fe8-119a-4bd7-ba93-24cb28deb15c,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Calculate percentage change.,
+136,3bc9ea91-f346-4cc1-9ca7-10c481be3ac9,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale handling error.,
+137,ed47e72c-c67c-4c61-abfa-9aefcf4caa89,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Calculate percentage change.,
+138,a9fa838a-1b85-47f0-a6f7-716f8bb333a1,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch.,
+139,54b11fb5-014a-4042-affa-fe96ea5e5eaa,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")","wrong segment count,  by adding one.",
+140,babee4bb-4861-4918-9a8e-dbadec47fe94,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Apply correct scale to result.,
+141,83cb2a97-d51f-43d8-b3ee-ee59994a1238,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch error.,
+142,040fbb37-ccac-4854-ad02-539c11a00b6f,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Set scale to percent.,
+143,fd8d07ff-964d-4689-a845-575b95201ca5,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale identification error.,
+144,58753c83-a3d7-445d-83bf-57461882a6ca,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Set scale to 'million'.,
+145,b4a95b0a-37ee-4d0b-bc03-12bcd8753011,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Apply scale to percentage change.,
+146,79f658b0-e8e5-4b83-bdbe-4d4f96261c69,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",use average without absolute values.,
+147,da0d6d2a-67e5-46ea-be1a-68797ec6b8ed,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Divide by 2 for correct average.,
+148,9f84812f-f352-4bdf-835d-e8d19254149a,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use 'number_value' for calculation.,
+149,9c58a8eb-0bda-45fb-ac55-f13dae2ee285,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",use correct scale for calculation.,
+150,9a09df98-b30c-4f69-bf52-74532c8fdf9e,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch.,
+151,176587d4-2707-40ee-9bd5-cd2d75e17980,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Apply correct scale to result.,
+152,bb5be96c-78ed-4453-92cc-d07a3bf0b6ff,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale to 'percent',
+153,058d1fa4-99b9-481d-a815-3c6df09cc031,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Convert scale to percent.,
+154,dba26022-09e9-486b-bc40-e2a9627384ed,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale calculation error.,
+155,aa016321-4bee-4f8c-a4a9-9abdfeddf9c2,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use scale for ratio calculation.,
+156,bbf04869-c442-4909-a65d-c7bc89b6e726,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use correct scale for percent.,
+157,475616e0-6449-444e-8087-f9afc6da36be,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",set scale to percent,
+158,a6bc87a3-0335-4914-bdc1-69fc6b941b69,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Set scale to '%'.,
+159,b70433bd-7c92-413d-af00-cef3907cafe8,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use correct category for cash.,
+160,eb86d5f5-d1b0-4761-ae4c-417b8775ce5b,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",category identification.,
+161,81bfcf69-2537-4d6b-8795-5dc91dc4e2d1,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",category and year mapping.,
+162,13d32108-e758-457b-95a1-73f3bd918975,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Calculate percentage change instead.,
+163,68107102-0fdc-4e64-850f-8eda6bcc892a,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",use correct value for 2017.,
+164,abe51f5c-86e3-43cd-8e55-fd387d978321,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",return scale as million,
+165,4758b4f3-871c-42e4-a606-284e26845ed1,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",return 'million' for scale.,
+166,a648d9e3-1fea-40c9-a7e1-37dab9e1f934,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",use correct scale for calculation.,
+167,08ec32ab-4f3e-4549-876c-f4e668439ad9,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch error.,
+168,32cbd9ff-637d-4b5f-b10b-92243f2e1a93,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",scale mismatch.,
+169,312a9328-b83f-43c6-b652-59547090cd30,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",assume 2018 value is non-zero.,
+170,276f39d7-5428-46cf-b808-7dd9eefab430,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use header4 for year.,
+171,1f619243-959e-4b47-a656-1d16b03e2ca5,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",use 'percent' instead of 'million',
+172,9c364cfe-84e4-479d-b3ca-dab2b412e8c4,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",filtering for 2018 and 2019.,
+173,10e936a6-8d76-4bbe-b058-86f12091b447,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Exclude 'Net financing costs' from aggregation.,
+174,aab66af5-afb9-4f2f-b45b-68f16542760b,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",ignore header3 field.,
+175,ba16499f-3c96-4faa-81b0-874f9ace7c8c,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",incorrect scale handling.,
+176,9d2aa4d9-194f-417a-9ed7-95cf4f5c95cd,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use absolute difference for percentage.,
+177,edfd8e56-88a7-402a-bd78-b867bf509fa8,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Use scale_mismatch .,
+178,8cb754f8-8411-4846-b6f8-8e2467ce08f3,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",未转百分比导致计算错误。,
+179,12a99674-3d7b-43b8-acce-98a83bd7c70e,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Set scale to percent.,
+180,f1a33e83-3a96-410a-8878-5e1fd1773a6d,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",incorrect total revenue.,
+181,eccadabb-b970-47f6-8537-27907d2408c6,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",value extraction error.,
+182,890e40b2-3009-449f-b806-49d0a4fa82cd,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",category or header error.,
+183,6ce427fa-d1ff-481d-b6ba-7950d43e7c22,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",use 'nan' for scale.,
+184,5b48fea5-61de-401b-aea9-b2b90b7a0eeb,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",use correct variable for numerator.,
+185,8a7ef462-5a25-48c9-8a49-3fb543a73785,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",division by zero.,
+186,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,"(problem, problem_type) = (""The code does not account for the fact that the total non-vested shares at December 31, 2019, should include both the non-vested shares and the forfeited shares, but the code uses the non-vested shares value directly as the total"", ""incorrect_calculation"")",Include forfeited shares in total.,
+187,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"The code implements a calculation pattern that **averages values** from a list of items where certain conditions are met.
+
+### Breakdown of the code:
+
+- It iterates over a list of `value_list` items.
+- For each item, it checks if:
+  - `item['category']` is `'Defined contribution schemes'`
+  - `item['header1']` is `'2019 € million'`
+- If both conditions are true, it adds the `item['number_value']` to a `total` and increments a `count`.
+- Finally, it returns the **average** of the `total` divided by `count`, along with the string `'million'` (or an empty string if `count` is 0).
+
+### Pattern:
+The code calculates the **average of selected values** from a list, where the selection is based on two conditions.
+
+### Pattern representation:
+**(#+#)/#**"
+188,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"The code implements a calculation pattern that **averages values** from a specific subset of a list. The pattern is:
+
+**(#+#)/#**
+
+### Explanation:
+- `#` represents a **value** from the `value_list`.
+- The code **adds** values (`total += ...`) where the item's category is `'Defined benefit schemes'` and the header is `'2019 € million'`.
+- It then **divides** the total by the count of such items to compute the **average**.
+- The result is returned as a tuple with the average and the unit `'million'` (or `(0.0, '')` if no items match).
+
+### So, the pattern is:
+**`(#+#)/#`**"
+189,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"The code implements a calculation pattern that **subtracts two values** and returns the result rounded to two decimal places, with a scale of ""million"".
+
+### Pattern:
+**#-#**
+
+### Explanation:
+- `defined_contribution_2019` and `defined_benefit_2019` are two values (likely in euros million) that are **subtracted**.
+- The result is **rounded to two decimal places**.
+- The output is returned as a tuple with the rounded number and the scale (""million"").
+
+So, the pattern is: **#-#**."
+190,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"The code provided does **not** implement a calculation pattern in the form of a formula (e.g., `#+#`, `#-#`, etc.), but rather it **extracts a value** from a list of dictionaries based on specific criteria.
+
+### Breakdown of the code:
+
+```python
+def run(value_list):
+    free_cash_flow_2019 = next(item['number_value'] for item in value_list if item['category'] == 'Free cash flow' and item['header2'] == '2019')
+    return (round(free_cash_flow_2019, 2), 'million')
+```
+
+### What it does:
+- It searches through `value_list` (a list of dictionaries) for the first item where:
+  - `item['category']` is `'Free cash flow'`
+  - `item['header2']` is `'2019'`
+- It then extracts the value from `item['number_value']` and rounds it to 2 decimal places.
+- It returns a tuple: `(rounded_value, 'million')`
+
+### Pattern (in terms of data extraction):
+This is a **filtering and extraction** pattern, not a mathematical operation.
+
+### Pattern representation (as per your example):
+If we were to represent this in the format you provided (e.g., `#+#` for adding two numbers), it would be:
+
+```
+#filter#extract#round#
+```
+
+Or more specifically:
+
+```
+#filter_by_category#filter_by_header2#extract_number_value#round_to_2_decimal_places#
+```
+
+But since the question asks for a **calculation pattern**, and this is not a calculation but a **data extraction**, the most accurate pattern is:
+
+```
+#filter#extract#round#
+```"
+191,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"The code provided does **not** perform a calculation pattern like adding, subtracting, or averaging numbers. Instead, it is a **control flow** statement that:
+
+- Iterates through a list of items (`value_list`).
+- Checks if an item has a specific category (`'Free cash flow'`) and a specific header (`'2018'`).
+- If such an item is found, it **returns** a tuple containing two values: `item['number_value']` and `item['scale']`.
+
+### Pattern Description:
+This code does **not** implement a mathematical calculation pattern. It is more of a **data retrieval** or **conditional return** pattern.
+
+### Pattern Representation (if we were to represent it as a pattern):
+It could be represented as:
+```
+#F#2#R#N#S#
+```
+Where:
+- `#F#` means ""filter by category""
+- `#2#` means ""check for header '2018'""
+- `#R#` means ""return""
+- `#N#` means ""number value""
+- `#S#` means ""scale""
+
+But since it's not a mathematical operation, there is **no standard pattern** like `#+#` or `(#+#)/#`."
+192,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"The code calculates the **change in free cash flow** between 2019 and 2018.
+
+### Breakdown of the calculation pattern:
+
+- It retrieves the **free cash flow for 2019** and **2018** from the `value_list`.
+- It subtracts the **2018 value** from the **2019 value** to get the **change**.
+- The result is **rounded to 2 decimal places** and returned with the label `'million'`.
+
+### Calculation pattern:
+`# - #` (subtraction of two values)
+
+### Final Answer:
+`#-#`"
+193,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"The code implements a calculation pattern that involves:
+
+1. **Extracting two values** for ""EBITDA"" for two different dates (2019 and 2018).
+2. **Extracting two values** for ""Underlying EBITDA"" for the same two dates.
+3. **Calculating the difference** between EBITDA and Underlying EBITDA for each year.
+4. **Averaging the two differences** (2019 and 2018).
+5. **Rounding the result** to 2 decimal places.
+6. **Returning the result** along with the string `'thousand'` as a tuple.
+
+### Pattern:
+The pattern is:  
+**# - # + # - # / 2**  
+(Where `#` represents a value extracted from the `value_list`.)
+
+### Explanation:
+- `# - #`: Subtract Underlying EBITDA from EBITDA for 2019.
+- `# - #`: Subtract Underlying EBITDA from EBITDA for 2018.
+- `+`: Add the two differences.
+- `/ 2`: Average the two differences.
+
+### Final Pattern:
+**# - # + # - # / 2**"
+194,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"The code provided does **not** perform a calculation pattern like addition, subtraction, or averaging. Instead, it is a **control flow** statement that:
+
+- Iterates through a list of items (`value_list`).
+- Checks if an item has the category `'Total revenues'` and the header2 value `'2018 (4)'`.
+- If so, it **returns** a tuple containing two values: `item['number_value']` and `item['scale']`.
+
+### Pattern Description:
+This code does **not** perform any mathematical operation on numbers. It is more of a **data retrieval** or **conditional return** mechanism.
+
+### Pattern (in terms of logic):
+`#if#` (to check conditions)  
+`#return#` (to return specific values based on conditions)
+
+So, the pattern is:  
+**#if#** (checking for specific category and header)  
+**#return#** (returning a tuple of values)"
+195,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"The code provided implements a calculation pattern that **extracts a specific value from a list of dictionaries** based on certain header conditions.
+
+### Breakdown of the code:
+
+```python
+def run(value_list):
+    assets_as_reported = next((item['number_value'] for item in value_list if item['header1'] == 'Assets' and item['header2'] == 'As reported' and item['header5'] == 'Assets'), 0.0)
+    return (round(assets_as_reported, 2), '')
+```
+
+### Pattern Explanation:
+
+- The function `run` takes a list of dictionaries (`value_list`) as input.
+- It searches through the list for the **first** dictionary that satisfies the following conditions:
+  - `item['header1'] == 'Assets'`
+  - `item['header2'] == 'As reported'`
+  - `item['header5'] == 'Assets'`
+- Once found, it retrieves the value from `item['number_value']`.
+- If no such item is found, it defaults to `0.0`.
+- The result is rounded to **2 decimal places** and returned as a tuple with an empty string.
+
+### Calculation Pattern:
+
+The pattern is:  
+`#find#`  
+(Where `#find#` represents the logic of searching for a specific dictionary in a list based on header conditions and extracting a value from it.)
+
+### Alternative pattern representation (as per your example format):
+`#find#`"
+196,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"The code provided implements a calculation pattern that **sums up values** from a list of items where the item's `header1` contains the string `""Liabilities and Stockholders' Equity""` and the `header2` contains the string `""As reported""`. 
+
+### Pattern:
+The pattern is:  
+**#+#+#**
+
+### Explanation:
+- `#` represents a **value** (e.g., a number from `item['number_value']`).
+- `+` represents a **summation** operation.
+- The condition (`if ""Liabilities and Stockholders' Equity"" in item['header1'] and ""As reported"" in item['header2']`) filters which values are included in the sum.
+
+So, the pattern is:  
+**# (filtered value) + # (another filtered value) + # (another filtered value)**, etc. — all values that meet the condition are summed."
+197,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"The code implements a calculation pattern that **subtracts two values** from a list of financial items.
+
+### Breakdown:
+- It retrieves two values from `value_list`:
+  1. `deferred_revenue_as_reported` — from an item where `category` is `'Deferred revenue (2)'` and `header2` is `'As reported'`.
+  2. `other_non_current_liabilities_as_reported` — from an item where `category` is `'Other non-current liabilities (2)'` and `header2` is `'As reported'`.
+- It **subtracts** the second value from the first.
+- The result is a tuple: `(result, '')`.
+
+### Pattern:
+Since it **subtracts two numbers**, the pattern is:
+
+**#-#**"
+198,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"The code calculates the **percentage change** between two values: `total_2019` and `total_2018`.
+
+### Calculation Pattern:
+The code implements the following pattern:
+
+**#-#/#**  
+(Explanation: It subtracts two numbers (`#-#`) and divides the result by another number (`/#`), then multiplies by 100 to get a percentage.)
+
+### Breakdown:
+- `total_2019 - total_2018` → subtraction of two numbers
+- ` / total_2018` → division of the result by a third number
+- ` * 100` → multiplication by 100 to convert to a percentage
+
+So the full pattern is:  
+**#-#/#** (with an implicit multiplication by 100)"
+199,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"The code implements a calculation pattern that **averages a list of numbers**.
+
+### Explanation:
+- It filters a list of dictionaries (`value_list`) to extract the `'number_value'` of items where the `'category'` is `'State and local income tax rate, net of federal tax benefits'`.
+- It then **sums** these extracted numbers.
+- It **divides** the sum by the **count** of these numbers (i.e., takes the average).
+- Finally, it **rounds** the result to **2 decimal places**.
+
+### Pattern:
+**(#+#)/#**
+
+Where:
+- `#` represents a number (or a list of numbers).
+- The pattern indicates: **sum of numbers**, **divided by the count of numbers**, and **rounded to 2 decimal places**."
+200,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"The code implements a calculation pattern that **subtracts two numbers** and **rounds the result to two decimal places**.
+
+### Pattern:
+`#-#`
+
+### Explanation:
+- It retrieves two values (`prev_2019` and `prev_2018`) based on specific conditions in the `value_list`.
+- It then **subtracts** the value from 2018 from the value from 2019.
+- The result is **rounded to two decimal places**.
+- The function returns a tuple with the result and an empty string.
+
+So, the pattern is: `#-#` (with rounding)."
+201,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"The code calculates the **average** of values from a specific category and header in a list of items. It sums the `number_value` of items where the `category` is ""Defined contribution schemes"" and the `header1` is ""2019 € million"", then divides by the count of such items. If there are no such items, it returns (0.0, '').
+
+**Pattern:** (#+#)/#"
+202,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"The code calculates the **average** of values from a specific category and header in a list of items. The pattern is:
+
+**(#+#)/#**"
+203,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"The code calculates the **difference** between two values:  
+- `defined_contribution_2019` (from ""Defined contribution schemes"" for 2019 € million)  
+- `defined_benefit_2019` (from ""Defined benefit schemes"" for 2019 € million)  
+
+It then returns the **rounded difference** to 2 decimal places, along with the scale ""million"".
+
+**Pattern:** #-#"
+204,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"The code extracts a value from a list of dictionaries based on two conditions: `category == 'Free cash flow'` and `header2 == '2019'`. It then returns a tuple containing the extracted value (rounded to 2 decimal places) and the string `'million'`.
+
+This pattern represents **extracting a specific value from a list of structured data**.
+
+**Pattern:** #+#+#"
+205,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"The code provided does not implement a calculation pattern in the sense of performing arithmetic operations on numbers (like addition, subtraction, etc.). Instead, it is a function that:
+
+- Takes a list of `value_list` as input.
+- Iterates through each item in the list.
+- Checks if the item's category is `'Free cash flow'` and its header2 is `'2018'`.
+- If so, it returns a tuple containing the `number_value` and `scale` of that item.
+
+Since there is no calculation or pattern involving arithmetic operations on numbers, there is no calculation pattern to extract in the format you requested.
+
+**Output format: pattern**  
+**Answer:** #no_pattern#"
+206,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"The code calculates the **change** in free cash flow between 2019 and 2018. It subtracts the 2018 value from the 2019 value.
+
+The pattern is: **#-#**."
+207,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+208,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#/+#+#
+209,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+210,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern: #+#
+211,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern: #+#
+212,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+213,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#+#/#
+214,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern: #+#
+215,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#.+#+#
+216,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#++#
+217,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+218,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#+#
+219,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)/#
+220,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+221,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern: #+#+#
+222,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+223,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+224,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+225,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)/#
+226,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+227,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+228,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+%)
+229,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/# #+#
+230,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#*#
+231,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)/#
+232,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern: #+#/#
+233,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#*#
+234,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#
+235,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+236,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#+#/#+#
+237,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern: #+#/#
+238,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#+#)/#
+239,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#
+240,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#
+241,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#/#)*#
+242,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#/#)*#
+243,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#+#/##+#
+244,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+/#)*#
+245,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#/#+#)
+246,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+247,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+248,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+249,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#
+250,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)/#
+251,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#/+#+#
+252,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+253,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+254,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+255,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/# #+#
+256,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+257,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+258,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#*#%
+259,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#/#)
+260,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#/#) #
+261,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#/#+#)/#
+262,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+263,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#
+264,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#
+265,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+266,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#/#)
+267,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#*#
+268,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+269,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)-#
+270,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#average#
+271,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+272,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+273,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#
+274,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#.+#+#
+275,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+276,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+277,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+278,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#
+279,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+280,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+281,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+282,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+283,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)/#
+284,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+285,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)/#
+286,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#/#+#)*#
+287,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#++#
+288,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#++#
+289,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#/#)
+290,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#*#
+291,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+292,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+293,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)/#
+294,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)/#
+295,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+296,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+297,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)
+298,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern: #+# #+#+#
+299,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+300,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#+#
+301,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+302,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+303,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#+#+#
+304,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#+#/#
+305,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+306,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+307,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+308,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#
+309,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#/+#+#
+310,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#/+#+#
+311,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)/#
+312,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)/#
+313,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#.+#+#
+314,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)/#
+315,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#+#
+316,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#*#
+317,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+318,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#+#/##+#
+319,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#++#
+320,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+
+321,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+322,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#+#/#+#
+323,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#/+#+#
+324,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+325,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#average#
+326,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+327,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+328,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+329,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#+#/#+##
+330,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#/#)
+331,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#++#
+332,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+333,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#+#/#+##
+334,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+335,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#++#
+336,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#++#
+337,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+338,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+339,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+340,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)/#
+341,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+342,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern: #+#/#+#
+343,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)/#
+344,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern: #+#/#+#
+345,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#+#
+346,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)/#
+347,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#
+348,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+349,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#*#
+350,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+351,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+352,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#/#)*#
+353,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+354,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+355,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+356,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+357,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+358,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#*#
+359,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#+#
+360,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+361,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+362,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern
+363,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+364,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern
+365,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern: #+#
+366,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+367,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#+#/#
+368,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern: #+#
+369,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern
+370,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#+#
+371,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+372,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#+#
+373,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+374,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+375,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern: #+#/#
+376,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+377,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+378,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern
+379,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)/#
+380,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+381,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+382,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+383,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+384,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)*#
+385,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+386,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern: (#+#)/#
+387,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+388,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#
+389,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+390,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#+#+#
+391,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern: #+#/#
+392,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+393,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#
+394,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/# #+#
+395,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+396,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#/#)*#
+397,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#*#
+398,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+399,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+400,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+401,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+402,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+403,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#
+404,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+405,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#/+#+#
+406,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+407,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+408,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+409,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#
+410,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+411,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+412,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,%#
+413,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern
+414,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+415,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#/#+#)/#
+416,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#+#/#-#+#
+417,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+418,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+419,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+420,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+421,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#
+422,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+423,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(pattern)
+424,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+425,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+426,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+427,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+428,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+429,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+430,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+431,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+432,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#
+433,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+434,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+435,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+436,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+437,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+438,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+439,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(pattern)
+440,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#/#+#)*#
+441,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#+#
+442,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#+#
+443,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#/#)
+444,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+445,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+446,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+447,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+448,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+449,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+450,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+451,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)
+452,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(pattern)
+453,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(pattern)
+454,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+455,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+456,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+457,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#
+458,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#+#
+459,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"pattern
+(#+#)-#"
+460,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#+#
+461,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+462,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+463,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#+#+#
+464,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#+#+#
+465,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(pattern)
+466,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)+#+#)/#
+467,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#.+#+#
+468,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+469,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+470,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+471,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern
+472,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#*#
+473,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#++#
+474,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+
+475,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+476,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#
+477,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern: (#+#)/#
+478,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+479,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern: (#+#)/#
+480,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+481,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,%(#+#)/#
+482,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+483,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#+#
+484,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#/#)
+485,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#++#
+486,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+487,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+488,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+489,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#+#
+490,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#+#
+491,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+492,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+493,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+494,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+495,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+496,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern: #+#/#+#
+497,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+498,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,pattern: #+#/#
+499,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#
+500,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)/#
+501,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+502,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#*#
+503,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#*#
+504,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+505,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+506,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+507,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+508,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+509,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,"pattern
+#-#"
+510,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+511,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+512,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#*100
+513,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#/#
+514,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+515,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)/#
+516,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+517,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+518,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#/#)*#
+519,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+520,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#/#)*#
+521,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+522,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)+(#+#)+(#+#)
+523,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+524,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#++#
+525,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)/#
+526,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+527,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+528,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)/#
+529,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(pattern)
+530,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+531,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+532,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+533,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)/#
+534,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#+#)-(#+#+#)
+535,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#++#
+536,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+537,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#
+538,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+539,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#-#)/#
+540,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#+#/#
+541,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#+#+/#
+542,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+543,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#-#+#/##
+544,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#/#)
+545,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,(#+#)/#
+546,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#/+#+#
+547,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,,,#/#

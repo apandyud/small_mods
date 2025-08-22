@@ -260,7 +260,7 @@ def execute_dataset_predictions(llm, messages, selected_qids=None, trace_message
                         if i%10 == 0:
                             pred_em, _, _, _ = metrics.get_overall_metric(reset=False)
                             if (trace_messages):
-                                print ("*** Overall EM: ", pred_em)
+                                print ("*** Overall EM: ", pred_em, "/",i)
                         res.append((time.time(), ans, pred_value, pred_scale, value_match, table, q_block, trace, err))                
                 except Exception as e:
                         s = '[Inner Exception]'+ str(e)

@@ -1,0 +1,188 @@
+,qid,question,term
+0,a0414f81-8dc2-44b2-a441-2c9d9c805c4d,What is the 2019 average defined contribution schemes?,Average defined contribution schemes
+1,bf7abd62-d9cd-48d2-8826-1457684019a3,What is the 2019 average defined benefit schemes?,Average defined benefit schemes
+2,4d259081-6da6-44bd-8830-e4de0031744c,What is the difference between 2019 average defined contribution schemes and 2019 average defined benefit schemes?,Average defined contribution schemes
+3,dc5e217a-a7b3-4fc9-ac0f-13d328f26b20,What is the 2019 average free cash flow?,Average Free Cash Flow
+4,7cd3aedf-1291-4fea-bc9d-a25c65727b7b,What is the 2018 average free cash flow?,Average Free Cash Flow
+5,22e20f25-669a-46b9-8779-2768ba391955,What is the change between 2018 and 2019 average free cash flow?,Change in average free cash flow
+6,a983501d-2eec-486d-9661-e520c7c8af5e,What was the average difference between EBITDA and underlying EBITDA for both FYs?,Average Difference
+7,ef274d2b-fbd6-4e9f-95f9-79b37827d91c,What was the total expenses for Oracle in 2018?,Total expenses
+8,191c3926-7356-4ab8-a8f9-41e7b7c8a492,What were the total Assets as reported?,Total Assets
+9,bd2d81eb-46fc-4e62-908d-aebfccf46246,What were the total Liabilities and Stockholders' Equity as reported?,Liabilities and Stockholders' Equity
+10,010df393-a62e-408d-888a-045a4e435e6a,What is the difference in amount between Deferred Revenue and Other non-current liabilities as reported?,Difference in amount between Deferred Revenue and Other non-current liabilities
+11,58adf6c4-41ae-4f3f-84cb-cf3469a80ce4,What was the percentage change in Total Other operating expenses between 2018 and 2019?,Percentage change
+12,a360cee9-ce60-4f29-988d-8c6c627bb51f,"What was the average State and local income tax rate, net of federal tax benefits between 2017-2019?",Average tax rate
+13,5c8c999e-354f-4693-9b2d-29e3c03cb2af,What was the change in the preferred stock disposition from 2018 to 2019?,Change in preferred stock disposition
+14,a1912c87-d68c-42ea-b0da-98908097d227,What was the change in closing cash?,Change in closing cash
+15,692ea65a-9a60-4210-bd75-d34231e2e113,What is the average total current tax expense for 2017 and 2018? ,Average Total Current Tax Expense
+16,7cba7400-af25-4f71-a49d-35d5eec31458,What is the average total current tax expense for 2018 and 2019?,Average Total Current Tax Expense
+17,94ef7822-a201-493e-b557-a640f4ea4d83,"What is the change in the average total current tax expense between 2017-2018, and 2018-2019?",Change in average total current tax expense
+18,bfce0375-cbd0-4e25-9b82-0424058918f1,"What is the total number of nonvested shares as of December 31, 2019 and 2018?",Count of nonvested shares
+19,ef9d4839-5277-4614-bb73-f902fd8a38b6,What was the average Tax exempt interest income?,Average Tax Exempt Interest Income
+20,fec503e8-6f91-483e-856d-bb1278bd031f,What was the percentage change in the Domestic manufacturers deduction from 2017 to 2018?,Percentage change
+21,a3e21403-222e-4328-8f7d-9383d2d91fe9,What is the average dividend yield in 2017 and 2018?,Average Dividend Yield
+22,3b5bb347-41c7-499a-b044-87b9a04b0833,What was the percentage change in Total Other in 2018 from 2017?,Percentage change
+23,59f13f19-4494-4c54-8e9a-1b499d50021a,What is the total price of shares that were exercised or canceled between 2016 and 2017?,Share-based compensation expense
+24,b382a11b-749b-425a-a77d-20e943e00f77,"What is the proportion of granted shares between 2017 and 2018 over outstanding shares at September 30, 2017?",Share issuance ratio
+25,741f8b2e-9312-4426-893d-69b99fab247b,"What is the price of outstanding shares on September 30, 2019?",Market capitalization
+26,8a21f821-eaf6-421a-8c67-795e7e2d1f61,What was the percentage change in Adjusted EBITDA between 2018 and 2019?,Percentage change
+27,07ec204e-3922-4b5c-b1fd-9cb9311a53e5,What was the percentage change in the Total net deferred tax assets between 2018 and 2019?,Percentage change
+28,f1034ee7-b182-48d5-bad8-1d9902500f57,What is the difference in the number of rights 'granted during the period' between 2018 and 2019?,Difference in the number of rights granted
+29,cc053817-3496-48b3-9bfc-83e9ba71bb57,What is the percentage increase in the number of rights 'outstanding at the start of period' from 2018 to 2019? ,Percentage increase
+30,f12806ca-aa4c-4fe6-84fc-10cefca76a9e,What is the change in the operating revenue under continuing operations from 2018 to 2019?,Change in operating revenue under continuing operations
+31,eb50d3aa-16da-4087-9ab2-10106ebd10e7,What is the average annual Operating leases contractual obligations for 2020-2024?,Average Annual Operating Leases Contractual Obligations
+32,0f45cc67-fd57-4930-a0d0-f5d7174d7562,What is the percentage change in the value of raw materials between 2018 and 2019?,Percentage change
+33,a30ab3a2-f930-4bf4-9b52-35c9c504d992,What is the percentage change in the value of work-in-process inventory between 2018 and 2019?,Percentage change
+34,9963bd65-093e-4801-8050-d2524ff06e7f,"For 2018, what is the percentage of constitution of employee severance and related costs among the total cost?",Employee Severance Cost Percentage
+35,9750180c-588d-4ba3-bc94-297d64b50e44,What is the percentage constitution of Depreciation and Amortisation in EBITDA in F19?,Depreciation and Amortisation
+36,b11567d3-d651-40d8-9b9e-bc71eb37d7f9,What was the percentage change in Transportation equipment in 2019 from 2018?,Percentage change
+37,182dd9ea-dd5f-4ea0-bc30-bb42ef1f801c,What percentage of the total unrealized gain is generated from U.S. government obligations in 2018?,unrealized gain percentage
+38,f6cb9974-2af7-43b3-9e1c-8cd5439dff67,What percentage of the total amortized cost is made up of foreign government obligations in 2018?,Amortized cost
+39,f6ccfc15-3970-467d-b83e-e2ce0ff365e3,What were the total expenses in 2019?,Total expenses
+40,163f08ab-cfae-426a-9c03-4f84feba3bb6,What was the average Net cash used in financing activities between fiscal years 2017-2019?,Average Net Cash Used in Financing Activities
+41,e81574d8-f9e8-48b3-85ab-a7ed36f8cbb0,What was the change in Acquisition and integration costs in 2019 from 2018?,Change in Acquisition and integration costs
+42,426e47ae-aff7-43e2-81be-0bb951b0def1,What was the percentage change in Acquisition and integration costs in 2019 from 2018?,Percentage change
+43,88795fae-3c5b-48d4-ae2d-57fe04b15c31,What is the average Non-deductible items for 2018 and 2019?,Average Non-deductible Items
+44,ed9e3e80-6941-4888-9e40-bbd1cb092485,What was the average Adjustment for share-based payments for 2018 and 2019?,Average Adjustment
+45,e3041bef-c305-431f-b165-54cb8bca77fb,What was the change in Inventory between 2018 and 2019?,Inventory Change
+46,95d916dc-67ce-4af0-8a84-574dce094c84,What was the percentage change in net deferred tax assets between 2018 and 2019?,Percentage change
+47,81cab6e1-acb6-4c1e-a5f7-ae283cbd1b53,What is the net difference in sale of systems between 2017 and 2019?,Net difference in sale of systems between 2017 and 2019 is a financial term that describes the type of calculation. The financial term is: Net Change.
+48,a4be9eab-ad03-4d67-9136-62d7cbe40e1e,What is the net percentage difference in net sales between 2017 and 2019?,Percentage difference
+49,0b7463b3-ed9e-47a0-b838-b26e0ab886eb,What is the change in Allowance for expected credit losses from 2018 to 2019?,Change in Allowance for Expected Credit Losses
+50,fd59c14d-0312-4725-92d8-5c30cd5c5c7a,"What is the increase/ (decrease) in Voyage expenses from, 2019 to 2018?",Change in Voyage expenses
+51,f96cce90-9703-4b6b-9ea4-1a650ac8765a,"What is the change in ""impact of exchange rate"" from FY 2018 to FY 2019?",Change in impact of exchange rate
+52,127264c3-16b9-4324-aff1-722420c93b5d,What is the average INR-GBP exchange rate in FY 2019?,Average Exchange Rate
+53,9f7000b0-e7b7-48b2-bcc6-8f77209894f2,What is the current ratio in 2019?,Current Ratio
+54,6514b16b-bdc1-4fa7-8e3a-3ec766713975,What is the debt-to-asset ratio in 2018?,debt-to-asset ratio
+55,a1631baf-106c-4867-8173-6ff98f4ec421,What is the change in current ratio from 2018 to 2019?,Change in current ratio
+56,bd8bb8d3-c7e9-4a7f-be23-97b27a29f74e,What was the percentage change in the total between 2018 and 2019?,Percentage change
+57,81c99a9e-786b-4ab6-94ed-e3149d697347,What is the percentage difference of total liabilities when comparing after adjustment to before adjustment?,Percentage Difference
+58,9332c840-68f6-43e1-a06c-902dae3fef81,"What is the total equity of the acquisation as of December 31, 2019?",Equity acquisition value
+59,e151e953-f5ab-4041-8e6f-7aec08ed5a60,"What is the liability to asset ratio as of December 31, 2019?",liability to asset ratio
+60,398246d7-5500-4560-8a8f-220a782b05e5,What was the percentage change in net inventories between 2018 and 2019?,Percentage change
+61,0b835494-2c10-4f6b-b54a-60aa73ebdabe,What is the change in the Total Gross Margin between Fiscal 2018 and 2019?,Change in Total Gross Margin
+62,bfb033dc-19dc-41cc-9253-aa7e03b61a62,What was the difference in the Weighted-Average Useful Lives between Trademarks and tradenames and Other intangible assets?,Weighted-Average Useful Lives
+63,3258cedc-30b4-4048-bf67-9aa0b487e1b3,"What is the average Lease related expenses for the year ended December 31, 2019 to 2018?",Average Lease Expenses
+64,4cee3e03-ed30-4e2c-8718-e65ad795d4e8,What is the increase / (decrease) in the Gross Profit from 2018 to 2019?,Change in Gross Profit
+65,3502f875-f816-4a00-986c-fef9b08c0f96,What is the COGS for 2019?,COGS
+66,0cca40eb-3b7e-4ea2-83b0-c6be83190b12,What is the percentage increase / (decrease) in average Urner Barry Spot Egg Market Quotations 1 in 2019 compared to 2018?,Percentage change
+67,d06a5ade-d848-4325-a2a5-8f5ef427d246,What is the average total basic earnings per share for both 2018 and 2019?,Average total basic earnings per share
+68,8c882f0d-684c-430e-8194-997c565a7258,What is the nominal difference for basic earnings per share (cents per share) between 2018 and 2019?,Earnings per share (EPS)
+69,9a11777d-c146-4a13-aaa0-7676223a7849,What is the increase / (decrease) in the Realized gains (losses) on maturity and/or partial termination of cross currency swap from 2018 to 2019?,Change in Realized Gains (Losses) on Cross Currency Swaps
+70,f49252e2-158b-4a79-ac56-d21ea67082a8,What was the average realized losses?,Average realized losses
+71,a58cbfcf-2568-4bd6-ae26-b64656f22dcf,What is the percentage increase / (decrease) in the Unrealized (losses) gains from 2017 to 2018?,Percentage Increase/Decrease
+72,c91ad938-6ad1-4481-8f6b-43ccd2f69926,What is the nominal difference for ROFE between F19 and F18?,Nominal difference
+73,d8637395-dbdb-4d49-a48b-ef14e97ebce5,What is the average voyage revenue in 2018 and 2019?,Average Voyage Revenue
+74,bdcabe8e-6738-47d3-8412-40e5e9a359d0,What is the average voyage expenses in 2018 and 2019?,Average Voyage Expenses
+75,c1529a4c-f974-466d-b9e5-356cb9a7c928,What is the average net voyage revenue in 2018 and 2019?,Average net voyage revenue
+76,aa4b7a98-1ec7-4bd8-a258-e928e92c9f75,What is the average of Net revenues by geographical region of shipment?,Average Net Revenue by Geographical Region
+77,805a22a0-bc6b-42e1-98a3-9f665b8b4eec,What is the change in total cost of revenue between 2019 and 2018?,Change in total cost of revenue
+78,d9eba295-6903-457d-924d-663e41d20b46,What is the total cost of revenue in both 2019 and 2018?,Cost of revenue
+79,dd31fc40-d055-4356-bcfc-c7348842bf3c,What is the proportion of products as a percentage of the total cost of revenue in 2019?,Percentage of cost of revenue
+80,ca5ace26-609f-4199-b5a0-68ccf25ba98e,What was the sum of all Income tax net operating loss carryforwards?,Sum of all Income tax net operating loss carryforwards
+81,fe5839ad-4387-4abb-ae4b-9e61feacd97a,What was the sum of all Tax credit carryforwards?,Sum of all Tax credit carryforwards
+82,a1fb1d57-243c-49e0-84ee-43d969cd41b0,What was the domestic-state tax credit carryforwards as a ratio of domestic-federal tax credit carryforwards?,Tax credit carryforwards ratio
+83,8c6bc2ca-b758-49f8-82e3-c1ede110102b,What is the percentage change in the amounts owed to members of Peel from 2018 to 2019?,Percentage change
+84,af4ea6d6-4672-4ddb-8348-047ced2b5572,What is the average total asset value for 2018 and 2019?,Average Total Asset Value
+85,524463b6-b8d7-410d-926a-699f7b7cdd99,What is the difference between the net cash used for financing activities in 2018 and 2019?,Difference between net cash used for financing activities
+86,4990b27f-a8a6-4683-82f8-c1cf657ba9c1,What is the average discount rate for 2018 and 2019?,Average discount rate
+87,0f6a8eaa-3e1e-4c91-b175-22bcef454b35,What is the average rate of price inflation for 2018 and 2019?,Average annual inflation rate
+88,078e34fa-b33a-43fe-afd3-d39b4cbd6a6b,What was the change in percentage of sales represented by gross profit between 2018 and 2019?,Change in gross profit margin percentage.
+89,37a06d19-6aec-40a6-862a-fa7629b64208,What was the change in percentage of sales represented by provision for income taxes between 2018 and 2019?,Percentage change in provision for income taxes relative to sales.
+90,df12359b-c35a-4c26-bfbf-a8c05f063be9,How much more cloud and license revenues came from the Americas as compared to Asia Pacific in 2018?,Comparison of cloud and license revenues between regions
+91,beabd8a7-9ed5-4121-8415-6198bb1d642f,What was the total applications revenues in 2019 and 2018?,Total applications revenues
+92,0f59d1f7-562f-4f9a-a0ff-1abba61accbe,What was the percentage change in the Total amount in 2019 from 2018?,Percentage change
+93,4082086c-6f47-40b1-8ac1-757d437a502d,What was the absolute percentage change in Expected volatility between 2019 and 2020?,Absolute percentage change
+94,0339e2bb-4a63-4f23-aaea-b9fa3cb29737,"From fiscal year 2020 - 2024, what is the difference in the number of ground leases and land and building leases expiring?",Difference in the number of ground leases and land and building leases expiring.
+95,258df1b4-3db1-4616-ae6b-c46a98b88dcf,What is the difference of ground leases expiring between the periods 2020 - 2024 and 2025 - 2029?,Difference in ground lease expirations
+96,22ea63c7-2e41-48d8-8133-1fd9acebbb5b,"What is the percentage change in the total fair value of consideration transferred at June 30 and December 31, 2019?",Percentage change in fair value
+97,359f9c4c-b405-40e5-88b5-86bfa0069b89,What was the percentage change in the Reductions related to a lapse of applicable statute of limitations between 2017 and 2018?,Percentage change
+98,e02b2c21-3972-41cc-b391-5478da7df9d8,What was the change in the total number of shares purchased between the second to third month period?,Share change calculation
+99,24395900-adc1-4c9d-8ce9-bd21c5a54808,What was the percentage change in Net income attributable to American Tower Corporation stockholders between 2018 and 2019?,Percentage change
+100,d1e84439-5663-4c28-9d59-3854a0104409,What is the percentage increase in cash provided from financing activities between 2018 and 2019?,Percentage increase
+101,6befb6ea-a586-43d2-80bd-14f0721dd6f1,What is the percentage change in the total other non-current assets between 2018 and 2019?,Percentage change
+102,c52dc053-375e-4b4d-b4ce-757bb39fa256,What is the total value of other non-current assets between 2018 to 2019?,Other non-current assets
+103,9df4e7cf-9a10-40e2-b52e-9278948fce53,What is the total deposits in 2018 and 2019?,Total deposits
+104,5a09d607-3502-4451-9d1a-a222dfc32968,"What is the average number of nonvested shares granted on January 1, 2017 and between December 30, 2018 and December 29, 2019?",Average number of nonvested shares
+105,f9898b19-f84e-4cd8-9cd2-330767f39a38,"What is the average number of nonvested shares vested on January 1, 2017 and between December 30, 2018 and December 29, 2019?",Average Shares Vested
+106,f140a65f-c408-45fc-8c60-e98e13530452,"What is the average number of nonvested shares forfeited on January 1, 2017 and between December 30, 2018 and December 29, 2019?",Share-based compensation expense
+107,6ba4045d-4222-4da0-a126-94b267a707ec,What is the average global regional films (excluding Tamil films) from 2017-2019?,Average global regional films (excluding Tamil films) from 2017-2019.
+108,070a9fb1-6d17-40ba-b34e-82d0fe14037b,What is the percentage change in the research and development costs incurred from 2018 to 2019?,Percentage change
+109,9fce8f25-dd3b-4c50-9b7b-d200ced15ded,What is the percentage change in the finance costs expensed from 2018 to 2019?,Percentage change
+110,54fec8b2-3105-45fc-aa90-fd07cdd582ae,What is the average age of the executive officers of the company as at 24 February 2020?,The financial term is: average age.
+111,06dfc869-b3e2-446e-9b9a-1b2374c63c04,What is the percentage change in cash provided by financing activities between 2018 and 2019?,Percentage change
+112,521b36fd-2b60-466b-b420-fbf776531e37,What is the total cash provided by financing activities between 2017 to 2019?,Cash flow from financing activities
+113,9238f11f-18d1-416b-ad2d-2692229c8d3a,What is the total cash provided by all cash flow related activities between 2017 to 2019?,"Net cash flow from operating, investing, and financing activities"
+114,1427bbad-0def-4340-a537-4713dad96ea7,What was the average interest expense for 2018 and 2019?,Average Interest Expense
+115,0a9b94be-b354-46e2-a448-e68b5f9f5e92,What is the percentage change of net operating losses and credits from 2018 to 2019?,Percentage change
+116,073c6499-cf72-47f2-8874-7dfc67f1e251,What is the average of Net cash from operating activities?,Average Net Cash Flow from Operating Activities
+117,bf683a17-9353-4784-94b3-8cf2a677b1f4,"What is the average of Cash, restricted cash and short-term marketable securities?","Average of Cash, Restricted Cash, and Short-Term Marketable Securities"
+118,4875e520-3ead-44f2-aefc-d1a9d087419d,What is the average of Committed global credit facilities?,Average of Committed global credit facilities
+119,6fbcd1ee-5060-442b-a2d2-8d62ac822942,What is the percentage change in the interim dividend from 2018 to 2019?,Percentage change
+120,eca3afa3-cd52-44ed-9e62-2003038a0926,What is the percentage change in total net sales of International and Foodservice from fiscal year 2018 to 2019?,Percentage change
+121,190316bd-8f09-4e44-9648-e83d0bab44fb,What was the change in Impairment losses between 2017 and 2018?,Change in Impairment losses
+122,5f289981-f13d-4160-8879-c81dc0b7381e,What was the percentage change in the Share based compensation between 2017 and 2018?,Percentage change
+123,4b1ab745-9b93-495b-9c45-ede4e32b7657,What proportion of level 2 inputs is made up of money market funds? ,Composition of level 2 inputs
+124,77b14f34-b206-4b50-babb-aa9ee379410a,"What is the total carrying amount of Senior Notes due by December 2024 as of December 31, 2019?",Carrying amount
+125,5c487c82-e20a-4c76-9f52-7831ab15075e,What was the percentage change in the amount Outstanding at 1 April in 2019 from 2018?,Percentage change
+126,56327885-98fe-40db-93f8-f762b1bf5d20,What was the percentage change in the ending balance between 2017 and 2018?,Percentage change
+127,90f6b6b5-3d82-459d-b9b7-d86dae985655,What was the change in Net operating loss carryforwards from 2018 to 2019?,Change in Net Operating Loss Carryforwards
+128,ecf25a96-a643-4bed-a0bb-c6eaf4999269,What is the 2019 average total amount falling due within one year?,Average Total Amount Falling Due Within One Year
+129,c07a4e8f-96eb-4b0d-b668-f7d6e64ed707,What is the 2019 average total amount falling due after more than one year?,Average Total Amount Falling Due
+130,ab50c5ce-cf88-45c7-acc8-2b73faa97d99,What was the change in the number of shares granted in 2019 from 2018?,Change in shares granted
+131,91f1515f-4771-403c-ba45-309079ea2723,"What is the change in Net Sales from Fiscal Year Ended April 28, 2018 to Fiscal Year Ended April 27, 2019?",Change in Net Sales
+132,6a94f765-2c5a-4486-ba06-0057636740e0,"What is the change in Income before Income Taxes from Fiscal Year Ended April 28, 2018 to Fiscal Year Ended April 27, 2019?",Change in Income before Income Taxes
+133,643cfcef-6d2c-4df7-b538-3588e28b58e1,"What was the average losses recognized in other income (expense), net, across the 3 year period?","Average losses recognized in other income (expense), net."
+134,c45b4b2a-bfb7-4b05-af7c-2c0d31dbe7dd,What is the difference in low and medium country risk due for 1-90 days past due?,Country Risk Adjustment
+135,d21b8fe8-119a-4bd7-ba93-24cb28deb15c,"What was the percentage increase / (decrease) in the selling, general and administrative expenses from 2018 to 2019?",Percentage increase / (decrease)
+136,3bc9ea91-f346-4cc1-9ca7-10c481be3ac9,What is the average depreciation and amortization expense?,Average Depreciation and Amortization Expense
+137,ed47e72c-c67c-4c61-abfa-9aefcf4caa89,What is the percentage increase / (decrease) in the loss from operations from 2018 to 2019?,Percentage change
+138,a9fa838a-1b85-47f0-a6f7-716f8bb333a1,What was the percentage change in the net Total other (expense) income between 2017 and 2018?,Percentage change
+139,54b11fb5-014a-4042-affa-fe96ea5e5eaa,What was the average amount of total expected charges per segment?,Average expected charges per segment
+140,babee4bb-4861-4918-9a8e-dbadec47fe94,What was the percentage change in the amount Outstanding at 31 March in 2019 from 2018?,Percentage change
+141,83cb2a97-d51f-43d8-b3ee-ee59994a1238,What was the percentage change in net bookings between 2018 and 2019?,Percentage change
+142,040fbb37-ccac-4854-ad02-539c11a00b6f,What was the percentage change in in-game net bookings between 2018 and 2019?,Percentage change
+143,fd8d07ff-964d-4689-a845-575b95201ca5,What is the increase / (decrease) in the Weighted-average common stock outstanding from 2018 to 2019?,Weighted-average common stock outstanding
+144,58753c83-a3d7-445d-83bf-57461882a6ca,What is the average unvested restricted stock?,Average unvested restricted stock.
+145,b4a95b0a-37ee-4d0b-bc03-12bcd8753011,What is the value of the change in goodwill impairment between 2018 and 2019 as a percentage of the 2018 goodwill impairment?,Goodwill impairment percentage change
+146,79f658b0-e8e5-4b83-bdbe-4d4f96261c69,What is the average Allowance for doubtful accounts?,Average Allowance for Doubtful Accounts
+147,da0d6d2a-67e5-46ea-be1a-68797ec6b8ed,What was the average increase / (decrease) in internet service customers between 2018 and 2019?,Average Annual Change
+148,9f84812f-f352-4bdf-835d-e8d19254149a,What is the nominal difference for the number of fully paid ordinary shares between 2018 and 2019?,Nominal difference
+149,9c58a8eb-0bda-45fb-ac55-f13dae2ee285,What is the average contributed equity at end of period for 2018 and 2019 in terms of $M?,Average Contributed Equity
+150,9a09df98-b30c-4f69-bf52-74532c8fdf9e,What is the nominal difference in contributed equity between 2018 and 2019 in terms of $M ?,Change in contributed equity
+151,176587d4-2707-40ee-9bd5-cd2d75e17980,What is the percentage change in net income between fiscal years 2019 and 2018?,Percentage change
+152,bb5be96c-78ed-4453-92cc-d07a3bf0b6ff,What is the percentage change in net cash provided by operating activities between 2017 and 2018?,Percentage change
+153,058d1fa4-99b9-481d-a815-3c6df09cc031,"What is the percentage change in the net cost of land, property, and equipment in 2019 compared to 2018?",Percentage change
+154,dba26022-09e9-486b-bc40-e2a9627384ed,"What is the proportion of land and leasehold improvements over the gross cost of land, property, and equipment in 2019?","Ratio of land and leasehold improvements to gross cost of land, property, and equipment"
+155,aa016321-4bee-4f8c-a4a9-9abdfeddf9c2,"What is the ratio of the gross cost of land, property, and equipment in fiscal 2019 to fiscal 2018?","Ratio of gross cost of land, property, and equipment"
+156,bbf04869-c442-4909-a65d-c7bc89b6e726,What is the percentage increase in Swiss income from 2017 to 2018?,Percentage increase
+157,475616e0-6449-444e-8087-f9afc6da36be,"For Balance payable as at June 30, 2019, what is Workforce reduction expressed as a percentage of Facility costs?",Percentage of Facility Costs
+158,a6bc87a3-0335-4914-bdc1-69fc6b941b69,What is the average percentage of net revenues of Distribution?,Average Percentage of Net Revenues
+159,b70433bd-7c92-413d-af00-cef3907cafe8,What is the percentage constitution of cash in the total gains on the sale of company-operated restaurants in 2019?,Percentage composition
+160,eb86d5f5-d1b0-4761-ae4c-417b8775ce5b,What is the change in the number of shares granted between 2018 and 2019?,Change in shares granted
+161,81bfcf69-2537-4d6b-8795-5dc91dc4e2d1,What is the total provision for income taxes between 2017 to 2019?,Total provision for income taxes
+162,13d32108-e758-457b-95a1-73f3bd918975,What is the change in the current provision for income taxes at the state level between 2018 and 2019?,Change in provision for income taxes
+163,68107102-0fdc-4e64-850f-8eda6bcc892a,What is the total federal tax expense between 2017 to 2019?,Total federal tax expense
+164,abe51f5c-86e3-43cd-8e55-fd387d978321,What is the average Cost of sales?,Average Cost of Sales
+165,4758b4f3-871c-42e4-a606-284e26845ed1,What is the average Gross profit?,Average Gross Profit
+166,a648d9e3-1fea-40c9-a7e1-37dab9e1f934,What is the average Gross margin (as percentage of net revenues)?,Average Gross Margin
+167,08ec32ab-4f3e-4549-876c-f4e668439ad9,"What is the proportion, in percentage, of deferred revenue and accrued warranty over gross deferred tax assets in 2019?",Proportion of deferred revenue and accrued warranty over gross deferred tax assets
+168,32cbd9ff-637d-4b5f-b10b-92243f2e1a93,What is the ratio of inventory reserves to accrued compensation in 2018?,Inventory Reserves to Accrued Compensation Ratio
+169,312a9328-b83f-43c6-b652-59547090cd30,What is the increase / (decrease) in Acquisition-related charges from 2018 to 2019? ,Change in Acquisition-related charges
+170,276f39d7-5428-46cf-b808-7dd9eefab430,What is the increase / (decrease) in the Operating (non-GAAP) interest expense from 2018 to 2019?,Change in Operating (non-GAAP) interest expense
+171,1f619243-959e-4b47-a656-1d16b03e2ca5,What is the percentage increase in Total stockholders’ equity after adoption of new standard?,Percentage increase
+172,9c364cfe-84e4-479d-b3ca-dab2b412e8c4,What is the average financing costs between 2018 and 2019?,Average financing cost
+173,10e936a6-8d76-4bbe-b058-86f12091b447,What is the difference between the average investment income and average financing costs?,Difference between average investment income and average financing costs
+174,aab66af5-afb9-4f2f-b45b-68f16542760b,What was the total non-USD denominated monetary liabilities as at 31 December 2019?,Total Non-USD Denominated Monetary Liabilities
+175,ba16499f-3c96-4faa-81b0-874f9ace7c8c,What was the change in the basic net income per share between 2017 and 2018?,Change in basic net income per share
+176,9d2aa4d9-194f-417a-9ed7-95cf4f5c95cd,"What is the change in accumulated depreciation for PPE between December 31, 2018 and 2019?",Depreciation expense
+177,edfd8e56-88a7-402a-bd78-b867bf509fa8,What is the percentage change in the amount of operating leases in 2021 from 2020?,Percentage change
+178,8cb754f8-8411-4846-b6f8-8e2467ce08f3,How many percent did the weighted average hedged rate for the year change by from 2018 to 2019?,Weighted average hedged rate
+179,12a99674-3d7b-43b8-acce-98a83bd7c70e,"What is the percentage change of revenue from Hong Kong from 2017 to 2018, based on the geographic location of the customer’s headquarters?",Percentage change
+180,f1a33e83-3a96-410a-8878-5e1fd1773a6d,"What is the total percentage of revenue from Taiwan and Japan over total revenue in 2019, based on the geographic location of the customer's headquarters?",Geographic revenue mix
+181,eccadabb-b970-47f6-8537-27907d2408c6,What is the total earnings in 2019?,Total Earnings
+182,890e40b2-3009-449f-b806-49d0a4fa82cd,What is the percentage change in the total balance of goodwill of the Network Software & Systems segment in 2019 compared to 2018?,Percentage change
+183,6ce427fa-d1ff-481d-b6ba-7950d43e7c22,What is the proportion of long-term debt payments due in 5 years or below? ,Long-term debt maturity structure
+184,5b48fea5-61de-401b-aea9-b2b90b7a0eeb,"What is the percentage of non-vested shares granted in 2019 as a percentage of the total non-vested shares at December 31, 2019?",Percentage of non-vested shares
+185,8a7ef462-5a25-48c9-8a49-3fb543a73785,"What is the percentage of non-vested shares vested in 2019 as a percentage of the total non-vested shares at December 31, 2019?",Vesting percentage
+186,240b5a32-819a-4cbe-8420-0ab6dfe3b2eb,"What is the percentage of non-vested shares forfeited in 2019 as a percentage of the total non-vested shares at December 31, 2019?",Forfeiture rate

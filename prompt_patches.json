@@ -1,0 +1,634 @@
+[
+  {
+    "calc_pattern": "(#-#)/#",
+    "error_type": "pct_vs_pp_candidate",
+    "suggested_instruction": "‘percentage change’ = (new-old)/old*100; ‘change in percentage’ = new% - old% (percentage points).",
+    "support": 37,
+    "evidence_examples": [
+      "What was the percentage change in Total Other operating expenses between 2018 and 2019?",
+      "What was the percentage change in Total Other in 2018 from 2017?",
+      "What was the percentage change in Adjusted EBITDA between 2018 and 2019?",
+      "What was the percentage change in the Total net deferred tax assets between 2018 and 2019?",
+      "What is the percentage change in the value of raw materials between 2018 and 2019?"
+    ]
+  },
+  {
+    "calc_pattern": "(#+#+#)/#",
+    "error_type": "avg_window_candidate",
+    "suggested_instruction": "Year average = (value(y) + value(y-1)) / 2.",
+    "support": 2,
+    "evidence_examples": [
+      "What was the average Net cash used in financing activities between fiscal years 2017-2019?",
+      "What was the average losses recognized in other income (expense), net, across the 3 year period?"
+    ]
+  },
+  {
+    "calc_pattern": "(#+#)/#",
+    "error_type": "avg_window_candidate",
+    "suggested_instruction": "Year average = (value(y) + value(y-1)) / 2.",
+    "support": 3,
+    "evidence_examples": [
+      "What is the average Lease related expenses for the year ended December 31, 2019 to 2018?",
+      "What is the 2019 average total amount falling due within one year?",
+      "What is the 2019 average total amount falling due after more than one year?"
+    ]
+  },
+  {
+    "calc_pattern": "#-#",
+    "error_type": "extremum_candidate",
+    "suggested_instruction": "For ‘largest/smallest’, select the max/min after unit normalization; do not sum or average.",
+    "support": 4,
+    "evidence_examples": [
+      "What is the nominal difference for basic earnings per share (cents per share) between 2018 and 2019?",
+      "What is the nominal difference for ROFE between F19 and F18?",
+      "What is the nominal difference for the number of fully paid ordinary shares between 2018 and 2019?",
+      "What is the nominal difference in contributed equity between 2018 and 2019 in terms of $M ?"
+    ]
+  },
+  {
+    "calc_pattern": "#-(-#)",
+    "error_type": "extremum_candidate",
+    "suggested_instruction": "For ‘largest/smallest’, select the max/min after unit normalization; do not sum or average.",
+    "support": 1,
+    "evidence_examples": [
+      "What is the increase / (decrease) in the Realized gains (losses) on maturity and/or partial termination of cross currency swap from 2018 to 2019?"
+    ]
+  },
+  {
+    "calc_pattern": "#-#",
+    "error_type": "pct_vs_pp_candidate",
+    "suggested_instruction": "‘percentage change’ = (new-old)/old*100; ‘change in percentage’ = new% - old% (percentage points).",
+    "support": 2,
+    "evidence_examples": [
+      "What was the absolute percentage change in risk-free interest rate between 2018 and 2019?",
+      "What was the absolute percentage change in Expected volatility between 2019 and 2020?"
+    ]
+  },
+  {
+    "calc_pattern": "(-#-(-#))/-#",
+    "error_type": "pct_vs_pp_candidate",
+    "suggested_instruction": "‘percentage change’ = (new-old)/old*100; ‘change in percentage’ = new% - old% (percentage points).",
+    "support": 1,
+    "evidence_examples": [
+      "What was the percentage change in the Reductions related to a lapse of applicable statute of limitations between 2017 and 2018?"
+    ]
+  },
+  {
+    "calc_pattern": "#/#-#",
+    "error_type": "extremum_candidate",
+    "suggested_instruction": "For ‘largest/smallest’, select the max/min after unit normalization; do not sum or average.",
+    "support": 1,
+    "evidence_examples": [
+      "What was the percentage increase / (decrease) in the selling, general and administrative expenses from 2018 to 2019?"
+    ]
+  },
+  {
+    "calc_pattern": "(-#-#)/#",
+    "error_type": "pct_vs_pp_candidate",
+    "suggested_instruction": "‘percentage change’ = (new-old)/old*100; ‘change in percentage’ = new% - old% (percentage points).",
+    "support": 1,
+    "evidence_examples": [
+      "What was the percentage change in the net Total other (expense) income between 2017 and 2018?"
+    ]
+  },
+  {
+    "calc_pattern": "#+#",
+    "error_type": "extremum_candidate",
+    "suggested_instruction": "For ‘largest/smallest’, select the max/min after unit normalization; do not sum or average.",
+    "support": 1,
+    "evidence_examples": [
+      "What was the total non-USD denominated monetary liabilities as at 31 December 2019?"
+    ]
+  },
+  {
+    "calc_pattern": "#-#",
+    "error_type": "avg_window_candidate",
+    "suggested_instruction": "Year average = (value(y) + value(y-1)) / 2.",
+    "support": 1,
+    "evidence_examples": [
+      "How many percent did the weighted average hedged rate for the year change by from 2018 to 2019?"
+    ]
+  },
+  {
+    "calc_pattern": "#-#",
+    "error_type": "tfidf_cluster_0",
+    "suggested_instruction": "Clarify units/time window; ensure text-based column selection.",
+    "support": 1,
+    "evidence_examples": [
+      "creas reas rea crea rease cre eas ease"
+    ]
+  },
+  {
+    "calc_pattern": "#-#",
+    "error_type": "tfidf_cluster_1",
+    "suggested_instruction": "Clarify units/time window; ensure text-based column selection.",
+    "support": 1,
+    "evidence_examples": [
+      "ent  201 201  20 and   and  and   an"
+    ]
+  },
+  {
+    "calc_pattern": "#-#",
+    "error_type": "tfidf_cluster_2",
+    "suggested_instruction": "Clarify units/time window; ensure text-based column selection.",
+    "support": 1,
+    "evidence_examples": [
+      "pril  apri apr apri april pril  ded ded "
+    ]
+  },
+  {
+    "calc_pattern": "#-#",
+    "error_type": "tfidf_cluster_3",
+    "suggested_instruction": "Clarify units/time window; ensure text-based column selection.",
+    "support": 1,
+    "evidence_examples": [
+      "otal total ota otal   tota  tot tal tal "
+    ]
+  },
+  {
+    "calc_pattern": "#-#",
+    "error_type": "tfidf_cluster_4",
+    "suggested_instruction": "Clarify units/time window; ensure text-based column selection.",
+    "support": 1,
+    "evidence_examples": [
+      "los ing  ing rati rat ng  chang nge"
+    ]
+  },
+  {
+    "calc_pattern": "#-#",
+    "error_type": "tfidf_cluster_5",
+    "suggested_instruction": "Clarify units/time window; ensure text-based column selection.",
+    "support": 1,
+    "evidence_examples": [
+      "nd  renc enc ren 202  202 ence iffer"
+    ]
+  },
+  {
+    "calc_pattern": "#/#",
+    "error_type": "tfidf_cluster_0",
+    "suggested_instruction": "Clarify units/time window; ensure text-based column selection.",
+    "support": 1,
+    "evidence_examples": [
+      " pro  pr pro rop prop  prop  of  of "
+    ]
+  },
+  {
+    "calc_pattern": "#/#",
+    "error_type": "tfidf_cluster_1",
+    "suggested_instruction": "Clarify units/time window; ensure text-based column selection.",
+    "support": 1,
+    "evidence_examples": [
+      " co on   con con tion ion tion  ion "
+    ]
+  },
+  {
+    "calc_pattern": "#/#",
+    "error_type": "tfidf_cluster_2",
+    "suggested_instruction": "Clarify units/time window; ensure text-based column selection.",
+    "support": 1,
+    "evidence_examples": [
+      "ste ested sted sted  este veste vest ves"
+    ]
+  },
+  {
+    "calc_pattern": "#/#",
+    "error_type": "tfidf_cluster_3",
+    "suggested_instruction": "Clarify units/time window; ensure text-based column selection.",
+    "support": 1,
+    "evidence_examples": [
+      "nge ange  hang hange chang chan cha nge "
+    ]
+  },
+  {
+    "calc_pattern": "#/#",
+    "error_type": "tfidf_cluster_4",
+    "suggested_instruction": "Clarify units/time window; ensure text-based column selection.",
+    "support": 1,
+    "evidence_examples": [
+      " rati atio  io  tio  ratio rati  ra  rat"
+    ]
+  },
+  {
+    "calc_pattern": "#/#",
+    "error_type": "tfidf_cluster_5",
+    "suggested_instruction": "Clarify units/time window; ensure text-based column selection.",
+    "support": 1,
+    "evidence_examples": [
+      "ent men ment ment  ent  nt   to ore"
+    ]
+  },
+  {
+    "calc_pattern": "(#+#)/#",
+    "error_type": "tfidf_cluster_0",
+    "suggested_instruction": "Clarify units/time window; ensure text-based column selection.",
+    "support": 1,
+    "evidence_examples": [
+      " in 201  20  201 ge  age  age voya"
+    ]
+  },
+  {
+    "calc_pattern": "(#+#)/#",
+    "error_type": "tfidf_cluster_1",
+    "suggested_instruction": "Clarify units/time window; ensure text-based column selection.",
+    "support": 1,
+    "evidence_examples": [
+      "ber  ber mber mber  mbe ted  ted est"
+    ]
+  },
+  {
+    "calc_pattern": "(#+#)/#",
+    "error_type": "tfidf_cluster_2",
+    "suggested_instruction": "Clarify units/time window; ensure text-based column selection.",
+    "support": 1,
+    "evidence_examples": [
+      "for   for  for or   for  fo  20 201"
+    ]
+  },
+  {
+    "calc_pattern": "(#+#)/#",
+    "error_type": "tfidf_cluster_3",
+    "suggested_instruction": "Clarify units/time window; ensure text-based column selection.",
+    "support": 1,
+    "evidence_examples": [
+      "pro rop prop  prop  pro  pr men ment"
+    ]
+  },
+  {
+    "calc_pattern": "(#+#)/#",
+    "error_type": "tfidf_cluster_4",
+    "suggested_instruction": "Clarify units/time window; ensure text-based column selection.",
+    "support": 1,
+    "evidence_examples": [
+      "free   ca  cash ash ash  flo flow flow?"
+    ]
+  },
+  {
+    "calc_pattern": "(#+#)/#",
+    "error_type": "tfidf_cluster_5",
+    "suggested_instruction": "Clarify units/time window; ensure text-based column selection.",
+    "support": 1,
+    "evidence_examples": [
+      "efi 019  19  2019  emes che mes? mes"
+    ]
+  },
+  {
+    "calc_pattern": "#-#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "(#-#)/#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "(#+#)/#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "[(#+#)/#]-[(#+#)/#]",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "#/#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "((#-#)+(#-#))/#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "-#-#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "(#%+#%+#%)/#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "(#+#+#)/#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "#/#-#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "(#+#+#+#+#)/#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "#+#+#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "#+#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "#%-#%",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "-(#+#+#)/#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "-#/#-#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "(#%+#%)/#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "(#*#)+(#*#)",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "#*#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "[(-#)-(-#)]/-#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "-#-(#)",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "-(#+#)/#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "(#+#+#+#)/#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "-#-(-#)",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "#-(-#)",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "(#/#)-(#/#)",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "(-#)-(-#)",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "(#+#+#)/(#-#+#)",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "(-#-(-#))/-#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "(#+#+#+#+#+#+#)/#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "#+(-#)+#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "((#+#)-(#+#))/(#+#)",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "#+#+#+#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "-#/-#-#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "(-#-#)/#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "(-#-(-#))/(-#)",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "#+(#)+#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "[(-#)+(-#)]/#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "[(#+#)/#]-[(-#)+(-#)]/#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  },
+  {
+    "calc_pattern": "#+#+#+#+#",
+    "error_type": "header_guard",
+    "suggested_instruction": "Never index columns by position; select columns by header text (case-insensitive, stripped).",
+    "support": 1,
+    "evidence_examples": [
+      "global"
+    ]
+  }
+]

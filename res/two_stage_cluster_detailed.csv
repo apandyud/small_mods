@@ -1,0 +1,188 @@
+,calc_pattern,question,inner_cluster
+5,(#+#)/#,What is the 2019 average defined contribution schemes?,7
+6,(#+#)/#,What is the 2019 average defined benefit schemes?,7
+7,[(#+#)/#]-[(#+#)/#],What is the difference between 2019 average defined contribution schemes and 2019 average defined benefit schemes?,1
+14,(#+#)/#,What is the 2019 average free cash flow?,2
+15,(#+#)/#,What is the 2018 average free cash flow?,2
+16,[(#+#)/#]-[(#+#)/#],What is the change between 2018 and 2019 average free cash flow?,0
+17,((#-#)+(#-#))/#,What was the average difference between EBITDA and underlying EBITDA for both FYs?,0
+27,#-#,What was the total expenses for Oracle in 2018?,7
+28,#+#+#,What were the total Assets as reported?,1
+29,#+#,What were the total Liabilities and Stockholders' Equity as reported?,0
+30,#-#,What is the difference in amount between Deferred Revenue and Other non-current liabilities as reported?,2
+31,(#-#)/#,What was the percentage change in Total Other operating expenses between 2018 and 2019?,1
+33,(#+#+#)/#,"What was the average State and local income tax rate, net of federal tax benefits between 2017-2019?",1
+34,-#-#,What was the change in the preferred stock disposition from 2018 to 2019?,1
+38,#-#,What was the change in closing cash?,7
+39,(#+#)/#,What is the average total current tax expense for 2017 and 2018? ,0
+40,(#+#)/#,What is the average total current tax expense for 2018 and 2019?,0
+41,[(#+#)/#]-[(#+#)/#],"What is the change in the average total current tax expense between 2017-2018, and 2018-2019?",0
+42,#+#,"What is the total number of nonvested shares as of December 31, 2019 and 2018?",1
+47,-(#+#+#)/#,What was the average Tax exempt interest income?,0
+48,-#/#-#,What was the percentage change in the Domestic manufacturers deduction from 2017 to 2018?,0
+49,(#%+#%)/#,What is the average dividend yield in 2017 and 2018?,1
+54,(#-#)/#,What was the percentage change in Total Other in 2018 from 2017?,0
+60,(#*#)+(#*#),What is the total price of shares that were exercised or canceled between 2016 and 2017?,0
+61,#/#,"What is the proportion of granted shares between 2017 and 2018 over outstanding shares at September 30, 2017?",1
+62,#*#,"What is the price of outstanding shares on September 30, 2019?",0
+67,(#-#)/#,What was the percentage change in Adjusted EBITDA between 2018 and 2019?,1
+68,(#-#)/#,What was the percentage change in the Total net deferred tax assets between 2018 and 2019?,5
+69,#-#,What is the difference in the number of rights 'granted during the period' between 2018 and 2019?,1
+71,(#-#)/#,What is the percentage increase in the number of rights 'outstanding at the start of period' from 2018 to 2019? ,7
+75,#-#,What is the change in the operating revenue under continuing operations from 2018 to 2019?,7
+80,(#+#+#)/#,What is the average annual Operating leases contractual obligations for 2020-2024?,4
+86,(#-#)/#,What is the percentage change in the value of raw materials between 2018 and 2019?,1
+87,(#-#)/#,What is the percentage change in the value of work-in-process inventory between 2018 and 2019?,1
+97,#/#,"For 2018, what is the percentage of constitution of employee severance and related costs among the total cost?",0
+103,#/#,What is the percentage constitution of Depreciation and Amortisation in EBITDA in F19?,6
+106,(#-#)/#,What was the percentage change in Transportation equipment in 2019 from 2018?,3
+116,#/#,What percentage of the total unrealized gain is generated from U.S. government obligations in 2018?,2
+117,#/#,What percentage of the total amortized cost is made up of foreign government obligations in 2018?,2
+118,#-#,What were the total expenses in 2019?,7
+125,(#+#+#)/#,What was the average Net cash used in financing activities between fiscal years 2017-2019?,0
+126,#-#,What was the change in Acquisition and integration costs in 2019 from 2018?,7
+127,(#-#)/#,What was the percentage change in Acquisition and integration costs in 2019 from 2018?,1
+129,-(#+#)/#,What is the average Non-deductible items for 2018 and 2019?,0
+130,-(#+#)/#,What was the average Adjustment for share-based payments for 2018 and 2019?,0
+138,#-#,What was the change in Inventory between 2018 and 2019?,7
+140,(#-#)/#,What was the percentage change in net deferred tax assets between 2018 and 2019?,5
+143,-#-#,What is the net difference in sale of systems between 2017 and 2019?,0
+145,(#-#)/#,What is the net percentage difference in net sales between 2017 and 2019?,4
+147,#-#,What is the change in Allowance for expected credit losses from 2018 to 2019?,7
+159,#-#,"What is the increase/ (decrease) in Voyage expenses from, 2019 to 2018?",4
+170,#-(-#),"What is the change in ""impact of exchange rate"" from FY 2018 to FY 2019?",0
+171,#/#,What is the average INR-GBP exchange rate in FY 2019?,4
+173,#/#,What is the current ratio in 2019?,4
+174,#/#,What is the debt-to-asset ratio in 2018?,5
+175,(#/#)-(#/#),What is the change in current ratio from 2018 to 2019?,0
+176,(#-#)/#,What was the percentage change in the total between 2018 and 2019?,1
+177,#/#,What is the percentage difference of total liabilities when comparing after adjustment to before adjustment?,0
+178,#-#,"What is the total equity of the acquisation as of December 31, 2019?",2
+179,#/#,"What is the liability to asset ratio as of December 31, 2019?",5
+183,(#-#)/#,What was the percentage change in net inventories between 2018 and 2019?,4
+185,#%-#%,What is the change in the Total Gross Margin between Fiscal 2018 and 2019?,0
+188,#-#,What was the difference in the Weighted-Average Useful Lives between Trademarks and tradenames and Other intangible assets?,2
+192,(#+#)/#,"What is the average Lease related expenses for the year ended December 31, 2019 to 2018?",4
+194,#-#,What is the increase / (decrease) in the Gross Profit from 2018 to 2019?,4
+195,#-#,What is the COGS for 2019?,7
+196,#/#-#,What is the percentage increase / (decrease) in average Urner Barry Spot Egg Market Quotations 1 in 2019 compared to 2018?,1
+197,(#+#)/#,What is the average total basic earnings per share for both 2018 and 2019?,4
+199,#-#,What is the nominal difference for basic earnings per share (cents per share) between 2018 and 2019?,5
+200,#-(-#),What is the increase / (decrease) in the Realized gains (losses) on maturity and/or partial termination of cross currency swap from 2018 to 2019?,0
+201,-(#+#+#)/#,What was the average realized losses?,0
+202,#/#-#,What is the percentage increase / (decrease) in the Unrealized (losses) gains from 2017 to 2018?,0
+208,#-#,What is the nominal difference for ROFE between F19 and F18?,2
+211,(#+#)/#,What is the average voyage revenue in 2018 and 2019?,3
+212,(#+#)/#,What is the average voyage expenses in 2018 and 2019?,3
+213,(#+#)/#,What is the average net voyage revenue in 2018 and 2019?,3
+216,(#+#+#)/#,What is the average of Net revenues by geographical region of shipment?,2
+219,(#-#)/#,What is the change in total cost of revenue between 2019 and 2018?,1
+220,#+#,What is the total cost of revenue in both 2019 and 2018?,1
+221,#/#,What is the proportion of products as a percentage of the total cost of revenue in 2019?,0
+222,#+#,What was the sum of all Income tax net operating loss carryforwards?,0
+223,#+#+#,What was the sum of all Tax credit carryforwards?,0
+224,#/#,What was the domestic-state tax credit carryforwards as a ratio of domestic-federal tax credit carryforwards?,4
+227,(#-#)/#,What is the percentage change in the amounts owed to members of Peel from 2018 to 2019?,1
+232,(#+#)/#,What is the average total asset value for 2018 and 2019?,4
+237,(-#)-(-#),What is the difference between the net cash used for financing activities in 2018 and 2019?,0
+238,(#%+#%)/#,What is the average discount rate for 2018 and 2019?,0
+240,(#%+#%)/#,What is the average rate of price inflation for 2018 and 2019?,0
+241,#-#,What was the change in percentage of sales represented by gross profit between 2018 and 2019?,4
+243,#-#,What was the change in percentage of sales represented by provision for income taxes between 2018 and 2019?,3
+253,#-#,How much more cloud and license revenues came from the Americas as compared to Asia Pacific in 2018?,7
+254,#+#,What was the total applications revenues in 2019 and 2018?,1
+256,(#-#)/#,What was the percentage change in the Total amount in 2019 from 2018?,1
+258,#-#,What was the absolute percentage change in Expected volatility between 2019 and 2020?,7
+264,#-#,"From fiscal year 2020 - 2024, what is the difference in the number of ground leases and land and building leases expiring?",6
+266,#-#,What is the difference of ground leases expiring between the periods 2020 - 2024 and 2025 - 2029?,6
+273,(#-#)/#,"What is the percentage change in the total fair value of consideration transferred at June 30 and December 31, 2019?",6
+277,(-#-(-#))/-#,What was the percentage change in the Reductions related to a lapse of applicable statute of limitations between 2017 and 2018?,0
+281,#-#,What was the change in the total number of shares purchased between the second to third month period?,1
+283,(#-#)/#,What was the percentage change in Net income attributable to American Tower Corporation stockholders between 2018 and 2019?,4
+284,(#-#)/#,What is the percentage increase in cash provided from financing activities between 2018 and 2019?,2
+285,(#-#)/#,What is the percentage change in the total other non-current assets between 2018 and 2019?,1
+286,#+#,What is the total value of other non-current assets between 2018 to 2019?,1
+287,#+#,What is the total deposits in 2018 and 2019?,1
+288,(#+#)/#,"What is the average number of nonvested shares granted on January 1, 2017 and between December 30, 2018 and December 29, 2019?",1
+289,(#+#)/#,"What is the average number of nonvested shares vested on January 1, 2017 and between December 30, 2018 and December 29, 2019?",1
+290,(#+#)/#,"What is the average number of nonvested shares forfeited on January 1, 2017 and between December 30, 2018 and December 29, 2019?",1
+292,(#+#+#)/#,What is the average global regional films (excluding Tamil films) from 2017-2019?,3
+294,(#-#)/#,What is the percentage change in the research and development costs incurred from 2018 to 2019?,1
+296,(#-#)/#,What is the percentage change in the finance costs expensed from 2018 to 2019?,1
+297,(#+#+#+#+#+#+#)/#,What is the average age of the executive officers of the company as at 24 February 2020?,0
+298,(#-#)/#,What is the percentage change in cash provided by financing activities between 2018 and 2019?,2
+299,#+#+#,What is the total cash provided by financing activities between 2017 to 2019?,1
+300,#+(-#)+#,What is the total cash provided by all cash flow related activities between 2017 to 2019?,0
+302,(#+#)/#,What was the average interest expense for 2018 and 2019?,0
+303,(#-#)/#,What is the percentage change of net operating losses and credits from 2018 to 2019?,4
+311,(#+#+#)/#,What is the average of Net cash from operating activities?,0
+312,(#+#+#)/#,"What is the average of Cash, restricted cash and short-term marketable securities?",0
+313,(#+#+#)/#,What is the average of Committed global credit facilities?,3
+320,(#-#)/#,What is the percentage change in the interim dividend from 2018 to 2019?,1
+322,((#+#)-(#+#))/(#+#),What is the percentage change in total net sales of International and Foodservice from fiscal year 2018 to 2019?,0
+325,#-#,What was the change in Impairment losses between 2017 and 2018?,5
+326,(#-#)/#,What was the percentage change in the Share based compensation between 2017 and 2018?,0
+330,#/#,What proportion of level 2 inputs is made up of money market funds? ,0
+334,#+#+#+#,"What is the total carrying amount of Senior Notes due by December 2024 as of December 31, 2019?",0
+336,(#-#)/#,What was the percentage change in the amount Outstanding at 1 April in 2019 from 2018?,7
+337,(-#-(-#))/-#,What was the percentage change in the ending balance between 2017 and 2018?,0
+338,#-#,What was the change in Net operating loss carryforwards from 2018 to 2019?,5
+340,(#+#)/#,What is the 2019 average total amount falling due within one year?,4
+341,(#+#)/#,What is the 2019 average total amount falling due after more than one year?,4
+342,#-#,What was the change in the number of shares granted in 2019 from 2018?,1
+344,#-#,"What is the change in Net Sales from Fiscal Year Ended April 28, 2018 to Fiscal Year Ended April 27, 2019?",3
+345,#-#,"What is the change in Income before Income Taxes from Fiscal Year Ended April 28, 2018 to Fiscal Year Ended April 27, 2019?",3
+348,(#+#+#)/#,"What was the average losses recognized in other income (expense), net, across the 3 year period?",1
+353,#-#,What is the difference in low and medium country risk due for 1-90 days past due?,0
+356,#/#-#,"What was the percentage increase / (decrease) in the selling, general and administrative expenses from 2018 to 2019?",1
+357,(#+#)/#,What is the average depreciation and amortization expense?,0
+358,-#/-#-#,What is the percentage increase / (decrease) in the loss from operations from 2018 to 2019?,0
+359,(-#-#)/#,What was the percentage change in the net Total other (expense) income between 2017 and 2018?,0
+361,(#+#+#)/#,What was the average amount of total expected charges per segment?,4
+367,(#-#)/#,What was the percentage change in the amount Outstanding at 31 March in 2019 from 2018?,7
+368,(#-#)/#,What was the percentage change in net bookings between 2018 and 2019?,4
+369,(#-#)/#,What was the percentage change in in-game net bookings between 2018 and 2019?,4
+370,#-#,What is the increase / (decrease) in the Weighted-average common stock outstanding from 2018 to 2019?,4
+371,(#+#)/#,What is the average unvested restricted stock?,6
+375,#/#,What is the value of the change in goodwill impairment between 2018 and 2019 as a percentage of the 2018 goodwill impairment?,5
+385,(#+#)/#,What is the average Allowance for doubtful accounts?,0
+388,(#+#)/#,What was the average increase / (decrease) in internet service customers between 2018 and 2019?,0
+399,#-#,What is the nominal difference for the number of fully paid ordinary shares between 2018 and 2019?,1
+400,(#+#)/#,What is the average contributed equity at end of period for 2018 and 2019 in terms of $M?,0
+401,#-#,What is the nominal difference in contributed equity between 2018 and 2019 in terms of $M ?,2
+402,(#-#)/#,What is the percentage change in net income between fiscal years 2019 and 2018?,4
+409,(#-#)/#,What is the percentage change in net cash provided by operating activities between 2017 and 2018?,2
+410,(#-#)/#,"What is the percentage change in the net cost of land, property, and equipment in 2019 compared to 2018?",3
+411,(#+#)/#,"What is the proportion of land and leasehold improvements over the gross cost of land, property, and equipment in 2019?",5
+412,#/#,"What is the ratio of the gross cost of land, property, and equipment in fiscal 2019 to fiscal 2018?",4
+413,(#-#)/#,What is the percentage increase in Swiss income from 2017 to 2018?,0
+415,#/#,"For Balance payable as at June 30, 2019, what is Workforce reduction expressed as a percentage of Facility costs?",1
+417,(#+#+#)/#,What is the average percentage of net revenues of Distribution?,2
+419,#/#,What is the percentage constitution of cash in the total gains on the sale of company-operated restaurants in 2019?,6
+422,#-#,What is the change in the number of shares granted between 2018 and 2019?,1
+424,#+#+#,What is the total provision for income taxes between 2017 to 2019?,1
+425,(#-#)/#,What is the change in the current provision for income taxes at the state level between 2018 and 2019?,1
+426,#+(#)+#,What is the total federal tax expense between 2017 to 2019?,0
+431,(#+#+#)/#,What is the average Cost of sales?,4
+432,(#+#+#)/#,What is the average Gross profit?,4
+433,(#+#+#)/#,What is the average Gross margin (as percentage of net revenues)?,2
+435,(#+#)/#,"What is the proportion, in percentage, of deferred revenue and accrued warranty over gross deferred tax assets in 2019?",5
+436,#/#,What is the ratio of inventory reserves to accrued compensation in 2018?,5
+440,-#-#,What is the increase / (decrease) in Acquisition-related charges from 2018 to 2019? ,1
+441,#-#,What is the increase / (decrease) in the Operating (non-GAAP) interest expense from 2018 to 2019?,4
+444,#/#,What is the percentage increase in Total stockholders’ equity after adoption of new standard?,0
+455,[(-#)+(-#)]/#,What is the average financing costs between 2018 and 2019?,0
+456,[(#+#)/#]-[(-#)+(-#)]/#,What is the difference between the average investment income and average financing costs?,0
+462,#+#,What was the total non-USD denominated monetary liabilities as at 31 December 2019?,0
+464,#-#,What was the change in the basic net income per share between 2017 and 2018?,5
+465,(#-#)/#,"What is the change in accumulated depreciation for PPE between December 31, 2018 and 2019?",6
+471,(#-#)/#,What is the percentage change in the amount of operating leases in 2021 from 2020?,1
+474,#-#,How many percent did the weighted average hedged rate for the year change by from 2018 to 2019?,3
+475,(#-#)/#,"What is the percentage change of revenue from Hong Kong from 2017 to 2018, based on the geographic location of the customer’s headquarters?",0
+476,(#+#)/#,"What is the total percentage of revenue from Taiwan and Japan over total revenue in 2019, based on the geographic location of the customer's headquarters?",3
+477,#*#,What is the total earnings in 2019?,0
+480,(#-#)/#,What is the percentage change in the total balance of goodwill of the Network Software & Systems segment in 2019 compared to 2018?,1
+484,(#+#)/#,What is the proportion of long-term debt payments due in 5 years or below? ,5
+489,#/#,"What is the percentage of non-vested shares granted in 2019 as a percentage of the total non-vested shares at December 31, 2019?",3
+490,#/#,"What is the percentage of non-vested shares vested in 2019 as a percentage of the total non-vested shares at December 31, 2019?",3
+491,#/#,"What is the percentage of non-vested shares forfeited in 2019 as a percentage of the total non-vested shares at December 31, 2019?",3
