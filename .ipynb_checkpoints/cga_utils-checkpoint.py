@@ -328,13 +328,19 @@ def annotate_results(res):
                 selection_success = False
                 trace = {}
 
-            if code and type(code) == str and code != '':
-                code_calc_pattern, label =  analyze_function(code)
-            else:
+            try:
+                if code and type(code) == str and code != '':
+                    code_calc_pattern, label =  analyze_function(code)
+                    if code_calc_pattern.startswith("(") and code_calc_pattern.endswith(")"):
+                        code_calc_pattern = code_calc_pattern[1:-1]
+
+                else:
+                    code_calc_pattern = "no_code"
+                    
+            except Exception as e:
+                print("Annotaion warning: ", e)
                 code_calc_pattern = "no_code"
-            if code_calc_pattern.startswith("(") and code_calc_pattern.endswith(")"):
-                code_calc_pattern = code_calc_pattern[1:-1]
-            print(code_calc_pattern)
+                
             res2.append( {'ts': ts, 'qid': q_block['uid'], 'question' : q_block['question'], 'derivation': q_block['derivation'], 'calc_pattern': replace_numbers([q_block['derivation']])[0], 'code_calc_pattern': code_calc_pattern, 'pred' : pred, 'pred_scale': pred_scale,  'answer': ans['answer'],  'scale':  ans['scale'],  'value_match': value_match, 'selection_success' : selection_success, 'sign_error' : pred != 0.0 and ans['answer'] == -1*pred,  'is_parenth_in_table': match, 'has_code_abs': 'abs(' in code, 'error_text': err} | trace )
     except Exception as e:
                 s = '[AnnotationError]'+ str(e)
