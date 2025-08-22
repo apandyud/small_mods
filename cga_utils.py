@@ -327,8 +327,15 @@ def annotate_results(res):
                 code = ""
                 selection_success = False
                 trace = {}
-            
-            res2.append( {'ts': ts, 'qid': q_block['uid'], 'question' : q_block['question'], 'derivation': q_block['derivation'], 'calc_pattern': replace_numbers([q_block['derivation']])[0], 'pred' : pred, 'pred_scale': pred_scale,  'answer': ans['answer'],  'scale':  ans['scale'],  'value_match': value_match, 'selection_success' : selection_success, 'sign_error' : pred != 0.0 and ans['answer'] == -1*pred,  'is_parenth_in_table': match, 'has_code_abs': 'abs(' in code, 'error_text': err} | trace )
+
+            if code and type(code) == str and code != '':
+                code_calc_pattern, label =  analyze_function(code)
+            else:
+                code_calc_pattern = "no_code"
+            if code_calc_pattern.startswith("(") and code_calc_pattern.endswith(")"):
+                code_calc_pattern = code_calc_pattern[1:-1]
+            print(code_calc_pattern)
+            res2.append( {'ts': ts, 'qid': q_block['uid'], 'question' : q_block['question'], 'derivation': q_block['derivation'], 'calc_pattern': replace_numbers([q_block['derivation']])[0], 'code_calc_pattern': code_calc_pattern, 'pred' : pred, 'pred_scale': pred_scale,  'answer': ans['answer'],  'scale':  ans['scale'],  'value_match': value_match, 'selection_success' : selection_success, 'sign_error' : pred != 0.0 and ans['answer'] == -1*pred,  'is_parenth_in_table': match, 'has_code_abs': 'abs(' in code, 'error_text': err} | trace )
     except Exception as e:
                 s = '[AnnotationError]'+ str(e)
                 print(s)
@@ -483,3 +490,162 @@ def setups_summary(test_setups):
             'Time:  ': str(timedelta(seconds = res.iloc[-1]["ts"] - res.iloc[0]["ts"]))
             })
     return pd.DataFrame(s)
+
+import ast
+
+# ---------- segédek
+
+def is_zero(node):
+    return isinstance(node, ast.Constant) and node.value in (0, 0.0)
+
+def is_one(node):
+    return isinstance(node, ast.Constant) and node.value == 1
+
+def find_first(node, pred):
+    """Első részfa, amire pred(node) igaz."""
+    if pred(node):
+        return node
+    for ch in ast.iter_child_nodes(node):
+        hit = find_first(ch, pred)
+        if hit is not None:
+            return hit
+    return None
+
+def inline_name(name_node, assigns, depth=5):
+    """Változónév visszahelyettesítése az utolsó hozzárendeléssel (max depth)."""
+    node = name_node
+    seen = set()
+    while depth > 0 and isinstance(node, ast.Name) and node.id in assigns and node.id not in seen:
+        seen.add(node.id)
+        node = assigns[node.id]
+        depth -= 1
+    return node
+
+def unwrap_numeric(node, assigns):
+    """Return-értékből a numerikus kifejezés kibontása (IfExp/Tuple/round/Name inline)."""
+    # ternary: vegyük azt az ágat, amiben osztás van; ha egyikben sincs, a "body"-t
+    if isinstance(node, ast.IfExp):
+        # a tuple első eleme a numerikus rész
+        def first_num(n):
+            if isinstance(n, ast.Tuple) and n.elts:
+                return n.elts[0]
+            return n
+        body = first_num(node.body)
+        orelse = first_num(node.orelse)
+        cand = find_first(body, lambda x: isinstance(x, ast.BinOp) and isinstance(x.op, ast.Div)) or \
+               find_first(orelse, lambda x: isinstance(x, ast.BinOp) and isinstance(x.op, ast.Div)) or \
+               body
+        node = cand
+
+    # ha tuple: az első elem a numerikus
+    if isinstance(node, ast.Tuple) and node.elts:
+        node = node.elts[0]
+
+    # round(x, ...): a szám maga x
+    if isinstance(node, ast.Call) and isinstance(node.func, ast.Name) and node.func.id == "round":
+        if node.args:
+            node = node.args[0]
+
+    # változónév inline
+    if isinstance(node, ast.Name):
+        node = inline_name(node, assigns)
+
+    return node
+
+def patternize(node, role_map=None):
+    """Mintasztring: (#-#), ((sum)/count) stb."""
+    role_map = role_map or {}
+    if isinstance(node, ast.BinOp):
+        op = {ast.Add:"+", ast.Sub:"-", ast.Mult:"*", ast.Div:"/"}.get(type(node.op), "?")
+        return f"({patternize(node.left, role_map)}{op}{patternize(node.right, role_map)})"
+    if isinstance(node, ast.UnaryOp) and isinstance(node.op, ast.USub):
+        return f"(-{patternize(node.operand, role_map)})"
+    if isinstance(node, ast.Name):
+        return role_map.get(node.id, "#")
+    if isinstance(node, (ast.Subscript, ast.Call, ast.Constant)):
+        return "#"
+    return "?"
+
+def classify_general(expr):
+    """Alap magasabb szintű címkék, ha nem loop-átlag."""
+    if isinstance(expr, ast.BinOp):
+        if isinstance(expr.op, ast.Add): return "sum"
+        if isinstance(expr.op, ast.Sub): return "difference"
+        if isinstance(expr.op, ast.Mult): return "product"
+        if isinstance(expr.op, ast.Div):  return "ratio"
+    if isinstance(expr, ast.UnaryOp) and isinstance(expr.op, ast.USub):
+        return "negation"
+    return "unknown"
+
+# ---------- fő elemző
+
+def analyze_function(code: str):
+    tree = ast.parse(code)
+    func = next((n for n in tree.body if isinstance(n, ast.FunctionDef)), None)
+    if not func:
+        return "","no_function"
+
+    # hozzárendelések és növelések gyűjtése
+    assigns = {}      # utolsó értékadás: var -> expr
+    init_vals = {}    # kezdeti érték: var -> expr (első értékadás)
+    aug_ops  = {}     # var -> list of (op, right_expr)
+
+    return_node = None
+
+    for node in func.body:
+        if isinstance(node, ast.Assign) and len(node.targets)==1 and isinstance(node.targets[0], ast.Name):
+            var = node.targets[0].id
+            if var not in init_vals:
+                init_vals[var] = node.value
+            assigns[var] = node.value
+        elif isinstance(node, ast.AugAssign) and isinstance(node.target, ast.Name):
+            var = node.target.id
+            aug_ops.setdefault(var, []).append((type(node.op), node.value))
+        elif isinstance(node, ast.For):
+            # belső növelések a for-ban is
+            for sub in ast.walk(node):
+                if isinstance(sub, ast.AugAssign) and isinstance(sub.target, ast.Name):
+                    var = sub.target.id
+                    aug_ops.setdefault(var, []).append((type(sub.op), sub.value))
+        elif isinstance(node, ast.Return):
+            return_node = node.value
+
+    if return_node is None:
+        return "","no_return"
+
+    # Azonosítsuk a sum és count változókat heurisztikával:
+    sum_vars = set()
+    count_vars = set()
+    for var, ops in aug_ops.items():
+        # összeadó változó: kezdet 0, és van += valami (nem feltétlen 1)
+        if var in init_vals and is_zero(init_vals[var]) and any(op is ast.Add for op,_ in ops):
+            sum_vars.add(var)
+        # darabszám: kezdet 0, és legalább egy += 1
+        if var in init_vals and is_zero(init_vals[var]) and any(op is ast.Add and is_one(rhs) for op,rhs in ops):
+            count_vars.add(var)
+
+    # numerikus kifejezés kibontása
+    expr = unwrap_numeric(return_node, assigns)
+
+    # loop-átlag detektálás: total/count mintázat
+    role_map = {}
+    if isinstance(expr, ast.BinOp) and isinstance(expr.op, ast.Div):
+        L, R = expr.left, expr.right
+        # inline mindkettő a biztonság kedvéért
+        if isinstance(L, ast.Name): L = inline_name(L, assigns)
+        if isinstance(R, ast.Name): R = inline_name(R, assigns)
+
+        def name_of(n):
+            return n.id if isinstance(n, ast.Name) else None
+
+        lname, rname = name_of(L), name_of(R)
+        if lname in sum_vars and rname in count_vars:
+            role_map = {lname:"sum", rname:"count"}
+            return patternize(expr, role_map), "average"
+        # Néha a bal oldal maga egy összeadás-lánc Name helyett; ettől még átlag lehet,
+        # de ha nincs egyértelmű sum/count név, esünk a generálba.
+
+    # ha nem loop-átlag, általános minta + címke
+    pat = patternize(expr, {})
+    label = classify_general(expr)
+    return pat, label
