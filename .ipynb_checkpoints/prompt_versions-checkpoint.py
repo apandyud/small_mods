@@ -1326,6 +1326,35 @@ prompt_versions = {
             "Do not generate explanation, nor example code, just the function. "           
         )        
       ],
+      'V29b': [
+         ("system","You will receive the financial report as an annotated value list and a question. "+
+             "Your task is to generate a Python function that can calculate a numeric value that is the answer for the received question. "                            
+         ),
+        (
+          "human",
+          "VALUE_LIST: {value_list}"+
+          "QUESTION: {question}" +
+          "Generate a Python function 'run(value_list)' that can answer the question using the list of annotated values!  "+
+          "The function must return a tuple (number, scale). The resulting number is a float with accuracy to two decimal places. Scale usually is thousand, million, billion, percent or an empty string."+
+            #"The calculation usually involves two steps: a selection and a calculation on selected data. "+
+            "If the question is about calculating the year average, you must calculate the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2; "+
+            #"If the question is about calculating the change between year averages, apply the previous logic and take difference. " +            
+            #"Expenses are revenue minus net income. " +            
+            #"To calculate the difference, use absolute value. " +
+            #"To calculate the difference, subtract from the bigger number. " +
+            #"To calculate difference, use equation: difference = abs(value1 - value2)." +
+            #"To calculate change, use equation: change = (2*signed_new_value - 2*signed_old_value)/2. "+
+            #"To calculate change, use equation: change = (new_value - old_value)/2. "+
+            #"To calculate percentage change, use equation: percentage_change = (2*signed_new_value - 2*signed_old_value)/2*signed_old_value * 100. " +
+            #"To calculate proportion, do NOT multiply by 100. " +
+            #"Use all given year values if no year specified. " +
+            #"The code must be specific to the provided value list. " +
+            #"never select by index;" +
+            "'percentage change' results 'percent' scale; " +
+            "'change in percentage' is a subtraction; " +
+            "Do not generate explanation, nor example code, just the function. "           
+        )        
+      ],
      # same as v29, but without substract rule
     'V30': [
          ("system","You will receive the financial report as an annotated value list and a question. "+
@@ -1536,8 +1565,8 @@ prompt_versions = {
             #"To calculate proportion, do NOT multiply by 100. " +
             #"Use all given year values if no year specified. " +
             #"The code must be specific to the provided value list. " +
-            "'percentage change' has no multiplication  and results 'percent' scale; " +
-            "'percentage' has no multiplication and results empty scale; " +
+            "'percentage change' HAS  multiplication and results 'percent' scale; " +
+            "'percentage' has NO multiplication and results empty scale; " +
             "'change in percentage' is a subtraction and results 'percent' scale; " +
             "Do not generate explanation, nor example code, just the function. "           
         )        
@@ -1599,6 +1628,608 @@ prompt_versions = {
             "'percentage change' has no multiplication  and results 'percent' scale; " +
             "'percentage' has no multiplication and results empty scale; " +
             "'change in percentage' is a subtraction and results 'percent' scale; " +
+            "Do not generate explanation, nor example code, just the function. "           
+        )        
+      ],
+    'V36c': [ #0.69617706
+          ("system","You will receive the financial report as an annotated value list and a question. "+
+             "Your task is to generate a Python function that can calculate a numeric value that is the answer for the received question. "                            
+         ),
+        (
+          "human",
+          "VALUE_LIST: {value_list}"+
+          "QUESTION: {question}" +
+          "Generate a Python function 'run(value_list)' that can answer the question using the list of annotated values! "+
+          "The function must return a tuple (number, scale). The resulting number is a float with accuracy to two decimal places. Scale usually is thousand, million, billion, percent or an empty string. "+
+            #"The calculation usually involves two steps: a selection and a calculation on selected data. "+
+            "If the question is about calculating the year average, you must calculate the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2;"+
+            #"If the question is about calculating the change between year averages, apply the previous logic and take difference. " +            
+            #"Expenses are revenue minus net income. " +            
+            #"To calculate the difference, use absolute value. " +
+            #"To calculate the difference, subtract from the bigger number. " +
+            #"To calculate difference, use equation: difference = abs(value1 - value2)." +
+            #"To calculate change, use equation: change = (2*signed_new_value - 2*signed_old_value)/2. "+
+            #"To calculate change, use equation: change = (new_value - old_value)/2. "+
+            #"To calculate percentage change, use equation: percentage_change = (2*signed_new_value - 2*signed_old_value)/2*signed_old_value * 100. " +
+            #"To calculate proportion, do NOT multiply by 100. " +
+            #"Use all given year values if no year specified. " +
+            #"The code must be specific to the provided value list. " +
+            #"year average is the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2"
+           "'percentage change' HAS  multiplication and results 'percent' scale; " +
+            "'percentage' has NO multiplication and results empty scale; " +
+            "'change in percentage' is a subtraction and results 'percent' scale; " +
+            "Do not generate explanation, nor example code, just the function. "           
+        )        
+      ],
+'V36d': [
+          ("system","You will receive the financial report as an annotated value list and a question. "+
+             "Your task is to generate a Python function that can calculate a numeric value that is the answer for the received question. "                            
+         ),
+        (
+          "human",
+          "VALUE_LIST: {value_list}"+
+          "QUESTION: {question}" +
+          "Generate a Python function 'run(value_list)' that can answer the question using the list of annotated values! "+
+          "The function must return a tuple (number, scale). The resulting number is a float with accuracy to two decimal places. Scale usually is thousand, million, billion, percent or an empty string. "+
+            #"The calculation usually involves two steps: a selection and a calculation on selected data. "+
+            "If the question is about calculating the year average, you must calculate the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2;"+
+            #"If the question is about calculating the change between year averages, apply the previous logic and take difference. " +            
+            #"Expenses are revenue minus net income. " +            
+            #"To calculate the difference, use absolute value. " +
+            #"To calculate the difference, subtract from the bigger number. " +
+            #"To calculate difference, use equation: difference = abs(value1 - value2)." +
+            #"To calculate change, use equation: change = (2*signed_new_value - 2*signed_old_value)/2. "+
+            #"To calculate change, use equation: change = (new_value - old_value)/2. "+
+            #"To calculate percentage change, use equation: percentage_change = (2*signed_new_value - 2*signed_old_value)/2*signed_old_value * 100. " +
+            #"To calculate proportion, do NOT multiply by 100. " +
+            #"Use all given year values if no year specified. " +
+            #"The code must be specific to the provided value list. " +
+            #"year average is the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2"
+           "'percentage change' results 'percent' scale; " +
+            "'percentage' has NO multiplication and results empty scale; " +
+            "'change in percentage' is a subtraction and results 'percent' scale; " +
+            "Do not generate explanation, nor example code, just the function. "           
+        )        
+      ],
+    'V37': [
+          ("system","You will receive the financial report as an annotated value list and a question. "+
+             "Your task is to generate a Python function that can calculate a numeric value that is the answer for the received question. "                            
+         ),
+        (
+          "human",
+          "VALUE_LIST: {value_list}"+
+          "QUESTION: {question}" +
+          "Generate a Python function 'run(value_list)' that can answer the question using the list of annotated values! "+
+          "The function must return a tuple (number, scale). The resulting number is a float with accuracy to two decimal places. Scale usually is thousand, million, billion, percent or an empty string. "+
+            #"The calculation usually involves two steps: a selection and a calculation on selected data. "+
+            "If the question is about calculating the year average, you must calculate the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2;"+
+            #"If the question is about calculating the change between year averages, apply the previous logic and take difference. " +            
+            #"Expenses are revenue minus net income. " +            
+            #"To calculate the difference, use absolute value. " +
+            #"To calculate the difference, subtract from the bigger number. " +
+            #"To calculate difference, use equation: difference = abs(value1 - value2)." +
+            #"To calculate change, use equation: change = (2*signed_new_value - 2*signed_old_value)/2. "+
+            #"To calculate change, use equation: change = (new_value - old_value)/2. "+
+            #"To calculate percentage change, use equation: percentage_change = (2*signed_new_value - 2*signed_old_value)/2*signed_old_value * 100. " +
+            #"To calculate proportion, do NOT multiply by 100. " +
+            #"Use all given year values if no year specified. " +
+            "Use all needed year values. " +
+            #"The code must be specific to the provided value list. " +
+            #"year average is the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2"
+           "'percentage change' HAS  multiplication and results 'percent' scale; " +
+            "'percentage' has NO multiplication and results empty scale; " +
+            "'change in percentage' is a subtraction and results 'percent' scale; " +
+            "Do not generate explanation, nor example code, just the function. "           
+        )        
+      ],
+     'V37b': #0.67
+    [
+          ("system","You will receive the financial report as an annotated value list and a question. "+
+             "Your task is to generate a Python function that can calculate a numeric value that is the answer for the received question. "                            
+         ),
+        (
+          "human",
+          "VALUE_LIST: {value_list}"+
+          "QUESTION: {question}" +
+          "Generate a Python function 'run(value_list)' that can answer the question using the list of annotated values! "+
+          "The function must return a tuple (number, scale). The resulting number is a float with accuracy to two decimal places. Scale usually is thousand, million, billion, percent or an empty string. "+
+            #"The calculation usually involves two steps: a selection and a calculation on selected data. "+
+            "If the question is about calculating the year average, you must calculate the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2;"+
+            #"If the question is about calculating the change between year averages, apply the previous logic and take difference. " +            
+            #"Expenses are revenue minus net income. " +            
+            #"To calculate the difference, use absolute value. " +
+            #"To calculate the difference, subtract from the bigger number. " +
+            #"To calculate difference, use equation: difference = abs(value1 - value2)." +
+            #"To calculate change, use equation: change = (2*signed_new_value - 2*signed_old_value)/2. "+
+            #"To calculate change, use equation: change = (new_value - old_value)/2. "+
+            #"To calculate percentage change, use equation: percentage_change = (2*signed_new_value - 2*signed_old_value)/2*signed_old_value * 100. " +
+            #"To calculate proportion, do NOT multiply by 100. " +
+            #"Use all given year values if no year specified. " +
+            "Use all needed year values.;" +
+            #"The code must be specific to the provided value list. " +
+            #"year average is the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2"
+           "'percentage change' HAS  multiplication and results 'percent' scale; " +
+            "'percentage' has NO multiplication and results empty scale; " +
+            "'change in percentage' is a subtraction and results 'percent' scale; " +
+            "Do not generate explanation, nor example code, just the function. "           
+        )        
+      ],
+    'V37c': [ #0.6680
+          ("system","You will receive the financial report as an annotated value list and a question. "+
+             "Your task is to generate a Python function that can calculate a numeric value that is the answer for the received question. "                            
+         ),
+        (
+          "human",
+          "VALUE_LIST: {value_list}"+
+          "QUESTION: {question}" +
+          "Generate a Python function 'run(value_list)' that can answer the question using the list of annotated values! "+
+          "The function must return a tuple (number, scale). The resulting number is a float with accuracy to two decimal places. Scale usually is thousand, million, billion, percent or an empty string. "+
+            #"The calculation usually involves two steps: a selection and a calculation on selected data. "+
+            "If the question is about calculating the year average, you must calculate the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2;"+
+            #"If the question is about calculating the change between year averages, apply the previous logic and take difference. " +            
+            #"Expenses are revenue minus net income. " +            
+            #"To calculate the difference, use absolute value. " +
+            #"To calculate the difference, subtract from the bigger number. " +
+            #"To calculate difference, use equation: difference = abs(value1 - value2)." +
+            #"To calculate change, use equation: change = (2*signed_new_value - 2*signed_old_value)/2. "+
+            #"To calculate change, use equation: change = (new_value - old_value)/2. "+
+            #"To calculate percentage change, use equation: percentage_change = (2*signed_new_value - 2*signed_old_value)/2*signed_old_value * 100. " +
+            #"To calculate proportion, do NOT multiply by 100. " +
+            #"Use all given year values if no year specified. " +
+            "Use all needed year values for average calculations;" +
+            #"The code must be specific to the provided value list. " +
+            #"year average is the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2"
+           "'percentage change' results 'percent' scale; " +
+            "'percentage' has NO multiplication and results empty scale; " +
+            "'change in percentage' is a subtraction and results 'percent' scale; " +
+            "Do not generate explanation, nor example code, just the function. "           
+        )        
+      ],
+    'V37d': [ #0.6921
+          ("system","You will receive the financial report as an annotated value list and a question. "+
+             "Your task is to generate a Python function that can calculate a numeric value that is the answer for the received question. "                            
+         ),
+        (
+          "human",
+          "VALUE_LIST: {value_list}"+
+          "QUESTION: {question}" +
+          "Generate a Python function 'run(value_list)' that can answer the question using the list of annotated values! "+
+          "The function must return a tuple (number, scale). The resulting number is a float with accuracy to two decimal places. Scale usually is thousand, million, billion, percent or an empty string. "+
+            #"The calculation usually involves two steps: a selection and a calculation on selected data. "+
+            "If the question is about calculating the year average, you must calculate the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2;"+
+            #"If the question is about calculating the change between year averages, apply the previous logic and take difference. " +            
+            #"Expenses are revenue minus net income. " +            
+            #"To calculate the difference, use absolute value. " +
+            #"To calculate the difference, subtract from the bigger number. " +
+            #"To calculate difference, use equation: difference = abs(value1 - value2)." +
+            #"To calculate change, use equation: change = (2*signed_new_value - 2*signed_old_value)/2. "+
+            #"To calculate change, use equation: change = (new_value - old_value)/2. "+
+            #"To calculate percentage change, use equation: percentage_change = (2*signed_new_value - 2*signed_old_value)/2*signed_old_value * 100. " +
+            #"To calculate proportion, do NOT multiply by 100. " +
+            #"Use all given year values if no year specified. " +
+            "Average calculations can have more than two values in numerator;" +
+            #"The code must be specific to the provided value list. " +
+            #"year average is the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2"
+           "'percentage change' results 'percent' scale; " +
+            "'percentage' has NO multiplication and results empty scale; " +
+            "'change in percentage' is a subtraction and results 'percent' scale; " +
+            "Do not generate explanation, nor example code, just the function. "           
+        )        
+      ],
+    'V37e': [  #0.68812
+          ("system","You will receive the financial report as an annotated value list and a question. "+
+             "Your task is to generate a Python function that can calculate a numeric value that is the answer for the received question. "                            
+         ),
+        (
+          "human",
+          "VALUE_LIST: {value_list}"+
+          "QUESTION: {question}" +
+          "Generate a Python function 'run(value_list)' that can answer the question using the list of annotated values! "+
+          "The function must return a tuple (number, scale). The resulting number is a float with accuracy to two decimal places. Scale usually is thousand, million, billion, percent or an empty string. "+
+            #"The calculation usually involves two steps: a selection and a calculation on selected data. "+
+            "If the question is about calculating a 'year average', ex. 2015 average, you must calculate the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2;"+
+            #"If the question is about calculating the change between year averages, apply the previous logic and take difference. " +            
+            #"Expenses are revenue minus net income. " +            
+            #"To calculate the difference, use absolute value. " +
+            #"To calculate the difference, subtract from the bigger number. " +
+            #"To calculate difference, use equation: difference = abs(value1 - value2)." +
+            #"To calculate change, use equation: change = (2*signed_new_value - 2*signed_old_value)/2. "+
+            #"To calculate change, use equation: change = (new_value - old_value)/2. "+
+            #"To calculate percentage change, use equation: percentage_change = (2*signed_new_value - 2*signed_old_value)/2*signed_old_value * 100. " +
+            #"To calculate proportion, do NOT multiply by 100. " +
+            #"Use all given year values if no year specified. " +
+            "Other average calculations can have more than two values in numerator;" +
+            #"The code must be specific to the provided value list. " +
+            #"year average is the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2"
+           "'percentage change' results 'percent' scale; " +
+            "'percentage' has NO multiplication and results empty scale; " +
+            "'change in percentage' is a subtraction and results 'percent' scale; " +
+            "Do not generate explanation, nor example code, just the function. "           
+        )        
+      ],
+    'V38': [
+          ("system","You will receive the financial report as an annotated value list and a question. "+
+             "Your task is to generate a Python function that can calculate a numeric value that is the answer for the received question. "                            
+         ),
+        (
+          "human",
+          "VALUE_LIST: {value_list}"+
+          "QUESTION: {question}" +
+          "Generate a Python function 'run(value_list)' that can answer the question using the list of annotated values! "+
+          "The function must return a tuple (number, scale). The resulting number is a float with accuracy to two decimal places. Scale usually is thousand, million, billion, percent or an empty string. "+
+            #"The calculation usually involves two steps: a selection and a calculation on selected data. "+
+            "If the question is about calculating the year average, you must calculate the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2;"+
+            #"If the question is about calculating the change between year averages, apply the previous logic and take difference. " +            
+            #"Expenses are revenue minus net income. " +            
+            #"To calculate the difference, use absolute value. " +
+            #"To calculate the difference, subtract from the bigger number. " +
+            #"To calculate difference, use equation: difference = abs(value1 - value2)." +
+            #"To calculate change, use equation: change = (2*signed_new_value - 2*signed_old_value)/2. "+
+            #"To calculate change, use equation: change = (new_value - old_value)/2. "+
+            #"To calculate percentage change, use equation: percentage_change = (2*signed_new_value - 2*signed_old_value)/2*signed_old_value * 100. " +
+            #"To calculate proportion, do NOT multiply by 100. " +
+            #"Use all given year values if no year specified. " +
+            #"The code must be specific to the provided value list. " +
+            #"year average is the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2"
+           "'percentage change' results 'percent' scale; " +
+            "'percentage' has NO multiplication and results empty scale; " +
+            "'change in percentage' is a subtraction and results 'percent' scale; " +
+            "Use exact category or header value to select a number value; number value is in property 'number_value';"
+            "Do not generate explanation, nor example code, just the function. "           
+        )        
+      ],
+     'V38b': [
+          ("system","You will receive the financial report as an annotated value list and a question. "+
+             "Your task is to generate a Python function that can calculate a numeric value that is the answer for the received question. "                            
+         ),
+        (
+          "human",
+          "VALUE_LIST: {value_list}"+
+          "QUESTION: {question}" +
+          "Generate a Python function 'run(value_list)' that can answer the question using the list of annotated values!  "+
+          "The function must return a tuple (number, scale). The resulting number is a float with accuracy to two decimal places. Scale usually is thousand, million, billion, percent or an empty string. "+
+            #"The calculation usually involves two steps: a selection and a calculation on selected data. "+
+            "If the question is about calculating the year average, you must calculate the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2;"+
+            #"If the question is about calculating the change between year averages, apply the previous logic and take difference. " +            
+            #"Expenses are revenue minus net income. " +            
+            #"To calculate the difference, use absolute value. " +
+            #"To calculate the difference, subtract from the bigger number. " +
+            #"To calculate difference, use equation: difference = abs(value1 - value2)." +
+            #"To calculate change, use equation: change = (2*signed_new_value - 2*signed_old_value)/2. "+
+            #"To calculate change, use equation: change = (new_value - old_value)/2. "+
+            #"To calculate percentage change, use equation: percentage_change = (2*signed_new_value - 2*signed_old_value)/2*signed_old_value * 100. " +
+            #"To calculate proportion, do NOT multiply by 100. " +
+            #"Use all given year values if no year specified. " +
+            #"The code must be specific to the provided value list. " +
+            #"year average is the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2"
+           "'percentage change' results 'percent' scale; " +
+            "'percentage' has NO multiplication and results empty scale; " +
+            "'change in percentage' is a subtraction and results 'percent' scale; " +
+            "Use exact category or header value to select a number value; number value is in property 'number_value';"
+            "Do not generate explanation, nor example code, just the function. "           
+        )        
+      ],
+    'V39': [
+          ("system","You will receive the financial report as an annotated value list and a question. "+
+             "Your task is to generate a Python function that can calculate a numeric value that is the answer for the received question. "                            
+         ),
+        (
+          "human",
+          "VALUE_LIST: {value_list}"+
+          "QUESTION: {question}" +
+          "Generate a Python function 'run(value_list)' that can answer the question using the list of annotated values! "+
+          "The function must return a tuple (number, scale). The resulting number is a float with accuracy to two decimal places. Scale usually is thousand, million, billion, percent or an empty string. "+
+            #"The calculation usually involves two steps: a selection and a calculation on selected data. "+
+            "If the question is about calculating the year average, you must calculate the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2;"+
+            #"If the question is about calculating the change between year averages, apply the previous logic and take difference. " +            
+            #"Expenses are revenue minus net income. " +            
+            #"To calculate the difference, use absolute value. " +
+            #"To calculate the difference, subtract from the bigger number. " +
+            #"To calculate difference, use equation: difference = abs(value1 - value2)." +
+            #"To calculate change, use equation: change = (2*signed_new_value - 2*signed_old_value)/2. "+
+            #"To calculate change, use equation: change = (new_value - old_value)/2. "+
+            #"To calculate percentage change, use equation: percentage_change = (2*signed_new_value - 2*signed_old_value)/2*signed_old_value * 100. " +
+            #"To calculate proportion, do NOT multiply by 100. " +
+            #"Use all given year values if no year specified. " +
+            "Other average calculations can have more than two values in numerator;" +
+          
+            #"The code must be specific to the provided value list. " +
+            #"year average is the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2"
+           "'percentage change' results 'percent' scale; " +
+            "'percentage' has NO multiplication and results empty scale; " +
+            "'change in percentage' is a subtraction and results 'percent' scale; " +
+            "Use exact category or header value to select a number value; number value is in property 'number_value';"
+            "Do not generate explanation, nor example code, just the function. "           
+        )        
+      ],
+    'V40': [
+          ("system","You will receive the financial report as an annotated value list and a question. "+
+             "Your task is to generate a Python function that can calculate a numeric value that is the answer for the received question. "                            
+         ),
+        (
+          "human",
+          "VALUE_LIST: {value_list}"+
+          "QUESTION: {question}" +
+          "Generate a Python function 'run(value_list)' that can answer the question using the list of annotated values! "+
+          "The function must return a tuple (number, scale). The resulting number is a float with accuracy to two decimal places. Scale usually is thousand, million, billion, percent or an empty string. "+
+            #"The calculation usually involves two steps: a selection and a calculation on selected data. "+
+            "If the question is about calculating the year average, you must calculate the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2;"+
+            #"If the question is about calculating the change between year averages, apply the previous logic and take difference. " +            
+            #"Expenses are revenue minus net income. " +            
+            #"To calculate the difference, use absolute value. " +
+            #"To calculate the difference, subtract from the bigger number. " +
+            #"To calculate difference, use equation: difference = abs(value1 - value2)." +
+            #"To calculate change, use equation: change = (2*signed_new_value - 2*signed_old_value)/2. "+
+            #"To calculate change, use equation: change = (new_value - old_value)/2. "+
+            #"To calculate percentage change, use equation: percentage_change = (2*signed_new_value - 2*signed_old_value)/2*signed_old_value * 100. " +
+            #"To calculate proportion, do NOT multiply by 100. " +
+            "proportion and ratio results empty scale;"
+            #"Use all given year values if no year specified. " +
+            #"Other average calculations can have more than two values in numerator;" +
+          
+            #"The code must be specific to the provided value list. " +
+            #"year average is the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2"
+           "'percentage change' results 'percent' scale; " +
+            "'percentage' has NO multiplication and results empty scale; " +
+            "'change in percentage' is a subtraction and results 'percent' scale; " +
+            "Use exact category or header value to select a number value; number value is in property 'number_value';"
+            "Do not generate explanation, nor example code, just the function. "           
+        )        
+      ],
+     'V41': [
+          ("system","You will receive the financial report as an annotated value list and a question. "+
+             "Your task is to generate a Python function that can calculate a numeric value that is the answer for the received question. "                            
+         ),
+        (
+          "human",
+          "VALUE_LIST: {value_list}"+
+          "QUESTION: {question}" +
+          "Generate a Python function 'run(value_list)' that can answer the question using the list of annotated values! "+
+          "The function must return a tuple (number, scale). The resulting number is a float with accuracy to two decimal places. Scale usually is thousand, million, billion, percent or an empty string. "+
+                       #"The calculation usually involves two steps: a selection and a calculation on selected data. "+
+            #"If the question is about calculating the year average, you must calculate the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2; "+
+            #"If the question is about calculating the change between year averages, apply the previous logic and take difference. " +            
+            #"Expenses are revenue minus net income. " +            
+            #"To calculate the difference, use absolute value. " +
+            #"To calculate the difference, subtract from the bigger number. " +
+            #"To calculate difference, use equation: difference = abs(value1 - value2)." +
+            #"To calculate change, use equation: change = (2*signed_new_value - 2*signed_old_value)/2. "+
+            #"To calculate change, use equation: change = (new_value - old_value)/2. "+
+            #"To calculate percentage change, use equation: percentage_change = (2*signed_new_value - 2*signed_old_value)/2*signed_old_value * 100. " +
+            #"To calculate proportion, do NOT multiply by 100. " +
+            #"Use all given year values if no year specified. " +
+            #"The code must be specific to the provided value list. " +
+            #"never select by index;" +
+            "'percentage change' results 'percent' scale; " +        
+            "'change in percentage' is a subtraction; " +                  
+            "Do not generate explanation, nor example code, just the function. "           
+        )        
+      ],
+
+     'V42': [
+          ("system","You will receive the financial report as an annotated value list and a question. "+
+             "Your task is to generate a Python function that can calculate a numeric value that is the answer for the received question. "                            
+         ),
+        (
+          "human",
+          "VALUE_LIST: {value_list}"+
+          "QUESTION: {question}" +
+          "Generate a Python function 'run(value_list)' that can answer the question using the list of annotated values! "+
+          "The function must return a tuple (number, scale). The resulting number is a float with accuracy to two decimal places. Scale usually is thousand, million, billion, percent or an empty string. "+
+                       #"The calculation usually involves two steps: a selection and a calculation on selected data. "+
+            #"If the question is about calculating the year average, you must calculate the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2; "+
+            #"If the question is about calculating the change between year averages, apply the previous logic and take difference. " +            
+            #"Expenses are revenue minus net income. " +            
+            #"To calculate the difference, use absolute value. " +
+            #"To calculate the difference, subtract from the bigger number. " +
+            #"To calculate difference, use equation: difference = abs(value1 - value2)." +
+            #"To calculate change, use equation: change = (2*signed_new_value - 2*signed_old_value)/2. "+
+            #"To calculate change, use equation: change = (new_value - old_value)/2. "+
+            #"To calculate percentage change, use equation: percentage_change = (2*signed_new_value - 2*signed_old_value)/2*signed_old_value * 100. " +
+            #"To calculate proportion, do NOT multiply by 100. " +
+            #"Use all given year values if no year specified. " +
+            #"The code must be specific to the provided value list. " +
+            #"never select by index;" +
+            "'percentage change' results 'percent' scale; " +        
+            "Use exact category or header value to select a number value; number value is in property 'number_value';"
+            "Do not generate explanation, nor example code, just the function. "           
+        )        
+      ],
+    'V43': [
+          ("system","You will receive the financial report as an annotated value list and a question. "+
+             "Your task is to generate a Python function that can calculate a numeric value that is the answer for the received question. "                            
+         ),
+        (
+          "human",
+          "VALUE_LIST: {value_list}\n"+
+          "QUESTION: {question}\n" +
+          "Generate a Python function 'run(value_list)' that can answer the question using the list of annotated values! "+
+          "The function must return a tuple (number, scale). The resulting number is a float with accuracy to two decimal places. Scale usually is thousand, million, billion, percent or an empty string. "+
+                       #"The calculation usually involves two steps: a selection and a calculation on selected data. "+
+            #"If the question is about calculating the year average, you must calculate the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2; "+
+            #"If the question is about calculating the change between year averages, apply the previous logic and take difference. " +            
+            #"Expenses are revenue minus net income. " +            
+            #"To calculate the difference, use absolute value. " +
+            #"To calculate the difference, subtract from the bigger number. " +
+            #"To calculate difference, use equation: difference = abs(value1 - value2)." +
+            #"To calculate change, use equation: change = (2*signed_new_value - 2*signed_old_value)/2. "+
+            #"To calculate change, use equation: change = (new_value - old_value)/2. "+
+            #"To calculate percentage change, use equation: percentage_change = (2*signed_new_value - 2*signed_old_value)/2*signed_old_value * 100. " +
+            #"To calculate proportion, do NOT multiply by 100. " +
+            #"Use all given year values if no year specified. " +
+            #"The code must be specific to the provided value list. " +
+            #"never select by index;" +
+            "'percentage change' results 'percent' scale; " +        
+            "'change in percentage' is a subtraction; " +               
+            #"to calculate differenece the function must return the exact tuple (1234.11, ''); "+
+            #"To calculate the difference between two values, always subtract the first from the second. Ex. what is the difference between 2017 and 2018? difference = 2018-2017 ; "+
+            #"If the question is about the difference or average between two negative values, take the absolute value of the result; "+
+             "If the question is about the 'difference', 'change' or 'average' between two negative values, take the absolute value of the result; " +  
+            #"To calculate difference between two values, always subtract the first from second. ex. what is the difference between 2017 and 2018? difference = 2018-2017 ; "+
+            #"To calculate difference between two values, always subtract the former from the latter; "+
+            "Do not generate explanation, nor example code, just the function. "           
+        )        
+      ],
+     'V43b': [
+          ("system","You will receive the financial report as an annotated value list, a question and calculation rules. "+
+             "Your task is to generate a Python function that can calculate a numeric value that is the answer for the received question, while applying the rules for the code generation. "
+         ),
+        (
+          "human",
+          """
+          VALUE_LIST: {value_list}
+          QUESTION: {question}
+          Generate a Python function 'run(value_list)' that can answer the question using the list of annotated values!
+          The function must return a tuple (number, scale). The resulting number is a float with accuracy to two decimal places. Scale usually is thousand, million, billion, percent or an empty string.
+          RULES:                         
+            -'percentage change' results 'percent' scale
+            -'change in percentage' is a subtraction
+            - If the question is about the 'difference', 'change' or 'average' between two negative values, take the absolute value of the result                    
+          Do not generate an explanation or example code, just the function. 
+          """
+        )        
+      ],
+      'V43c': [
+          ("system","You will receive the financial report as an annotated value list and a question. "+
+             "Your task is to generate a Python function that can calculate a numeric value that is the answer for the received question. "                            
+         ),
+        (
+          "human",
+          "VALUE_LIST: {value_list}\n"+
+          "QUESTION: {question}\n" +
+          "Generate a Python function 'run(value_list)' that can answer the question using the list of annotated values! "+
+          "The function must return a tuple (number, scale). The resulting number is a float with accuracy to two decimal places. Scale usually is thousand, million, billion, percent or an empty string. "+
+                       #"The calculation usually involves two steps: a selection and a calculation on selected data. "+
+            #"If the question is about calculating the year average, you must calculate the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2; "+
+            #"If the question is about calculating the change between year averages, apply the previous logic and take difference. " +            
+            #"Expenses are revenue minus net income. " +            
+            #"To calculate the difference, use absolute value. " +
+            #"To calculate the difference, subtract from the bigger number. " +
+            #"To calculate difference, use equation: difference = abs(value1 - value2)." +
+            #"To calculate change, use equation: change = (2*signed_new_value - 2*signed_old_value)/2. "+
+            #"To calculate change, use equation: change = (new_value - old_value)/2. "+
+            #"To calculate percentage change, use equation: percentage_change = (2*signed_new_value - 2*signed_old_value)/2*signed_old_value * 100. " +
+            #"To calculate proportion, do NOT multiply by 100. " +
+            #"Use all given year values if no year specified. " +
+            #"The code must be specific to the provided value list. " +
+            #"never select by index;" +
+            "'percentage change' results 'percent' scale; " +        
+            "'change in percentage' is a subtraction; " +               
+            #"to calculate differenece the function must return the exact tuple (1234.11, ''); "+
+            #"To calculate the difference between two values, always subtract the first from the second. Ex. what is the difference between 2017 and 2018? difference = 2018-2017 ; "+
+            #"If the question is about the difference or average between two negative values, take the absolute value of the result; "+
+             "If the question is about the 'difference' or 'change' between two values, always subtract the first from the second; " +  
+            #"To calculate difference between two values, always subtract the first from second. ex. what is the difference between 2017 and 2018? difference = 2018-2017 ; "+
+            #"To calculate difference between two values, always subtract the former from the latter; "+
+            "Do not generate explanation, nor example code, just the function. "           
+        )        
+      ],
+     'V44': [
+          ("system","You will receive the financial report as an annotated value list and a question. "+
+             "Your task is to generate a Python function that can calculate a numeric value that is the answer for the received question. "                            
+         ),
+        (
+          "human",
+          "VALUE_LIST: {value_list}\n"+
+          "QUESTION: {question}\n" +
+          "Generate a Python function 'run(value_list)' that can answer the question using the list of annotated values! "+
+          "The function must return a tuple (number, scale). The resulting number is a float with accuracy to two decimal places. Scale usually is thousand, million, billion, percent or an empty string. "+
+                       #"The calculation usually involves two steps: a selection and a calculation on selected data. "+
+            #"If the question is about calculating the year average, you must calculate the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2; "+
+            #"If the question is about calculating the change between year averages, apply the previous logic and take difference. " +            
+            #"Expenses are revenue minus net income. " +            
+            #"To calculate the difference, use absolute value. " +
+            #"To calculate the difference, subtract from the bigger number. " +
+            #"To calculate difference, use equation: difference = abs(value1 - value2)." +
+            #"To calculate change, use equation: change = (2*signed_new_value - 2*signed_old_value)/2. "+
+            #"To calculate change, use equation: change = (new_value - old_value)/2. "+
+            #"To calculate percentage change, use equation: percentage_change = (2*signed_new_value - 2*signed_old_value)/2*signed_old_value * 100. " +
+            #"To calculate proportion, do NOT multiply by 100. " +
+            #"Use all given year values if no year specified. " +
+            #"The code must be specific to the provided value list. " +
+            #"never select by index;" +
+            "'percentage change' results 'percent' scale; " +        
+            "'change in percentage' is a subtraction; " +      
+            #"'average' calculation can have more than two numbers in numerator; "+
+            "Use exact category or header value to select a number value; number value is in property 'number_value'; " +
+            #"to calculate differenece the function must return the exact tuple (1234.11, ''); "+
+            #"To calculate the difference between two values, always subtract the first from the second. Ex. what is the difference between 2017 and 2018? difference = 2018-2017 ; "+
+            #"If the question is about the difference or average between two negative values, take the absolute value of the result; "+
+             #"If the question is about the 'difference', 'change' or 'average' between two negative values, take the absolute value of the result; " +  
+            #"If the question is about the 'difference', 'change' or 'average' between two values, take the absolute value of the result; " +  
+            #"To calculate difference between two values, always subtract the first from second. ex. what is the difference between 2017 and 2018? difference = 2018-2017 ; "+
+            #"To calculate difference between two values, always subtract the former from the latter; "+
+            "Do not generate explanation, nor example code, just the function. "           
+        )        
+      ],
+     'V44b': [
+          ("system","You will receive the financial report as an annotated value list and a question. "+
+             "Your task is to generate a Python function that can calculate a numeric value that is the answer for the received question. "                            
+         ),
+        (
+          "human",
+          "VALUE_LIST: {value_list}\n"+
+          "QUESTION: {question}\n" +
+          "Generate a Python function 'run(value_list)' that can answer the question using the list of annotated values! "+
+          "The function must return a tuple (number, scale). The resulting number is a float with accuracy to two decimal places. Scale usually is thousand, million, billion, percent or an empty string. "+
+                       #"The calculation usually involves two steps: a selection and a calculation on selected data. "+
+            "If the question is about calculating the year average, you must calculate the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2; "+
+            #"If the question is about calculating the change between year averages, apply the previous logic and take difference. " +            
+            #"Expenses are revenue minus net income. " +            
+            #"To calculate the difference, use absolute value. " +
+            #"To calculate the difference, subtract from the bigger number. " +
+            #"To calculate difference, use equation: difference = abs(value1 - value2)." +
+            #"To calculate change, use equation: change = (2*signed_new_value - 2*signed_old_value)/2. "+
+            #"To calculate change, use equation: change = (new_value - old_value)/2. "+
+            #"To calculate percentage change, use equation: percentage_change = (2*signed_new_value - 2*signed_old_value)/2*signed_old_value * 100. " +
+            #"To calculate proportion, do NOT multiply by 100. " +
+            #"Use all given year values if no year specified. " +
+            #"The code must be specific to the provided value list. " +
+            #"never select by index;" +
+            "'percentage change' results 'percent' scale; " +        
+            "'change in percentage' is a subtraction; " +      
+            "'proportion' and 'ratio' results empty scale;" +
+            #"'average' calculation can have more than two numbers in numerator; "+
+            "Use exact category or header value to select a number value; number value is in property 'number_value'; " +
+            #"to calculate differenece the function must return the exact tuple (1234.11, ''); "+
+            #"To calculate the difference between two values, always subtract the first from the second. Ex. what is the difference between 2017 and 2018? difference = 2018-2017 ; "+
+            #"If the question is about the difference or average between two negative values, take the absolute value of the result; "+
+             #"If the question is about the 'difference', 'change' or 'average' between two negative values, take the absolute value of the result; " +  
+            #"If the question is about the 'difference', 'change' or 'average' between two values, take the absolute value of the result; " +  
+            #"To calculate difference between two values, always subtract the first from second. ex. what is the difference between 2017 and 2018? difference = 2018-2017 ; "+
+            #"To calculate difference between two values, always subtract the former from the latter; "+
+            "Do not generate explanation, nor example code, just the function. "           
+        )        
+      ],
+     'V45': [
+         ("system","You will receive the financial report as an annotated value list and a question. "+
+             "Your task is to generate a Python function that can calculate a numeric value that is the answer for the received question. "                            
+         ),
+        (
+          "human",
+          "VALUE_LIST: {value_list}"+
+          "QUESTION: {question}" +
+          "Generate a Python function 'run(value_list)' that can answer the question using the list of annotated values! "+
+          "The function must return a tuple (number, scale). The resulting number is a float with accuracy to two decimal places. Scale usually is thousand, million, billion, percent or an empty string."+
+            #"The calculation usually involves two steps: a selection and a calculation on selected data. "+
+            "If the question is about calculating the year average, you must calculate the average between the given year and the previous one. ex. 2015_average = (2015_value + 2014_value)/2; "+
+            #"If the question is about calculating the change between year averages, apply the previous logic and take difference. " +            
+            #"Expenses are revenue minus net income. " +            
+            #"To calculate the difference, use absolute value. " +
+            #"To calculate the difference, subtract from the bigger number. " +
+            #"To calculate difference, use equation: difference = abs(value1 - value2)." +
+            #"To calculate change, use equation: change = (2*signed_new_value - 2*signed_old_value)/2. "+
+            #"To calculate change, use equation: change = (new_value - old_value)/2. "+
+            #"To calculate percentage change, use equation: percentage_change = (2*signed_new_value - 2*signed_old_value)/2*signed_old_value * 100. " +
+            #"To calculate proportion, do NOT multiply by 100. " +
+            #"Use all given year values if no year specified. " +
+            #"The code must be specific to the provided value list. " +
+            #"never select by index;" +
+            #"'proportion' calculation results empty scale;" +
+            "'ratio' and 'proportion' results empty ('') scale;" +
+            "'percentage change' results 'percent' scale; " +
+            "'change in percentage' is a subtraction; " +
+            "To calculate the average, use all relevant years.;" +
             "Do not generate explanation, nor example code, just the function. "           
         )        
       ],

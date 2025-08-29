@@ -160,6 +160,7 @@ def get_answer(llm, messages, table, q_text):
     values = table_convert.convert_multitable(table)    
     #print(values)
     p, code = gen_code(llm, messages, q_text, values)   
+   # print(p)
     r = exec_code(code, values)
     #print(code)
     ((v, s), captured_locals) = exec_code(code, values)
@@ -379,7 +380,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def crosstab_heatmap(df, x, y, vmax=None, merge_x_size=0, merge_y_size=0):
+def crosstab_heatmap(df, x, y, vmax=None, merge_x_size=0, merge_y_size=0, filepath=None):
     if merge_x_size > 0:        
         counts = df[x].value_counts()
         rare = counts[counts <= merge_x_size].index  # pl. ha kevesebb, mint 3 előfordulás
@@ -408,8 +409,14 @@ def crosstab_heatmap(df, x, y, vmax=None, merge_x_size=0, merge_y_size=0):
     plt.ylabel(x)
     plt.xticks(rotation=90)
     plt.tight_layout()
-    plt.show()
+
     
+    if filepath:
+        plt.savefig(filepath, dpi=300)
+        
+    plt.show()
+
+        
 def crosstab_heatmap2(df, x, y, vmax=None, merge_x_size=0, merge_y_size=0):
     if merge_x_size > 0:        
         counts = df[x].value_counts()
@@ -497,8 +504,85 @@ def setups_summary(test_setups):
             })
     return pd.DataFrame(s)
 
-import ast
+import rules_stats
 
+def calc_fix_mcnemar_performance(llm, messages, base_res_path, error_cluster_path, error_cluster_id = None, trace_messages = False):    
+    if error_cluster_id:
+        error_cluster_qids = list(pd.read_csv(error_cluster_path).query(f'cluster == {error_cluster_id}')['qid'])
+    else:
+        error_cluster_qids = list(pd.read_csv(error_cluster_path).query('cluster == cluster[cluster != -1].value_counts().idxmax()')['qid'])
+
+    base_annotated_results = pd.read_csv(base_res_path).query('qid in @error_cluster_qids')
+    base_em = calc_overall_em(base_annotated_results)
+    base_vm = calc_overall_value_match(base_annotated_results)
+    
+    fix_res = execute_dataset_predictions(llm, messages, error_cluster_qids, trace_messages=trace_messages)
+    fix_annotated_results = annotate_results(fix_res)
+    fix_em = calc_overall_em(fix_annotated_results)
+    fix_vm = calc_overall_value_match(fix_annotated_results)
+    print(f'Base EM: {base_em}\nBase VM: {base_vm}\nFix EM: {fix_em}\nFix VM: {fix_vm}')
+    return rules_stats.rule_gate_decision(base_annotated_results, fix_annotated_results, use_bootstrap=False)
+
+def compare_results(
+    df1: pd.DataFrame,
+    df2: pd.DataFrame,
+    key: str,
+    flag: str,
+    extra_cols=None
+) -> pd.DataFrame:
+    """
+    Két DataFrame összehasonlítása kulcs és egy boolean flag alapján.
+    Eredmény: df1 + 'change' + success_new + minden extra oszlop mindkét értékkel: <col>_old, <col>_new.
+
+    - change: 'jobb lett' (False->True), 'rosszabb lett' (True->False), 'nem változott', vagy 'nincs összehasonlítás'
+    - success_new: df2 flag értéke (ha nincs pár, NaN)
+    - <col>_old: df1 érték
+    - <col>_new: df2 érték
+    """
+    if extra_cols is None:
+        extra_cols = []
+
+    # df2: csak a szükséges oszlopok + átnevezés _new végződésre
+    df2_keep = [key, flag] + list(extra_cols)
+    df2_tmp = df2[df2_keep].copy()
+    rename_map = {flag: f"{flag}_new"}
+    rename_map.update({c: f"{c}_new" for c in extra_cols})
+    df2_tmp.rename(columns=rename_map, inplace=True)
+
+    # df1: készítsünk _old oszlopokat az extra oszlopoknak (ami nincs df1-ben, az NaN lesz)
+    df1_tmp = df1.copy()
+    for c in extra_cols:
+        df1_tmp[f"{c}_old"] = df1_tmp[c] if c in df1_tmp.columns else pd.NA
+
+    # merge (LEFT: df1 a bázis)
+    merged = df1_tmp.merge(df2_tmp, on=key, how="left")
+
+    # change oszlop
+    def change_label(old, new):
+        if pd.isna(new):
+            return "UNPAIRED"
+        if old == new:
+            return "UNCHANGED"
+        if old is False and new is True:
+            return "FIXED"
+        if old is True and new is False:
+            return "BROKEN"
+        return "UNKNOWN"
+
+    merged["change"] = merged.apply(lambda r: change_label(r[flag], r.get(f"{flag}_new")), axis=1)
+
+    # Rendezés: kulcs, flag(=old), flag_new, change, extra cols párok, majd df1 többi oszlop
+    # (nem kötelező, csak olvashatóbb)
+    cols_front = [key, flag, f"{flag}_new", "change"]
+    extra_pairs = [x for col in extra_cols for x in (f"{col}_old", f"{col}_new")]
+    other_cols = [c for c in merged.columns if c not in set(cols_front + extra_pairs)]
+    ordered = cols_front + extra_pairs + other_cols
+
+    return merged[ordered]
+
+######### AST
+import ast
+    
 # ---------- segédek
 
 def is_zero(node):
@@ -655,3 +739,4 @@ def analyze_function(code: str):
     pat = patternize(expr, {})
     label = classify_general(expr)
     return pat, label
+############### AST end
